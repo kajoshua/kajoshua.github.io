@@ -6,7 +6,8 @@ title: Things to do in and around Albany
 Moving to a new city for college (or graduate school) for the first time is a new and exciting opportunity, but it is also a scary and sometimes overwhelming experience. As you're hitting the ground running with classes and work, you also have to figure out a new routine, shop and cook, take care of yourself and your new home, and create new communities. I've therefore decided to compile a list of resources for things to do in the areas I've stayed. Hopefully these can help you find what you like to do if you pass by these areas, too!
 
 ### Albany Events pages
-* [Albany Events (FB)](https://www.facebook.com/albanyNYevents/), [Albany Events (Website)](https://www.albany.com/events/)
+* [Albany Events (FB)](https://www.facebook.com/albanyNYevents/){:target="_blank"}
+* [Albany Events (Website)](https://www.albany.com/events/)
 * [Albany Things to Do](https://www.albany.com/things-to-do/)
 * [Empire State Plaza Events](https://www.facebook.com/EmpireStatePlaza)
 * [Dance Flurry](https://www.danceflurry.org/events/list/)
@@ -14,7 +15,7 @@ Moving to a new city for college (or graduate school) for the first time is a ne
 * [Discover Albany](https://www.facebook.com/albanycvb/)
 * [Lake George Arts Project](https://www.facebook.com/lakegeorgeartsproject/)
 
-### Troy
+##### Troy
 * [Downtown Troy Business Improvement District](https://www.facebook.com/DowntownTroyBID/)
 * [Troy Night Out](https://www.facebook.com/troynightout/) (last Friday each month)
 * [Troy Waterfront Farmers Market](https://www.facebook.com/TroyWaterfrontFarmersMarket/) (every Saturday)
@@ -22,18 +23,18 @@ Moving to a new city for college (or graduate school) for the first time is a ne
 
 ### Music, Concert, and Radio Venues
 
-### Albany
+##### Albany
 * [Palace Theatre](https://www.facebook.com/PalaceAlbany/)
 * [Lark Hall](https://www.facebook.com/LarkHallAlbany)
 * [Albany Barn](https://www.facebook.com/AlbanyBarn/)
 * [The Linda](https://www.facebook.com/thelindawamc/)
 * [The Egg Performing Arts Center](https://www.facebook.com/TheEggPAC/)
 
-### Troy
+##### Troy
 * [Capital Underground](https://www.facebook.com/capitalundergroundradio)
 * [Rustic Barn Pub](https://www.facebook.com/rusticbarnpub/)
 
-### Other
+##### Other
 * [Performance Spaces for the 21st Century](https://ps21chatham.org/)
 * [Jacob's Pillow](https://www.jacobspillow.org/calendar/)
 * [The Mopco Improv Theatre (Schenectady)](https://www.facebook.com/mopco/)
@@ -61,8 +62,7 @@ Moving to a new city for college (or graduate school) for the first time is a ne
 * [Albany Twilight Market](https://www.facebook.com/albanytwilightmarket)
 
 
-### Music and Dancing in the area
+### Swing Dancing in the area
 * [Albany Swing Dancing (FB)](https://www.facebook.com/groups/24246493037)
 * [Got2Lindy (Kingston, NY)](www.got2lindy.com)
-* [Mark and Jill Sing the Blues](https://www.facebook.com/MarkandJillSaratogarootblues)
 

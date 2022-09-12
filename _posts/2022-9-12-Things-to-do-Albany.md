@@ -3,7 +3,7 @@ layout: post
 title: Things to do in and around Albany
 ---
 
-Moving to a new city for college (or graduate school) for the first time is a new and exciting opportunity, but it is also a scary and sometimes overwhelming experience. As you're hitting the ground running with classes and work, you also have to figure out a new routine, shop and cook, take care of yourself and your new home, and create new communities. I've therefore decided to compile a list of resources for things to do in the areas I've stayed. Hopefully these can help you find what you like to do if you pass by these areas, too!
+Moving to a new city for college (or graduate school) for the first time is a new and exciting opportunity, but it is also an unnerving and sometimes overwhelming experience. As you're hitting the ground running with classes and work, you also have to figure out a new routine, how to take care of yourself and your new home, and how to create new communities. I've therefore decided to compile a list of resources for things to do in the areas I've stayed -- for now, just Troy / Albany. Hopefully you can find some value from these resources, too!
 
 ## Albany Events pages
 * [Albany Events (FB)](https://www.facebook.com/albanyNYevents/){:target="_blank"}

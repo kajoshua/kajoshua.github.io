@@ -45,7 +45,7 @@ Moving to a new city for college (or graduate school) for the first time is a ne
 * [Jazz at the Lake (Lake George) 2022](https://www.facebook.com/events/717114149623452/){:target="_blank"} (Sept 16 - 18, 2022)
 * [PearlPalooza 2022](https://www.facebook.com/events/747655756452067){:target="_blank"}(Sept 17, 2022)
 * [Bacchanalia 2022](https://www.facebook.com/events/301909602115680){:target="_blank"} (Sept 30 - Oct 2, 2022)
-* [Albany VecGest 2022](https://www.facebook.com/events/511982377363941/){:target="_blank"} (Oct 2, 2022)
+* [Albany VegFest 2022](https://www.facebook.com/events/511982377363941/){:target="_blank"} (Oct 2, 2022)
 * [Troy Victorian Stroll 2022](http://www.enchantedtroy.com/){:target="_blank"} (Dec 4, 2022)
 * The Enchanted City
 

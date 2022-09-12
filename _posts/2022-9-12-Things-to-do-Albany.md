@@ -29,8 +29,9 @@ Moving to a new city for college (or graduate school) for the first time is a ne
 * [The Egg Performing Arts Center](https://www.facebook.com/TheEggPAC/){:target="_blank"}
 
 ##### Troy
+* [Troy Savings Bank Music Hall](https://www.troymusichall.org/){:target="_blank"} 
+    * Note: $60 subscriptions for students for four performances
 * [Capital Underground](https://www.facebook.com/capitalundergroundradio){:target="_blank"}
-* [Rustic Barn Pub](https://www.facebook.com/rusticbarnpub/){:target="_blank"}
 
 ##### Other
 * [Performance Spaces for the 21st Century](https://ps21chatham.org/){:target="_blank"}
@@ -58,6 +59,7 @@ Moving to a new city for college (or graduate school) for the first time is a ne
 * [The Hollow Bar + Kitchen](https://www.facebook.com/thehollowalbany/){:target="_blank"}
 * [Pine Hollow Arboretum](https://www.facebook.com/PineHollowArboretum){:target="_blank"}
 * [Albany Twilight Market](https://www.facebook.com/albanytwilightmarket){:target="_blank"}
+* [Rustic Barn Pub](https://www.facebook.com/rusticbarnpub/){:target="_blank"}
 
 
 ## Jazz Events and Dancing in the area

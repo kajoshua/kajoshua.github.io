@@ -13,7 +13,7 @@ Professionally: I am a PhD student in artificial intelligence at Rensselaer Poly
 
 Check out my professional website [here](http://homepages.rpi.edu/%7Ekavnej/)!
 
-Personally: I am a dancer (swing, jazz, improvisation), hiker, musician, reader, and photographer. I also care about environmentalism, sustainability, political economy, local community, and personal wellness.
+Personally: I am a dancer (swing, jazz, improvisation), hiker, musician, reader, and photographer. I also have some interest in political economy, political philosophy, environmentalism, sustainability, epistemology, and world religions.
 
 
 ### Contact me

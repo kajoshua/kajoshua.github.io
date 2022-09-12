@@ -7,62 +7,62 @@ Moving to a new city for college (or graduate school) for the first time is a ne
 
 ### Albany Events pages
 * [Albany Events (FB)](https://www.facebook.com/albanyNYevents/){:target="_blank"}
-* [Albany Events (Website)](https://www.albany.com/events/)
-* [Albany Things to Do](https://www.albany.com/things-to-do/)
-* [Empire State Plaza Events](https://www.facebook.com/EmpireStatePlaza)
-* [Dance Flurry](https://www.danceflurry.org/events/list/)
-* [A Place for Jazz](https://aplaceforjazz.org/the-jazz-calendar/)
-* [Discover Albany](https://www.facebook.com/albanycvb/)
-* [Lake George Arts Project](https://www.facebook.com/lakegeorgeartsproject/)
+* [Albany Events (Website)](https://www.albany.com/events/){:target="_blank"}
+* [Albany Things to Do](https://www.albany.com/things-to-do/){:target="_blank"}
+* [Empire State Plaza Events](https://www.facebook.com/EmpireStatePlaza){:target="_blank"}
+* [A Place for Jazz](https://aplaceforjazz.org/the-jazz-calendar/){:target="_blank"}
+* [Discover Albany](https://www.facebook.com/albanycvb/){:target="_blank"}
+* [Lake George Arts Project](https://www.facebook.com/lakegeorgeartsproject/){:target="_blank"}
 
 ##### Troy
-* [Downtown Troy Business Improvement District](https://www.facebook.com/DowntownTroyBID/)
-* [Troy Night Out](https://www.facebook.com/troynightout/) (last Friday each month)
-* [Troy Waterfront Farmers Market](https://www.facebook.com/TroyWaterfrontFarmersMarket/) (every Saturday)
+* [Downtown Troy Business Improvement District](https://www.facebook.com/DowntownTroyBID/){:target="_blank"}
+* [Troy Night Out](https://www.facebook.com/troynightout/){:target="_blank"} (last Friday each month)
+* [Troy Waterfront Farmers Market](https://www.facebook.com/TroyWaterfrontFarmersMarket/){:target="_blank"} (every Saturday)
 
 
 ### Music, Concert, and Radio Venues
 
 ##### Albany
-* [Palace Theatre](https://www.facebook.com/PalaceAlbany/)
-* [Lark Hall](https://www.facebook.com/LarkHallAlbany)
-* [Albany Barn](https://www.facebook.com/AlbanyBarn/)
-* [The Linda](https://www.facebook.com/thelindawamc/)
-* [The Egg Performing Arts Center](https://www.facebook.com/TheEggPAC/)
+* [Palace Theatre](https://www.facebook.com/PalaceAlbany/){:target="_blank"}
+* [Lark Hall](https://www.facebook.com/LarkHallAlbany){:target="_blank"}
+* [Albany Barn](https://www.facebook.com/AlbanyBarn/){:target="_blank"}
+* [The Linda](https://www.facebook.com/thelindawamc/){:target="_blank"}
+* [The Egg Performing Arts Center](https://www.facebook.com/TheEggPAC/){:target="_blank"}
 
 ##### Troy
-* [Capital Underground](https://www.facebook.com/capitalundergroundradio)
-* [Rustic Barn Pub](https://www.facebook.com/rusticbarnpub/)
+* [Capital Underground](https://www.facebook.com/capitalundergroundradio){:target="_blank"}
+* [Rustic Barn Pub](https://www.facebook.com/rusticbarnpub/){:target="_blank"}
 
 ##### Other
-* [Performance Spaces for the 21st Century](https://ps21chatham.org/)
-* [Jacob's Pillow](https://www.jacobspillow.org/calendar/)
-* [The Mopco Improv Theatre (Schenectady)](https://www.facebook.com/mopco/)
+* [Performance Spaces for the 21st Century](https://ps21chatham.org/){:target="_blank"}
+* [Jacob's Pillow](https://www.jacobspillow.org/calendar/){:target="_blank"}
+* [The Mopco Improv Theatre (Schenectady)](https://www.facebook.com/mopco/){:target="_blank"}
 
 
 ### Specific Events
-* [NE Jazz and Wine Festival](http://www.nejazzwinefest.org/) (July 29-30, 2022)
-* [Albany Riverfront Jazz Festival](https://www.facebook.com/albanyNYevents/photos/a.3059515797452597/7793036807433782) (Sept 10, 2022)
-* [Hops & Harvest Festival](https://www.facebook.com/events/1167576940641775) (Sept 14, 2022)
-* [Jazz at the Lake (Lake George) 2022](https://www.facebook.com/events/717114149623452/) (Sept 16 - 18, 2022)
-* [PearlPalooza 2022](https://www.facebook.com/events/747655756452067) (Sept 17, 2022)
-* [Bacchanalia 2022](https://www.facebook.com/events/301909602115680) (Sept 30 - Oct 2, 2022)
-* [Albany VecGest 2022](https://www.facebook.com/events/511982377363941/) (Oct 2, 2022)
-* [Troy Victorian Stroll 2022](http://www.enchantedtroy.com/) (Dec 4, 2022)
+* [NE Jazz and Wine Festival](http://www.nejazzwinefest.org/){:target="_blank"} (July 29-30, 2022)
+* [Albany Riverfront Jazz Festival](https://www.facebook.com/albanyNYevents/photos/a.3059515797452597/7793036807433782){:target="_blank"} (Sept 10, 2022)
+* [Hops & Harvest Festival](https://www.facebook.com/events/1167576940641775){:target="_blank"} (Sept 14, 2022)
+* [Jazz at the Lake (Lake George) 2022](https://www.facebook.com/events/717114149623452/){:target="_blank"} (Sept 16 - 18, 2022)
+* [PearlPalooza 2022](https://www.facebook.com/events/747655756452067) {:target="_blank"}(Sept 17, 2022)
+* [Bacchanalia 2022](https://www.facebook.com/events/301909602115680){:target="_blank"} (Sept 30 - Oct 2, 2022)
+* [Albany VecGest 2022](https://www.facebook.com/events/511982377363941/){:target="_blank"} (Oct 2, 2022)
+* [Troy Victorian Stroll 2022](http://www.enchantedtroy.com/){:target="_blank"} (Dec 4, 2022)
 * The Enchanted City
 
 
 ### Restaurants and Assorted Groups
-* [Friends of Prospect Park](https://www.facebook.com/FriendsofProspectParkTroy/)
-* [Franklin Alley Social Club](https://www.facebook.com/franklinalleysocialclub/)
-* [Frog Alley Brewing (Schenectady)](https://www.facebook.com/FrogAlleyBrewing/)
-* [Troy Hidden Garden Tour](https://www.facebook.com/HiddenGardensTroy/) (June 9, 2022)
-* [The Hollow Bar + Kitchen](https://www.facebook.com/thehollowalbany/)
-* [Pine Hollow Arboretum](https://www.facebook.com/PineHollowArboretum)
-* [Albany Twilight Market](https://www.facebook.com/albanytwilightmarket)
+* [Friends of Prospect Park](https://www.facebook.com/FriendsofProspectParkTroy/){:target="_blank"}
+* [Franklin Alley Social Club](https://www.facebook.com/franklinalleysocialclub/){:target="_blank"}
+* [Frog Alley Brewing (Schenectady)](https://www.facebook.com/FrogAlleyBrewing/){:target="_blank"}
+* [Troy Hidden Garden Tour](https://www.facebook.com/HiddenGardensTroy/){:target="_blank"} (June 9, 2022)
+* [The Hollow Bar + Kitchen](https://www.facebook.com/thehollowalbany/){:target="_blank"}
+* [Pine Hollow Arboretum](https://www.facebook.com/PineHollowArboretum){:target="_blank"}
+* [Albany Twilight Market](https://www.facebook.com/albanytwilightmarket){:target="_blank"}
 
 
 ### Swing Dancing in the area
-* [Albany Swing Dancing (FB)](https://www.facebook.com/groups/24246493037)
-* [Got2Lindy (Kingston, NY)](www.got2lindy.com)
+* [Albany Swing Dancing (FB)](https://www.facebook.com/groups/24246493037){:target="_blank"}
+* [Got2Lindy (Kingston, NY)](www.got2lindy.com){:target="_blank"}
+* [Dance Flurry](https://www.danceflurry.org/events/list/){:target="_blank"}{:target="_blank"}
 

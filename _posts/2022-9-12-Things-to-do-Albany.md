@@ -6,9 +6,12 @@ title: Things to do in and around Albany
 Moving to a new city for college (or graduate school) for the first time is a new and exciting opportunity, but it is also an unnerving and sometimes overwhelming experience. As you're hitting the ground running with classes and work, you also have to figure out a new routine, how to take care of yourself and your new home, and how to create new communities. I've therefore decided to compile a list of resources for things to do in the areas I've stayed -- for now, just Troy / Albany. Hopefully you can find some value from these resources, too!
 
 ## Albany Events pages
-* [Albany Events (FB)](https://www.facebook.com/albanyNYevents/){:target="_blank"}
-* [Albany Events (Website)](https://www.albany.com/events/){:target="_blank"}
-* [Albany Things to Do](https://www.albany.com/things-to-do/){:target="_blank"}
+* Albany Events Website
+    * [Events (FB)](https://www.facebook.com/albanyNYevents/){:target="_blank"}
+    * [Events](https://www.albany.com/events/){:target="_blank"}
+    * [Things to Do](https://www.albany.com/things-to-do/){:target="_blank"}
+    * [Festivals](https://www.albany.com/events/festivals/){:target="_blank"}
+    * [Things to do on a Rainy Day](https://www.albany.org/blog/post/things-to-do-on-a-rainy-day-in-albany-county/){:target="_blank"}
 * [Empire State Plaza Events](https://www.facebook.com/EmpireStatePlaza){:target="_blank"}
 * [Discover Albany](https://www.facebook.com/albanycvb/){:target="_blank"}
 * [Lake George Arts Project](https://www.facebook.com/lakegeorgeartsproject/){:target="_blank"}
@@ -18,6 +21,16 @@ Moving to a new city for college (or graduate school) for the first time is a ne
 * [Troy Night Out](https://www.facebook.com/troynightout/){:target="_blank"} (last Friday each month)
 * [Troy Waterfront Farmers Market](https://www.facebook.com/TroyWaterfrontFarmersMarket/){:target="_blank"} (every Saturday)
 
+##### Other and Facebook Groups
+* [Arts Around Greenville, NY]{https://www.facebook.com/ArtsAroundGreenville/}{:target="_blank"}
+* [Grafton Lakes State Park]{https://www.facebook.com/GraftonLakesStatePark}{:target="_blank"}
+* [Pine Hollow Arboretum](https://www.facebook.com/PineHollowArboretum){:target="_blank"}
+* [My518 (FB group)]{https://www.facebook.com/groups/My518/}{:target="_blank"}
+* [Schenectady Events (FB group)]{https://www.facebook.com/groups/569839263106695}{:target="_blank"}
+* [The Albany Music Scene (FB group)]{https://www.facebook.com/groups/396412407173043}{:target="_blank"}
+* [Albany NY Nightlife Scene & Events (FB group)](https://www.facebook.com/groups/308913437282120){:target="_blank"}
+* [Secret Albany (FB)](https://www.facebook.com/Albany.SMN/){:target="_blank"}
+* [What The H*ll Is Going On In The Capital District NY? (FB group)](https://www.facebook.com/groups/130201123812972/){:target="_blank"}
 
 ## Music, Concert, and Radio Venues
 
@@ -36,19 +49,33 @@ Moving to a new city for college (or graduate school) for the first time is a ne
 ##### Other
 * [Performance Spaces for the 21st Century](https://ps21chatham.org/){:target="_blank"}
 * [Jacob's Pillow](https://www.jacobspillow.org/calendar/){:target="_blank"}
-* [The Mopco Improv Theatre (Schenectady)](https://www.facebook.com/mopco/){:target="_blank"}
+* [Live Nation Upstate NY (Saratoga Springs)](https://www.facebook.com/livenationUpstateNY/){:target="_blank"}
+
 
 
 ## Specific Events
+* [Jacob's Pillow Summer Festival](https://www.jacobspillow.org/festival/){:target="_blank"} (June 11 - Aug 28, 2022)
 * [NE Jazz and Wine Festival](http://www.nejazzwinefest.org/){:target="_blank"} (July 29-30, 2022)
+* [Lake George BBQ Festival] (https://lakegeorgebbq.com/){:target="_blank"} (Aug 19-21, 2022)
+* [Jazz Concert Series (SUNY Schenectady CC)](https://aplaceforjazz.org/){:target="_blank"} (Sept 9, Sept 23, Oct 21, Nov 4, 2022)
+* [Adirondack Independent Music Festival (Lake George) 2022](https://adkmusicfest.com/){:target="blank"} (Sept 2-4, 2022)
+* [Oldtone Music Festival (Hillsdale, NY)](https://www.oldtonemusicfestival.com/){:target="blank"} (Sept 9-10, 2022)
 * [Albany Riverfront Jazz Festival](https://www.facebook.com/albanyNYevents/photos/a.3059515797452597/7793036807433782){:target="_blank"} (Sept 10, 2022)
+* [Troy Restaurant Week](https://www.downtowntroy.org/restaurantweek){:target="_blank"} (Sept 12 - 18, 2022)
 * [Hops & Harvest Festival](https://www.facebook.com/events/1167576940641775){:target="_blank"} (Sept 14, 2022)
 * [Jazz at the Lake (Lake George) 2022](https://www.facebook.com/events/717114149623452/){:target="_blank"} (Sept 16 - 18, 2022)
+* [Adirondack Dance Festival (Lake George) 2022](https://www.danceflurry.org/adirondack-dance-weekend/){:target="_blank"} (Sept 16 - 18, 2022)
 * [PearlPalooza 2022](https://www.facebook.com/events/747655756452067){:target="_blank"}(Sept 17, 2022)
+* [Outlaw Music Festival (Saratoga Springs) 2022](https://blackbirdpresents.com/concert/outlaw-music-festival-tour-2022/){:target="_blank"} (Sept 18, 2022)
+* [Lark Hall Vintage Market](https://www.facebook.com/events/451745746521895/){:target="_blank"} (Sept 18, 2022)
+* [Lark Hall Fest 2022](https://www.eventbrite.com/e/lark-hall-fest-tickets-403730969197){:target="_blank"} (Sept 24, 2022)
+* [Lark Hall Record Riot 2022](https://www.recordriots.com/lark-hall-albany-ny/){:target="_blank"} (Sept 25, 2022)
 * [Bacchanalia 2022](https://www.facebook.com/events/301909602115680){:target="_blank"} (Sept 30 - Oct 2, 2022)
 * [Albany VegFest 2022](https://www.facebook.com/events/511982377363941/){:target="_blank"} (Oct 2, 2022)
+* [City Beer Hall Fall Festival](http://thecitybeerhall.com/events/){:target="_blank"} (Oct 7, 2022)
 * [Troy Victorian Stroll 2022](http://www.enchantedtroy.com/){:target="_blank"} (Dec 4, 2022)
 * The Enchanted City
+* Arts, Crafts & Lifestyle Shows, at Colonie Center, Albany. See [JB Enterprises](http://www.jb-enterprises.org/products.html){:target="_blank"} for a schedule. Dates: Sept 17, Sept 14&15, Oct 22, Nov 5, Nov 26&27, Dec 3&4, Dec 10&11, Dec 17&18.
 
 
 ## Restaurants and Assorted Groups
@@ -57,9 +84,14 @@ Moving to a new city for college (or graduate school) for the first time is a ne
 * [Frog Alley Brewing (Schenectady)](https://www.facebook.com/FrogAlleyBrewing/){:target="_blank"}
 * [Troy Hidden Garden Tour](https://www.facebook.com/HiddenGardensTroy/){:target="_blank"} (June 9, 2022)
 * [The Hollow Bar + Kitchen](https://www.facebook.com/thehollowalbany/){:target="_blank"}
-* [Pine Hollow Arboretum](https://www.facebook.com/PineHollowArboretum){:target="_blank"}
 * [Albany Twilight Market](https://www.facebook.com/albanytwilightmarket){:target="_blank"}
 * [Rustic Barn Pub](https://www.facebook.com/rusticbarnpub/){:target="_blank"}
+* [Sanctuary for Independent Media](https://www.mediasanctuary.org/){:target="_blank"}
+* [The Mopco Improv Theatre (Schenectady)](https://www.facebook.com/mopco/){:target="_blank"}
+* [City Beer Hall](http://thecitybeerhall.com/){:target="_blank"}
+* [Van Gogh Immersive Exhibit Albany](https://vangoghexpo.com/albany/){:target="_blank"}
+
+
 
 
 ## Jazz Events and Dancing in the area
@@ -67,4 +99,8 @@ Moving to a new city for college (or graduate school) for the first time is a ne
 * [Albany Swing Dancing (FB)](https://www.facebook.com/groups/24246493037){:target="_blank"}
 * [Got2Lindy (Kingston, NY)](www.got2lindy.com){:target="_blank"}
 * [Dance Flurry](https://www.danceflurry.org/events/list/){:target="_blank"}{:target="_blank"}
+* [We love to dance in Albany! (FB group)](https://www.facebook.com/groups/2222289420/){:target="_blank"}
+
+
+
 

@@ -26,7 +26,7 @@ A list of things to do in the Albany / Troy / greater NY Capital Region. For all
 * [Arts Around Greenville, NY](https://www.facebook.com/ArtsAroundGreenville/){:target="_blank"}
 * [Grafton Lakes State Park](https://www.facebook.com/GraftonLakesStatePark){:target="_blank"}
 * [Pine Hollow Arboretum](https://www.facebook.com/PineHollowArboretum){:target="_blank"}
-* [My518 (FB group)]{https://www.facebook.com/groups/My518/}{:target="_blank"}
+* [My518 (FB group)](https://www.facebook.com/groups/My518/){:target="_blank"}
 * [Schenectady Events (FB group)](https://www.facebook.com/groups/569839263106695){:target="_blank"}
 * [The Albany Music Scene (FB group)](https://www.facebook.com/groups/396412407173043){:target="_blank"}
 * [Albany NY Nightlife Scene & Events (FB group)](https://www.facebook.com/groups/308913437282120){:target="_blank"}
@@ -76,7 +76,7 @@ A list of things to do in the Albany / Troy / greater NY Capital Region. For all
 * [City Beer Hall Fall Festival](http://thecitybeerhall.com/events/){:target="_blank"} (Oct 7, 2022)
 * [Troy Victorian Stroll 2022](http://www.enchantedtroy.com/){:target="_blank"} (Dec 4, 2022)
 * The Enchanted City
-* Arts, Crafts & Lifestyle Shows, at Colonie Center, Albany. See [JB Enterprises](http://www.jb-enterprises.org/products.html){:target="_blank"} for a schedule. Dates: Sept 17, Sept 14&15, Oct 22, Nov 5, Nov 26&27, Dec 3&4, Dec 10&11, Dec 17&18.
+* Arts, Crafts & Lifestyle Shows, at Colonie Center, Albany. See [JB Enterprises](http://www.jb-enterprises.org/products.html){:target="_blank"} for a schedule. 2022 Dates: Sept 17, Sept 24 & 25, Oct 22, Nov 5, Nov 26 & 27, Dec 3 & 4, Dec 10 & 11, Dec 17 & 18.
 
 
 ## Restaurants, Assorted Groups, and Interesting Finds

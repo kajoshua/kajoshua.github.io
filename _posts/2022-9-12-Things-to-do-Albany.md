@@ -3,7 +3,8 @@ layout: post
 title: Things to do in and around Albany
 ---
 
-Moving to a new city for college (or graduate school) for the first time is a new and exciting opportunity, but it is also an unnerving and sometimes overwhelming experience. As you're hitting the ground running with classes and work, you also have to figure out a new routine, how to take care of yourself and your new home, and how to create new communities. I've therefore decided to compile a list of resources for things to do in the areas I've stayed -- for now, just Troy / Albany. Hopefully you can find some value from these resources, too!
+A list of things to do in the Albany / Troy / greater NY Capital Region. For all to enjoy, especially new fellow RPI students!
+
 
 ## Albany Events pages
 * Albany Events Website
@@ -22,12 +23,12 @@ Moving to a new city for college (or graduate school) for the first time is a ne
 * [Troy Waterfront Farmers Market](https://www.facebook.com/TroyWaterfrontFarmersMarket/){:target="_blank"} (every Saturday)
 
 ##### Other and Facebook Groups
-* [Arts Around Greenville, NY]{https://www.facebook.com/ArtsAroundGreenville/}{:target="_blank"}
-* [Grafton Lakes State Park]{https://www.facebook.com/GraftonLakesStatePark}{:target="_blank"}
+* [Arts Around Greenville, NY](https://www.facebook.com/ArtsAroundGreenville/){:target="_blank"}
+* [Grafton Lakes State Park](https://www.facebook.com/GraftonLakesStatePark){:target="_blank"}
 * [Pine Hollow Arboretum](https://www.facebook.com/PineHollowArboretum){:target="_blank"}
 * [My518 (FB group)]{https://www.facebook.com/groups/My518/}{:target="_blank"}
-* [Schenectady Events (FB group)]{https://www.facebook.com/groups/569839263106695}{:target="_blank"}
-* [The Albany Music Scene (FB group)]{https://www.facebook.com/groups/396412407173043}{:target="_blank"}
+* [Schenectady Events (FB group)](https://www.facebook.com/groups/569839263106695){:target="_blank"}
+* [The Albany Music Scene (FB group)](https://www.facebook.com/groups/396412407173043){:target="_blank"}
 * [Albany NY Nightlife Scene & Events (FB group)](https://www.facebook.com/groups/308913437282120){:target="_blank"}
 * [Secret Albany (FB)](https://www.facebook.com/Albany.SMN/){:target="_blank"}
 * [What The H*ll Is Going On In The Capital District NY? (FB group)](https://www.facebook.com/groups/130201123812972/){:target="_blank"}
@@ -43,7 +44,7 @@ Moving to a new city for college (or graduate school) for the first time is a ne
 
 ##### Troy
 * [Troy Savings Bank Music Hall](https://www.troymusichall.org/){:target="_blank"} 
-    * Note: $60 subscriptions for students for four performances
+    * Note: $60 subscriptions for students for four performances. Dates: Sept 17, 2022, Oct 13, 2022, Feb 24, 2023, Mar 31, 2023
 * [Capital Underground](https://www.facebook.com/capitalundergroundradio){:target="_blank"}
 
 ##### Other
@@ -56,7 +57,7 @@ Moving to a new city for college (or graduate school) for the first time is a ne
 ## Specific Events
 * [Jacob's Pillow Summer Festival](https://www.jacobspillow.org/festival/){:target="_blank"} (June 11 - Aug 28, 2022)
 * [NE Jazz and Wine Festival](http://www.nejazzwinefest.org/){:target="_blank"} (July 29-30, 2022)
-* [Lake George BBQ Festival] (https://lakegeorgebbq.com/){:target="_blank"} (Aug 19-21, 2022)
+* [Lake George BBQ Festival](https://lakegeorgebbq.com/){:target="_blank"} (Aug 19-21, 2022)
 * [Jazz Concert Series (SUNY Schenectady CC)](https://aplaceforjazz.org/){:target="_blank"} (Sept 9, Sept 23, Oct 21, Nov 4, 2022)
 * [Adirondack Independent Music Festival (Lake George) 2022](https://adkmusicfest.com/){:target="blank"} (Sept 2-4, 2022)
 * [Oldtone Music Festival (Hillsdale, NY)](https://www.oldtonemusicfestival.com/){:target="blank"} (Sept 9-10, 2022)
@@ -78,7 +79,7 @@ Moving to a new city for college (or graduate school) for the first time is a ne
 * Arts, Crafts & Lifestyle Shows, at Colonie Center, Albany. See [JB Enterprises](http://www.jb-enterprises.org/products.html){:target="_blank"} for a schedule. Dates: Sept 17, Sept 14&15, Oct 22, Nov 5, Nov 26&27, Dec 3&4, Dec 10&11, Dec 17&18.
 
 
-## Restaurants and Assorted Groups
+## Restaurants, Assorted Groups, and Interesting Finds
 * [Friends of Prospect Park](https://www.facebook.com/FriendsofProspectParkTroy/){:target="_blank"}
 * [Franklin Alley Social Club](https://www.facebook.com/franklinalleysocialclub/){:target="_blank"}
 * [Frog Alley Brewing (Schenectady)](https://www.facebook.com/FrogAlleyBrewing/){:target="_blank"}
@@ -90,7 +91,7 @@ Moving to a new city for college (or graduate school) for the first time is a ne
 * [The Mopco Improv Theatre (Schenectady)](https://www.facebook.com/mopco/){:target="_blank"}
 * [City Beer Hall](http://thecitybeerhall.com/){:target="_blank"}
 * [Van Gogh Immersive Exhibit Albany](https://vangoghexpo.com/albany/){:target="_blank"}
-
+* [Peace Pagoda (Grafton)](https://www.graftonpeacepagoda.org/){:target="_blank"}
 
 
 

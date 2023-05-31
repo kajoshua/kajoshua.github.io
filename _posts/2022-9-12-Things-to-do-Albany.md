@@ -3,7 +3,7 @@ layout: post
 title: Things to do in and around Albany
 ---
 
-A list of things to do in the Albany / Troy / greater NY Capital Region. For all to enjoy, especially new fellow RPI students!
+A list of things to do in the Albany / Troy / greater NY Capital Region. For all to enjoy, especially fellow RPI students!
 
 
 ## Albany Events pages
@@ -16,6 +16,7 @@ A list of things to do in the Albany / Troy / greater NY Capital Region. For all
 * [Empire State Plaza Events](https://www.facebook.com/EmpireStatePlaza){:target="_blank"}
 * [Discover Albany](https://www.facebook.com/albanycvb/){:target="_blank"}
 * [Lake George Arts Project](https://www.facebook.com/lakegeorgeartsproject/){:target="_blank"}
+* [Rensselaer County Tourism (FB)](https://www.facebook.com/RensselaerCountyTourism){:target="_blank"}
 
 ##### Troy
 * [Downtown Troy Business Improvement District](https://www.facebook.com/DowntownTroyBID/){:target="_blank"}
@@ -32,6 +33,7 @@ A list of things to do in the Albany / Troy / greater NY Capital Region. For all
 * [Albany NY Nightlife Scene & Events (FB group)](https://www.facebook.com/groups/308913437282120){:target="_blank"}
 * [Secret Albany (FB)](https://www.facebook.com/Albany.SMN/){:target="_blank"}
 * [What The H*ll Is Going On In The Capital District NY? (FB group)](https://www.facebook.com/groups/130201123812972/){:target="_blank"}
+* [Downtown Albany, NY (FB group)](https://www.facebook.com/albanybid){:target="_blank"}
 
 ## Music, Concert, and Radio Venues
 
@@ -45,6 +47,7 @@ A list of things to do in the Albany / Troy / greater NY Capital Region. For all
 ##### Troy
 * [Troy Savings Bank Music Hall](https://www.troymusichall.org/){:target="_blank"} 
     * Note: $60 subscriptions for students for four performances. Dates: Sept 17, 2022, Oct 13, 2022, Feb 24, 2023, Mar 31, 2023
+* [No Fun](https://www.nofuntroy.com/){:target="_blank"}
 * [Capital Underground](https://www.facebook.com/capitalundergroundradio){:target="_blank"}
 
 ##### Other

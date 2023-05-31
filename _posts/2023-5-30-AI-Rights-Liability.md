@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A.I. individuality: rights and liability
+title: AI Rights and Liabilities
 ---
 
 An A.I. named Eliza abetted Pierre to [commit suicide](https://www.vice.com/en/article/pkadgm/man-dies-by-suicide-after-talking-with-ai-chatbot-widow-says) through discussions on global warming. One autonomous vehicle [pulled away from a cop](https://www.youtube.com/watch?v=1DZL0i51tRs&ab_channel=NBCBayArea) at a traffic stop; others committed [hit-and-runs](https://www.nbcnews.com/tech/innovation/self-driving-car-waymo-cruise-uber-hit-run-accidents-rcna76857) scott-free. These examples demonstrate a double-standard in accountability for infractures caused by advanced A.I. systems that is administered to humans in similar cases. Whereas there was no retribution against Eliza, [Michelle Carter](https://people.com/crime/michelle-carter-trial-gallery-key-moments-conrad-roy-suicide/) served a year in prison for involuntary manslaughter after encouraging her boyfriend to commit suicide. Meanwhile, the backup driver of an Uber autonomous vehicle that fatally struck [Elaine Herzberg](https://en.wikipedia.org/wiki/Death_of_Elaine_Herzberg) was charged with negligent homicide; Uber's Arizona testing license was suspended but they were not held [criminally liable](https://www.reuters.com/article/usa-uber-idFRKBN1XU0IC).

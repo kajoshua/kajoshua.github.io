@@ -1,0 +1,124 @@
+---
+layout: post
+title: Human Motivation and Desires
+---
+
+(July 4-5, 2023)
+
+I like comparing how different disciplines in Science and Philosophy discuss the same topic from different perspectives. The lenses can either reinforce the same idea, when they overlap, or one lens might may describe something that are either not as intuitive from other perspectives or that the other perspectives missed altogether. Today, specifically, I'm thinking about human decisions and emotional framing. Of course there's the entire discipline of Psychology which focuses on human behavior. [Wikipedia](https://en.wikipedia.org/wiki/Psychology) defines:
+
+<center><blockquote>
+Psychology is the study of mind and behavior in humans and non-humans. Psychology includes the study of conscious and unconscious phenomena, including feelings and thoughts.
+</blockquote></center>
+
+which includes the [sub-fields](https://www.albert.io/blog/psychological-perspectives-ap-psychology/#:~:text=At%20this%20point%20in%20modern,sociocultural%2C%20evolutionary%2C%20and%20biopsychosocial.) of biological, behavioral, cognitive, humanistic, psychodynamic, sociocultural, evolutionary, and biopsychosocial. I don't mean to reinvent the wheel but rather draw attention to the notion of *acting intently despite one's volatile emotions*, one cross-disciplinary idea that seems increasingly practical in my daily life.
+
+
+
+
+
+
+The fact that the practice of [self-control](https://en.wikipedia.org/wiki/Self-control) exists and is routinely and explicitly taught to children is evidence that we as humans are not necessarily in control of our own behavior. We may find ourselves incited and tempted toward some action in-the-moment, like opportunistic stealing or buying over-priced water in a baseball stadium, despite *"objectively"* believing those actions inconsistent with our values or general personality. What we find right and best to do in any moment is a function of both the incentives construed by environmental circumstance, as described by economic theory, as well as our own subjective, emotional, and practical involvement in the environment. People are incentivized to work every day despite not wanting to; we do so grudgingly as an example of [delaying the gratification](https://en.wikipedia.org/wiki/Delayed_gratification) of going back to sleep in the morning. There thus appears to be categorically different processes that drive our behavior, which may align or conflict. 
+
+However, rather than having separate behavioral processes that we switch between, peoples' decisions seem to be framed within our emotional lenses. Context matters. We function better when we wake-up refreshed for work in a climate-controlled office building than we do overheated after farming in the sun for hours. We get lethargic if we're too sedentary; we get hangry if we miss a meal and exhausted if we are awake too long. People have the ability to make the same decisions independent of our mood, but mood does affect how we process information and solidify our intentions.
+
+
+
+Just as we are affected by our frame, we have the ability to intentionally change our perspectives. People drink coffee to become astute and alcohol to intoxicate their perspective; we get hangry if we miss a meal. 
+
+
+Broadly speaking, the skill of self-control helps people keep our own behavioral processes aligned.
+
+
+
+
+
+
+
+
+
+The military and fighting sciences consider *determination* and acting well in the face of adversity. -- stoicism
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+One thing I especially like about Science and Philosophy is when many people converge on the same idea about a topic from different perspectives. Today I'm thinking about human motivations and every-day desires, where I'm increasingly convinced that ...
+-- humans are slaves to their emotions (Dostoevsky?)
+-- Drive-reduction (behavioral psychology)
+-- Need not - want not (quote)
+-- Buddhist philosophy seeks Emptiness; desire is the root of all suffering
+
+
+------
+“Your emotions are the slaves to your thoughts, and you are the slave to your emotions.”
+― Elizabeth Gilbert, Eat Pray Love: One Woman's Search for Everything Across Italy, India and Indonesia
+------
+
+
+
+This idea is prevalent even in micro-economic theory which describes transactions between willing participants: one party has a want and another party can provide a good or service to fulfill that want, in exchange for money. The more money someone has, the greater ability they have to satisfy their own wants. 
+-- The wise person spends money in a way that eliminates their own future desires.
+
+
+In one sense, GDP tracks the lack of fulfillment in a country, since the less want there is in a society, the fewer transactions will take place. There's a notion that <MODERN ECONOMICS IS ANTI-THETICAL TO FULFILLING HUMAN NEEDS, SINCE IT DEPENDS ON REGULAR EXCHANGE (THE DEFINITION OF GDP IS ...) >. One notable example is that California homeless societies have an incentive to not solve  homelessness: NGO leaders receive paychecks as long as the problem remains.
+-- Platforms like TikTok lower attention span and increase anxiety (CITE); in essence, people are increasing their desires and lowering their patience, mindfulness, and self-control.
+
+
+
+My working model of human behavior is three-fold. On the first level, people have their core personalities, informed by their upbringing, and genomic physical attributes that together define their outlook on reality. On the second level, people filter the world through a particular emotional lens, which has both a long-standing component and an immediate component. The primary level is where people exert their own agency over their actions.
+
+I model people as a control system. On a daily basis, time-sensitive things affect their mood.
+
+My working model of human behavior is as a control system. In any given moment, people have some, but not complete, agency over their own emotions and actions. This is easy to argue in that exhaustion, hunger (in the sense of malnutrician), and sleepiness, 
+
+
+
+
+
+
+
+
+The theorists posit that humans have wants and needs and behave as to eliminate those desires. The behavioral psychologists call this [Drive reduction theory](https://en.wikipedia.org/wiki/Drive_reduction_theory_(learning_theory)), developed by Clark Hull in 1943, in which humans primarily behave to remain in physical and mental equilibrium.
+
+I saw the phrase *"Waste Not, Want Not"* again recently and I was shocked to recall how central fulfilling peoples' wants and needs are to both individual human behavior and economies, generally. The phrase is a [reminder](https://thecontentauthority.com/blog/what-does-waste-not-want-not-mean) against wasting or misusing precious resources so that they may be used more wisely in the future. It recognizes that humans have future wants and that by taking certain actions today, making the most of what you have, people can maintain the means to accommodate their future wants. Reading between the lines, the phrase also poses a much more subtle heuristic from the opposite perspective. That is, people can act today as to mitigate themselves from wanting in the future. This is the perspective of building and maintaining a healthy lifestyle which enables people to have fewer and lesser wants. What is *wasted* today is time; what is *wanted* is future desire.
+-- I am at a stage in my life where I have some savings, choice in my career path, and self-discipline where I can learn from what others are doing and choose what type of lifestyle I want to live.
+
+
+In Science... the behavioral psychologists pose that human behavior is driven to satisfy their wants; the economists assume this is true and model how transactions occur and the macro-effects of transactions; the buddhists suggest practices as to how to achieve harmony; the existentialists argue that people are emotional and not in control of their own behavior. This all suggests that to me as an individual that I am acting within the confines of my own tendencies, and that I have the ability to practice self-control and optimize my lifestyle as to minimize my own cravings in the future.
+-- lifestyle creep as you get more money, you decide that you want bigger and better things
+-- 
+
+
+
+
+Economists study individual transactions between people or organizations, on a micro level, and the aggregate cyclic ebbs and flows of an economy, on a macro level. The basic assumptions behind any transaction are that its a willing exchange between equal participants, one party has a want, and another party can provide a good or service to fulfill that want in exchange for money. We can rephrase the discussion above from an economic perspective. One consequence of these assumptions is that the more money and resources someone has, the greater ability they have to satisfy their own wants. The wise consumer purchases products and services as to minimize their future desires, which correlates with making investments that will minimize their own future costs. This can take the form of business-like assets or high-quality household appliances, which don't need to be replaced as often as cheaper yet poorer-quality appliances. Minimizing future desires also takes the form of <NOT BUYING PRODUCTS THAT MAKE YOU WANT TO BUY MORE OF THAT PRODUCT, SUCH AS CANDY, SOCIAL MEDIA, DRUGS, AND HIGHER-QUALITY LIVING IN GENERAL FROM LIFESTYLE CREEP>.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

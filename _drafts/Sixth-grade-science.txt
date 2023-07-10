@@ -1,0 +1,18 @@
+---
+layout: post
+title: Sixth-grade Science Experiments
+---
+
+A short list of cool science experiments, projects, and questions for middle-schoolers.
+
+
+## (1) Refraction of Light
+
+Place two objects in sequence behind a light source (e.g., the sun) so that their shadows are completely separate. You can observe that the shadow of the further object *grows* toward the shadow of the closer object as you align the objects so that the shadows intersect.
+
+**Questions to ask:**
+1. Why does this occur?
+2. Does the rate at which light refracts depend on the intensity of the light source?
+
+
+

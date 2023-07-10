@@ -1,6 +1,7 @@
 ---
 layout: post
 title: References for Algorithmic Game Theory
+excerpt_separator: <!--more-->
 ---
 
 Computational Social Choice (CSC) may be [defined](https://research.illc.uva.nl/COMSOC/what-is-comsoc.html) as:
@@ -11,7 +12,7 @@ an interdisciplinary field of study at the interface of social choice theory and
 
 The field intersects computer science, economics, and operations research and focuses on algorithmic aspects of group decision making and resource allocation. This page summarizes relevant resources for researchers in CSC and its umbrella discipline of Algorithmic Game Theory.
 
-
+<!--more-->
 
 
 ## About Computational Social Choice

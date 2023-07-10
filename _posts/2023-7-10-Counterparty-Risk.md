@@ -1,6 +1,7 @@
 ---
 layout: post
 title: On Counterparty Risk
+excerpt_separator: <!--more-->
 ---
 
 They say that there's no such thing as a deal without [Counterparty Risk](https://www.investopedia.com/terms/c/counterpartyrisk.asp). Investopedia defines this as:
@@ -10,6 +11,8 @@ the likelihood or probability that one of those involved in a transaction might 
 </blockquote></center>
 
 Generally this concept applies to contracts between consenting parties. However, there are a few less-intuitive examples that conceivably fit under this umbrella which I find interesting and thought-provoking. Together, the following 9 scenarios prove that you can never eliminate risk.
+
+<!--more-->
 
 
 

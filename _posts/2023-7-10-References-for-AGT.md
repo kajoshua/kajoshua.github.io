@@ -1,9 +1,9 @@
 ---
 layout: post
-title: References for Researchers of Algorithmic Game Theory
+title: References for Algorithmic Game Theory
 ---
 
-Ulle Endriss, University of Amsterdam, defines Computational Social Choice (CSC) as:
+Computational Social Choice (CSC) may be [defined](https://research.illc.uva.nl/COMSOC/what-is-comsoc.html) as:
 
 <center><blockquote>
 an interdisciplinary field of study at the interface of social choice theory and computer science, promoting an exchange of ideas in both directions. 

@@ -14,5 +14,9 @@ Place two objects in sequence behind a light source (e.g., the sun) so that thei
 1. Why does this occur?
 2. Does the rate at which light refracts depend on the intensity of the light source?
 
+## (2) Bubbles
+
+Why (i.e., How) do bubbles congregate? If one pops, the rest will rearrange themselves to be convex.
+
 
 

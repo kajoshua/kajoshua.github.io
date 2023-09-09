@@ -67,6 +67,7 @@ Springer book series -- [Synthesis Lectures on Artificial Intelligence and Machi
 
 
 ## Important Computer Science Conferences
+
 | Conference Name      | [Rating](http://portal.core.edu.au/conf-ranks/)* | Link | Approx. Deadline | Conference Dates |
 | ----------- | ----------- | ----------- | ----------- | ----------- |
 | AAAI Conference on Artificial Intelligence | A* | [2023 link](https://aaai-23.aaai.org/) | August | February |

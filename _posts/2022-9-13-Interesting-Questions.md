@@ -3,14 +3,14 @@ layout: post
 title: Interesting Questions
 ---
 
-A small collection of interesting (boundary breaker) questions you can ask people instead of making small talk with "What do you do for a living?" This list is motivated, in part, by [this lecture](https://www.youtube.com/watch?v=3ex3TPdsBsY){:target="_blank"} by David Goodhart. Enjoy!
+A small collection of interesting (boundary breaker) questions you can ask people instead of making small talk with "What do you do for a living?" This list is motivated, in part, by [this lecture](https://www.youtube.com/watch?v=3ex3TPdsBsY){:target="_blank"} by David Goodhart (Big Think, 2017). Enjoy!
 
 * Who are you?
 * What is a conversation that you would like to have with someone, but haven't found the right moment yet?
 * Do you feel social pressure to [wear socks], or do you like them?
 * What did you do last [Tuesday at 3pm]?
 * What's your third favorite [place to visit]? 
-  *(Source: Jessie Finocchiaro)
+  * (Source: Jessie Finocchiaro)
 * Song recommendation? 
   * (Source: Anonymous I met at [CincyHop, 2022](https://cincyhop.org/wp/){:target="_blank"})
 * What do you think about when your mind wanders?

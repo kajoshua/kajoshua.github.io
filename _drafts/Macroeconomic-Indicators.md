@@ -148,6 +148,18 @@ document.getElementById('hhdci_iframe').scrollTop = 10000;
 <iframe src="https://fred.stlouisfed.org/graph/graph-landing.php?g=17MC9&width=670&height=475" scrolling="no" frameborder="0" style="overflow:hidden; width:670px; height:525px;" allowTransparency="true" loading="lazy"></iframe>
 
 
+<h2>Labor Market</h2>
+
+
+<h4>Percent of Civilian Labor Force Unemployed 15 Weeks and over (U-1)</h4>
+
+<iframe src="https://fred.stlouisfed.org/graph/graph-landing.php?g=18Iut&width=670&height=475" scrolling="no" frameborder="0" style="overflow:hidden; width:670px; height:525px;" allowTransparency="true" loading="lazy"></iframe>
+
+<p>Percent change year-over-year:</p>
+
+<iframe src="https://fred.stlouisfed.org/graph/graph-landing.php?g=18Iuy&width=670&height=475" scrolling="no" frameborder="0" style="overflow:hidden; width:670px; height:525px;" allowTransparency="true" loading="lazy"></iframe>
+
+
 
 <h2>Rolex Market Index</h2>
 

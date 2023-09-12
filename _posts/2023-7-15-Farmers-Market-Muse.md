@@ -14,8 +14,6 @@ On the front end, the vendors and overall experience of the market must provide 
 
 These factors affect many types of businesses, like farmers' markets which organize vendors, and small townships which organize businesses. I'd be interested in a comparative study regarding what economic environments enable markets, such as the Pleasantville Farmers Market, to be viable and how these businesses either adapt with or fail due to changing economic landscapes. Just like farmers markets tend to be seasonal with which produce is offered and consumer demand, small townships, like Northport, MI., rely on seasonal [tourism](https://www.michigan.org/city/northport) for the entire local economy's annual income. How does wealth (i.e., money) flow in and out of these more insular communities and what indicators are there for their sustainability? As a third related concept, some large companies partition their annual budget among their business units which then act independently to achieve their designated goals. In order to delegate work to a different business unit, one must contract with another and exchange real or fake money. A capital economy like this is one mechanism for social organization. How do different intra-business economies compare in their time-efficiency, quality of production, and fair distribution of net proceeds?
 
-<iframe src="https://docs.google.com/document/d/e/2PACX-1vRpZlCWU-SyKHw1NBsu8FYSkvwMgFkygvI28d3VxWzZ77lSUwt7U72vJ-FiYOl1ZcBbJv9sgrgML1Df/pub?embedded=true"></iframe>
-
 
 
 

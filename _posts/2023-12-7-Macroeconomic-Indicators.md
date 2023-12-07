@@ -34,6 +34,9 @@ According to <a target="_blank" href="yumpu.com/s/1WpqlPfhSgxat8eq">Bannister an
 
 <img style="border: 1px solid black" src = "images/m2-yearly-growth-vs-infl.svg" alt=""/>
 
+![M2 vs Inflation](/images/m2-yearly-growth-vs-infl.svg)
+
+
 <p>Source: <a target="_blank" href="https://www.longtermtrends.net/m2-money-supply-vs-inflation/">Long Term Trends</a>. Retrieved: 7 December 2023.</p>
 
 <h2>Bank solvency</h2>
@@ -67,8 +70,21 @@ According to <a target="_blank" href="yumpu.com/s/1WpqlPfhSgxat8eq">Bannister an
 <p>Cumulative debt balances from 2004:Q1 to present.</p>
 
 <div id="hhdci_iframe" style="overflow:scroll; width:660px; height:1175px; border: 1px solid black;">
-<iframe id="HHDCIframe" data-latest="hhdc"  scrolling="no" style="width:100%; height:200%;" onload=" document.getElementById('hhdci_iframe').scrollTop = 340;
+<iframe id="HHDCIframe" data-latest="hhdc"  scrolling="no" style="width:100%; height:180%;" onload=" document.getElementById('hhdci_iframe').scrollTop = 340;
 document.getElementById('hhdci_iframe').scrollLeft = 455; document.getElementById('hhdci_iframe').style['overflow'] = 'hidden'; 
+" src="https://www.newyorkfed.org/microeconomics/hhdc"></iframe>
+</div>
+
+<div id="hhdci_iframe" style="overflow:hidden; width:670px; height:835px; border: 1px solid black;">
+<iframe id="HHDCIframe" data-latest="hhdc" scrolling="no" style="
+width:200%; 
+height:183%;
+transform: scale(0.70);
+overflow:hidden;
+
+" onload=" document.getElementById('hhdci_iframe').scrollTop = 460;
+document.getElementById('hhdci_iframe').scrollLeft = 325; 
+document.getElementById('hhdci_iframe').style['overflow'] = 'hidden'; 
 " src="https://www.newyorkfed.org/microeconomics/hhdc"></iframe>
 </div>
 

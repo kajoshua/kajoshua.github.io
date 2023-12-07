@@ -32,7 +32,7 @@ According to <a target="_blank" href="yumpu.com/s/1WpqlPfhSgxat8eq">Bannister an
 
 </p>
 
-<img style="border: 1px solid black" src = "m2-yearly-growth-vs-infl.svg" alt=""/>
+<img style="border: 1px solid black" src = "images/m2-yearly-growth-vs-infl.svg" alt=""/>
 
 <p>Source: <a target="_blank" href="https://www.longtermtrends.net/m2-money-supply-vs-inflation/">Long Term Trends</a>. Retrieved: 7 December 2023.</p>
 
@@ -66,14 +66,14 @@ According to <a target="_blank" href="yumpu.com/s/1WpqlPfhSgxat8eq">Bannister an
 
 <p>Cumulative debt balances from 2004:Q1 to present.</p>
 
-<div id="hhdci_iframe" style="overflow:scroll; width:940px; height:1175px; border: 1px solid black;">
-<iframe id="HHDCIframe" data-latest="hhdc"  scrolling="no" style="width:200%; height:200%;" onload=" document.getElementById('hhdci_iframe').scrollTop = 340;
+<div id="hhdci_iframe" style="overflow:scroll; width:660px; height:1175px; border: 1px solid black;">
+<iframe id="HHDCIframe" data-latest="hhdc"  scrolling="no" style="width:100%; height:200%;" onload=" document.getElementById('hhdci_iframe').scrollTop = 340;
 document.getElementById('hhdci_iframe').scrollLeft = 455; document.getElementById('hhdci_iframe').style['overflow'] = 'hidden'; 
 " src="https://www.newyorkfed.org/microeconomics/hhdc"></iframe>
 </div>
 
 <!-- frameborder="0" 
-width:670px; 
+width:670px;  ---- 940px
 height:325px;
 document.getElementById('hhdci_iframe').scrollTop = 10000;
 -->
@@ -171,7 +171,7 @@ document.getElementById('hhdci_iframe').scrollTop = 10000;
 
 <p>The Rolex Market Index is an indicator of the financial performance of Rolex watches on the secondhand market. It is comprised of the top 30 Rolex models by transaction value. The index shows the average market price (in USD) of these 30 watches over time.</p>
 
-<img style="border: 1px solid black" src = "rolex.png" alt=""/>
+<img style="border: 1px solid black" src = "images/rolex.png" alt=""/>
 
 <p>Source: <a target="_blank" href="https://watchcharts.com/watches/brand_index/rolex">Watch Charts</a>. Retrieved: 7 December 2023.</p>
 

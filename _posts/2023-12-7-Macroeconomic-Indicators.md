@@ -24,15 +24,17 @@ A list of macroeconomic indicators I personally find interesting and useful to u
 <h4>Interpretation</h4>
 <p>
 The "M2 Money Supply", also referred to as "M2 Money Stock", is a measure for the amount of currency in circulation. M2 includes M1 (physical cash and checkable deposits) as well as "less liquid money", such as saving bank accounts. The chart below plots the yearly <b>M2 Growth Rate</b> and the <b style="color:red">Inflation Rate</b>, which is defined as the yearly change in the Consumer Price Index (CPI). When inflation is high, prices for goods and services rise and thus the purchasing power per unit of currency decreases.
-</br>
+
 Historically, M2 has grown along with the <b style="color:blue">economy</b>. However, it has also grown along with <a target="_blank" href="https://www.longtermtrends.net/us-debt-to-gdp/">Federal Debt to GDP</a> during wars and recessions. In most recent history, M2 growth surpassed 10 percent in the crisis of 2001 and 2009, during which an expansionary monetary policy was deployed by the central bank, including large scale asset purchases.
-</br>
+
 According to <a target="_blank" href="yumpu.com/s/1WpqlPfhSgxat8eq">Bannister and Forward (2002, page 28)</a>, Money supply growth and inflation are inexorably linked.
 
 
 </p>
 
+<!--
 <img style="border: 1px solid black" src = "images/m2-yearly-growth-vs-infl.svg" alt=""/>
+-->
 
 ![M2 vs Inflation](/images/m2-yearly-growth-vs-infl.svg)
 
@@ -69,11 +71,13 @@ According to <a target="_blank" href="yumpu.com/s/1WpqlPfhSgxat8eq">Bannister an
 
 <p>Cumulative debt balances from 2004:Q1 to present.</p>
 
+<!--
 <div id="hhdci_iframe" style="overflow:scroll; width:660px; height:1175px; border: 1px solid black;">
 <iframe id="HHDCIframe" data-latest="hhdc"  scrolling="no" style="width:100%; height:180%;" onload=" document.getElementById('hhdci_iframe').scrollTop = 340;
 document.getElementById('hhdci_iframe').scrollLeft = 455; document.getElementById('hhdci_iframe').style['overflow'] = 'hidden'; 
 " src="https://www.newyorkfed.org/microeconomics/hhdc"></iframe>
 </div>
+-->
 
 <div id="hhdci_iframe" style="overflow:hidden; width:670px; height:835px; border: 1px solid black;">
 <iframe id="HHDCIframe" data-latest="hhdc" scrolling="no" style="
@@ -83,8 +87,7 @@ transform: scale(0.70);
 overflow:hidden;
 
 " onload=" document.getElementById('hhdci_iframe').scrollTop = 460;
-document.getElementById('hhdci_iframe').scrollLeft = 325; 
-document.getElementById('hhdci_iframe').style['overflow'] = 'hidden'; 
+document.getElementById('hhdci_iframe').scrollLeft = 325;  
 " src="https://www.newyorkfed.org/microeconomics/hhdc"></iframe>
 </div>
 
@@ -92,6 +95,9 @@ document.getElementById('hhdci_iframe').style['overflow'] = 'hidden';
 width:670px;  ---- 940px
 height:325px;
 document.getElementById('hhdci_iframe').scrollTop = 10000;
+
+
+document.getElementById('hhdci_iframe').style['overflow'] = 'hidden';
 -->
 
 <h2>Credit Cards</h2>
@@ -187,7 +193,12 @@ document.getElementById('hhdci_iframe').scrollTop = 10000;
 
 <p>The Rolex Market Index is an indicator of the financial performance of Rolex watches on the secondhand market. It is comprised of the top 30 Rolex models by transaction value. The index shows the average market price (in USD) of these 30 watches over time.</p>
 
+<!--
 <img style="border: 1px solid black" src = "images/rolex.png" alt=""/>
+-->
+
+![Rolex Market Index](/images/rolex.png)
+
 
 <p>Source: <a target="_blank" href="https://watchcharts.com/watches/brand_index/rolex">Watch Charts</a>. Retrieved: 7 December 2023.</p>
 

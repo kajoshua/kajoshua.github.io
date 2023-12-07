@@ -122,4 +122,24 @@ This may be an example of risk, not necessarily counterparty risk.
 
 1. The housing market crashes.
 2. The house was a lake-front property on a man-made lake held up by a dam which breaks, draining the lake and devaluing the home ([Michigan, US](https://www.abc12.com/news/flood/abc12-investigates-wixom-lake-homes-lose-value-after-the-edenville-dam-failure/article_3ba2e69b-9c51-5171-bade-6d9fdcc9d470.html)).
+3. Your homeowners insurance company decides to cancel your contract because you live in too inhospitable of an area.
+
+
+### (10) You own a credit card
+
+**Risks**:
+
+1. You can't pay your bills on time because the internet/electricity went out.
+2. You can't legally buy assets (such as gold or stocks) with a credit card.
+3. Your bank arbitrarily cancels your oldest card, thus reducing your average credit history and lowering your credit score.
+
+
+
+
+
+
+
+
+
+
 

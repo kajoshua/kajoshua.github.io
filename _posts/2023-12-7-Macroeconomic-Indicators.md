@@ -136,6 +136,8 @@ document.getElementById('hhdci_iframe').style['overflow'] = 'hidden';
 
 <h4>Yield Spreads</h4>
 
+The current yield curve inverstion, a key leading recession indicator, is <a target="_blank" href="https://www.reuters.com/markets/rates-bonds/us-treasury-key-yield-curve-inversion-becomes-longest-record-2024-03-21/">now</a> the longest on record (since July, 2022).
+
 <iframe src="https://fred.stlouisfed.org/graph/graph-landing.php?g=17MFN&width=670&height=475" scrolling="no" frameborder="0" style="overflow:hidden; width:670px; height:525px;" allowTransparency="true" loading="lazy"></iframe>
 
 <h2>Real-Estate</h2>

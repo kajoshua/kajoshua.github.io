@@ -21,5 +21,10 @@ A small collection of interesting (boundary breaker) questions you can ask peopl
 * What is something that you know you'll never (reasonably) do in your life?
 * Are you someone who usually reaches out to others or do others reach out to you?
 * How do you actively maintain your friends as friends?
+* If you weren't doing what you're doing now, what would your sexy alter ego be doing? 
+* What's something different about you than your others in a niche community you're a part of? 
+* What something about you that people tend to get wrong?
+  * (Source: Amey Zhang)
+
 
 

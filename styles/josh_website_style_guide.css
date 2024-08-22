@@ -1,0 +1,187 @@
+
+
+h1{
+    margin:8px;
+    padding:8px;
+    font-weight:400;
+}
+
+h4{
+    margin:0;
+    padding:0;
+}
+h6{
+    margin:0;
+    padding:0;
+}
+
+.mainBody {
+    margin: auto; 
+    max-width:720px; 
+    font: 400 16px/1.5 Lora; 
+    margin-top:10px;
+}
+
+/*Projects tags*/
+
+.projectBody {
+    display: flex; 
+    flex-flow: column;
+}
+
+.projectSubtitle
+{
+    border-bottom: 3px solid #e8e8e8;
+}
+
+.projectSubtitle h2
+{
+    margin:5px;
+}
+
+
+.expPics {
+    border-radius:1em;
+    max-height:200px;
+    flex:50%; 
+    margin: auto 10px auto 0;
+}
+
+.expText {
+    flex: 55%; 
+    max-height:250px;
+}
+
+
+.experience_block {
+    margin: 10px 0px 5px 0px;
+    padding-bottom:20px;
+}
+
+
+.experience {
+    padding: 5px; 
+    margin-bottom: 10px; 
+    background: #EBF5F4; 
+    border-radius: 1em; 
+    border: 3px solid #c2e6fb; 
+    display:flex; 
+    max-height:800px;
+}
+
+
+.project {
+    background:#E7CDE6;
+    border: 3px solid #cda2d1;
+}
+
+.more_info {
+    color:gray;
+    margin:0;
+    padding:0;
+}
+
+/*Experiences themselves*/
+
+
+.experience_specific_img {
+    border-radius:1em;
+    border: 2px solid #69abc3;
+    width:60%;
+    margin:auto;
+    display:block;
+    max-height:250px;
+}
+
+
+/*Education and Courses*/
+
+.coursesSubsection {
+    padding: 10px 0; 
+    color:#494949;
+}
+
+.coursesList_left {
+    flex: 50%; 
+    max-width: 400px;
+}
+
+.coursesList_left ul {
+    margin:0;
+}
+
+.coursesList_right {
+    flex: 40%; 
+    max-width: 400px;
+}
+
+.coursesList_right ul {
+    list-style-type: none; 
+    float:right; 
+    margin:0 10px 0 0;
+    text-align: right;
+}
+
+
+/*Pics on main index page*/
+
+.fun_pics{
+    padding: 5px; 
+    border-radius:1em; 
+    /*max-height: 300px;*/
+    max-width: 230px;
+}
+
+/*Header and Footers*/
+
+.header{
+    font: 400 16px/1.5 Lora;
+    border-bottom: 1px solid #e8e8e8;
+    margin: auto;
+    min-height:60px;
+    max-width:720px;
+}
+
+.head_name {
+    color: black;
+    font-size: 26pt;
+    text-decoration:none;
+}
+
+.head_links {
+    text-decoration:none;
+    margin-right: 20px;
+    color:black;
+}
+
+.footer {
+    font: 400 16px/1.5 Lora;
+    border-top: 1px solid #e8e8e8;
+    margin: auto;
+    min-height:60px;
+    max-width: 720px;
+    padding: 30px 0 60px 0;
+    margin-top:30px;
+    display:flex;
+}
+
+.foot_name {
+    color: black;
+    font-size: 18pt;
+    text-decoration:none;
+}
+
+.foot_links {
+    text-decoration:none;
+    margin-right: 20px;
+    color:black;
+}
+
+
+
+
+
+
+
+
+

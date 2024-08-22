@@ -75,13 +75,17 @@ A list of random websites I find interesting or useful. For better [adulting](ht
 * Epsilon Theory
     * [Podcast](https://www.epsilontheory.com/et-podcasts/){:target="_blank"}
 * Game of Trades
-    * [Website](https://www.gameoftrades.net/){:target="_blank"}
+    * [Blog](https://www.gameoftrades.net/blog/){:target="_blank"}
 * Nomad Capitalist
     * [Website](https://nomadcapitalist.com/){:target="_blank"}
 * Trading Economics
     * [Website](https://tradingeconomics.com/){:target="_blank"}
 * Federal Reserve Economics Data (of St. Louis; FRED)
     * [Website](https://fred.stlouisfed.org/){:target="_blank"}
+* ShadowStats
+    * [Website](http://shadowstats.com/){:target="_blank"}
+* Harvard Business Review
+    * [Website](https://hbr.org/){:target="_blank"}
 
 
 ## Finance
@@ -114,6 +118,7 @@ Indices
 
 
 ## Political Science
+
 * Center for Foreign Relations
 	* [Website](https://www.cfr.org/){:target="_blank"}
 * Jonathan Haidt (Social Psychologist)
@@ -122,6 +127,10 @@ Indices
     * [Coddling of the American Mind](https://www.thecoddling.com/){:target="_blank"}
 * Cory Doctorow (Author)
 	* [Social-political](https://pluralistic.net/){:target="_blank"}
+* Brookings Institute
+    * [Website](https://www.brookings.edu/){:target="_blank"}
+* FiveThirtyEight
+    * [Polls](https://projects.fivethirtyeight.com/polls/){:target="_blank"}
     
 
 ## Law
@@ -132,6 +141,8 @@ Indices
 
 ## Philosophy
 
+* Stanford Encyclopedia of Philosophy
+    * [Website](https://plato.stanford.edu/){:target="_blank"}
 * The School of Life
     * [Website](https://www.theschooloflife.com/){:target="_blank"}
     * [Wu Wei](https://www.theschooloflife.com/article/wu-wei-doing-nothing/){:target="_blank"}

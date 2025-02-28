@@ -12,9 +12,10 @@ A list of macroeconomic indicators I personally find interesting and useful to u
 
 <div>
 <ul>
-<!-- <li><a target="_blank" href="https://www.statista.com/statistics/1250636/global-container-freight-index/">Global Container Freight Index</a></li> -->
-<li><a target="_blank" href="https://www.neartermforwardspread.com/">Near Term Forward Spread</a></li>
-<li><a target="_blank" href="https://stockcharts.com/freecharts/yieldcurve.php">Dynamic Yield Curve</a></li>
+    <!-- <li><a target="_blank" href="https://www.statista.com/statistics/1250636/global-container-freight-index/">Global Container Freight Index</a></li> -->
+    <li><a target="_blank" href="https://www.neartermforwardspread.com/">Near Term Forward Spread</a></li>
+    <li><a target="_blank" href="https://stockcharts.com/freecharts/yieldcurve.php">Dynamic Yield Curve</a></li>
+    <li><a target="_blank" href="https://www.fdic.gov/system/files/2024-09/fdic-v18n3-2q2024.pdf">FDIC Quarterly Banking Profile (2024Q2)</a></li>
 </ul>
 </div>
 
@@ -190,6 +191,11 @@ The current yield curve inverstion, a key leading recession indicator, is <a tar
 <iframe src="https://fred.stlouisfed.org/graph/graph-landing.php?g=18Iuy&width=670&height=475" scrolling="no" frameborder="0" style="overflow:hidden; width:670px; height:525px;" allowTransparency="true" loading="lazy"></iframe>
 
 
+<h2>Trading indicators</h2>
+
+* NAAIM Exposure <a target="_blank" href="https://naaim.org/programs/naaim-exposure-index/">[NAAIM Link]</a>
+* US Leading Economic Indicator <a target="_blank" href="https://www.conference-board.org/topics/us-leading-indicators">[Conference-Board Link]</a>
+* FedWatch FOMC probabilities(CME Group) <a target="_blank" href="https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html">[CME Group Link]</a>
 
 <h2>Rolex Market Index</h2>
 
@@ -199,9 +205,9 @@ The current yield curve inverstion, a key leading recession indicator, is <a tar
 <img style="border: 1px solid black" src = "images/rolex.png" alt=""/>
 -->
 
-![Rolex Market Index](/images/rolex.png)
+![Rolex Market Index](/images/rolex3b.png)
 
 
-<p>Source: <a target="_blank" href="https://watchcharts.com/watches/brand_index/rolex">Watch Charts</a>. Retrieved: 7 December 2023.</p>
+<p>Source: <a target="_blank" href="https://watchcharts.com/watches/brand_index/rolex">Watch Charts</a>. Retrieved: 9 December 2024.</p>
 
 

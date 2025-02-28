@@ -56,13 +56,15 @@ Springer book series -- [Synthesis Lectures on Artificial Intelligence and Machi
 * [Course Match](https://mba-inside.wharton.upenn.edu/course-match/) [[Budish et al. 2017](https://pubsonline.informs.org/doi/pdf/10.1287/opre.2016.1544)]
 * [Spliddit](https://spliddit.org/) [[Goldman and Procaccia 2014](https://dl.acm.org/doi/pdf/10.1145/2728732.2728738?casa_token=InPvMv6yBY4AAAAA:aB-zU7tsBCiVBQkEQ75IcxIiu4i0RqNjH5sEohfQsYsgUMynUSfrI7be_m7sSEYZtJ8q5GSMsZ2J)] (*Note: link down as of June 28, 2023*)
 * [Automated Justification](https://demo.illc.uva.nl/justify/) by Ulle Endriss, ILLC
-* [Preflib](https://www.preflib.org/) [[Mattei and Walsh 2013](http://www.cse.unsw.edu/~tw/mwadt2013.pdf)]
 * [Panelot](https://panelot.org/) [[Flanigan et al. 2021](https://www.nature.com/articles/s41586-021-03788-6)]
 * [OPRA](https://opra.cs.rpi.edu/) [[Chen et. al. 2021](https://arxiv.org/pdf/2005.13714.pdf)] by Lirong Xia, RPI (*Note: link down as of June 28, 2023*)
 * [Gambit: Software Tools for Game Theory](https://tturocy.github.io/) by Theodore L. Turocy, University of East Anglia
 * [Itero: Online Iterative Voting Application](https://itero.irit.fr/) [[Boudou, Colley, and Grandi 2022](https://www.ijcai.org/proceedings/2022/0848.pdf)] by Umberto Grandi, University of Toulouse
 * [Iterative Voting Simulator](https://www.preflib.org/tools/ivs) on Preflib, by Omer Lev, Tel Aviv University
 
+### Data and Github Repositories
+* [Preflib](https://www.preflib.org/) [[Mattei and Walsh 2013](http://www.cse.unsw.edu/~tw/mwadt2013.pdf)]
+* [PrefSampling](https://github.com/COMSOC-Community/prefsampling)[[Boehmer et al. 2024](https://www.ijcai.org/proceedings/2024/0881.pdf)]
 
 
 

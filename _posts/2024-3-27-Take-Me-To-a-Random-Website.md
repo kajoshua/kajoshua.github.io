@@ -26,8 +26,6 @@ A list of random websites I find interesting or useful. For better [adulting](ht
 	* [Podcast](https://jockounderground.com/){:target="_blank"}
 * Personify WildApricot
 	* [How to Start a Nonprofit](https://www.wildapricot.com/blog/how-to-start-a-nonprofit){:target="_blank"}
-* EWG index healthiness of home products
-	* [Soaps](https://www.ewg.org/skindeep/browse/category/Bar_soap/){:target="_blank"}
 * The Fire
     * [College Free Speech Rankings](https://rankings.thefire.org/rank){:target="_blank"}
 * Z-Lib: The world's largest ebook library
@@ -102,8 +100,28 @@ A list of random websites I find interesting or useful. For better [adulting](ht
     * [Website](https://www.smartcontractresearch.org/){:target="_blank"}
 * OpenInsider
 	* [Insider trading](http://openinsider.com/){:target="_blank"}
+* Whale Wisdom
+    * [Website](https://whalewisdom.com/){:target="_blank"}
+* Credit Karma
+    * [Credit monitoring](https://www.creditkarma.com/){:target="_blank"}
+    * Get information about: Credit cards, Personal loans, Auto (loans and insurance), Home (e.g., mortgage calculators), Money (building your credit), Net Worth, Tax, Credit Scores
+* Bankrate
+    * [Website](https://www.bankrate.com/){:target="_blank"}
+    * Get information about: Banking, Mortgages, Investing, Credit cards, Loans, Home equity, and Insurance
+* Nerdwallet
+    * [Website](https://www.nerdwallet.com/){:target="_blank"}
+    * Get information about: Credit cards, Banking, Home, Loans, Insurance, Personal finance, Investing, Small business, and Taxes
 
-Indices
+### Consumer Protection
+* EWG index healthiness of home products
+	* [Soaps](https://www.ewg.org/skindeep/browse/category/Bar_soap/){:target="_blank"}
+* Consumer Reports
+	* [Website](https://www.consumerreports.org/homepage/){:target="_blank"}
+* Consumer Finance Protection Bureau
+    * [Website](https://www.consumerfinance.gov/data-research/){:target="_blank"}
+
+
+### Indices
 
 * US Leading Economic Indicator (LEI)
     * [Conference-Board](https://www.conference-board.org/topics/us-leading-indicators){:target="_blank"}

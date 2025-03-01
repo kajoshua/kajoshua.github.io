@@ -114,8 +114,8 @@ function makeFooter(link_location = "")
     var sDiv = document.createElement("div");
     sDiv.style = "flex:40%; margin-right: 10px; text-align:right; white-space:nowrap;"
     
-    var linkB = document.createElement("a");
-    linkB.href = "mailto:kavnej@rpi.edu";
+    var linkB = document.createElement("p");
+    //linkB.href = "mailto:kavnej@rpi.edu";
     linkB.style = "color:black; text-decoration:none";
     
     var emailBannar = document.createElement("img");
@@ -148,7 +148,7 @@ function makeFooter(link_location = "")
     linkL.appendChild(linkedInBannar);
     linkL.appendChild(linkedInText);
     
-    sDiv.appendChild(linkB);
+    // sDiv.appendChild(linkB);
     sDiv.appendChild(linkL);
     
     footer.appendChild(pDiv);

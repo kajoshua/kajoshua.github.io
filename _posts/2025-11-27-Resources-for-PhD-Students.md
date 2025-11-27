@@ -25,7 +25,9 @@ A list of Resources for PhD Students.
 * [[Advice on Research and Writing (for computer scientists) (compilation)](http://www.cs.cmu.edu/afs/cs.cmu.edu/user/mleone/web/how-to.html){:target="_blank"}] [[html](../advice_docs/advice_comp_sci.html){:target="_blank"}]
 * [[How to Build an Economic Model in your Spare Time (Hal R. Varian)](../advice_docs/build_models.pdf){:target="_blank"}]
 * [[Surviving your stupid, stupid decision to go to grad school)](https://cdn.bookey.app/files/pdf/book/en/surviving-your-stupid-stupid-decision-to-go-to-grad-school.pdf){:target="_blank"}]
-
+* [[Graduate Study in the Computer and Mathematical Sciences: A Survival Manual (Dianne Prost O'Leary)](../advice_docs/gradstudy.pdf){:target="_blank"}]
+* [[How to Succeed in Graduate School: A Guide for Students and Advisors (Marie desJardins)](../advice_docs/Advice_for_Grad_Students.pdf){:target="_blank"}]
+* [[The Graduate Student Survival Guide (Wanda Pratt)](https://gradresources.org/the-graduate-student-survival-guide/){:target="_blank"}]
 
 
 
@@ -36,6 +38,7 @@ A list of Resources for PhD Students.
 ## Doing Research
 * [[Directed Studies (for Undergrads)](../advice_docs/Directed_Studies.html){:target="_blank"}]
 * [[Research Resources](http://www.computersciencestudent.com/RESEARCH/){:target="_blank"}]
+* [[How to do research at an MIT AI lab](https://webpages.charlotte.edu/sakella/advice/AI_WP_316.pdf){:target="_blank"}]
 
 
 

@@ -42,6 +42,11 @@ function makeHeader(link_location = "")
     link4.className = "head_links";
     link4.innerHTML = "Ideas";
     
+    var link4b = document.createElement("a");
+    link4b.href = link_location + "index_blog.html";
+    link4b.className = "head_links";
+    link4b.innerHTML = "Blog";
+    
     var link5 = document.createElement("a");
     link5.href = RESUME_LINK;
     link5.target = "_blank"
@@ -51,6 +56,7 @@ function makeHeader(link_location = "")
     //head_div.appendChild(link1);
     //head_div.appendChild(link2);
     //head_div.appendChild(link3);
+    head_div.appendChild(link4b);
     head_div.appendChild(link5);
     header.appendChild(head_name);
     header.appendChild(head_div);
@@ -115,7 +121,7 @@ function makeFooter(link_location = "")
     sDiv.style = "flex:40%; margin-right: 10px; text-align:right; white-space:nowrap;"
     
     var linkB = document.createElement("a");
-    linkB.href = "mailto:kavnej@rpi.edu";
+    linkB.href = "mailto:josh.kavner@c3.ai";
     linkB.style = "color:black; text-decoration:none";
     
     var emailBannar = document.createElement("img");

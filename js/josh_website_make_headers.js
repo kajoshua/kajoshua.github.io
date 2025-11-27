@@ -43,7 +43,7 @@ function makeHeader(link_location = "")
     link4.innerHTML = "Ideas";
     
     var link4b = document.createElement("a");
-    link4b.href = link_location + "index_blog.html";
+    link4b.href = link_location + "index_blog/";
     link4b.className = "head_links";
     link4b.innerHTML = "Blog";
     

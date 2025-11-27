@@ -1,7 +1,7 @@
 
 
-var RESUME_LINK = "https://drive.google.com/file/d/1QbopcJRBfWJkQ8R2FTJvbnIoFD9kL8MW/view?usp=sharing"; 
-// Aug 2024
+var RESUME_LINK = "https://drive.google.com/file/d/1obIm28MvM5LIsAI5ENWNqfqV1FKMwdzW/view?usp=sharing"; 
+// November 2025
 
 function makeHeader(link_location = "")
 {
@@ -114,8 +114,8 @@ function makeFooter(link_location = "")
     var sDiv = document.createElement("div");
     sDiv.style = "flex:40%; margin-right: 10px; text-align:right; white-space:nowrap;"
     
-    var linkB = document.createElement("p");
-    //linkB.href = "mailto:kavnej@rpi.edu";
+    var linkB = document.createElement("a");
+    linkB.href = "mailto:kavnej@rpi.edu";
     linkB.style = "color:black; text-decoration:none";
     
     var emailBannar = document.createElement("img");
@@ -124,7 +124,7 @@ function makeFooter(link_location = "")
     emailBannar.style = "max-width:20px; border-radius:0.2em;";
     
     var emailText = document.createElement("p");
-    emailText.innerHTML = "&nbsp;kavnej@rpi.edu";
+    emailText.innerHTML = "&nbsp;josh.kavner@c3.ai";
     emailText.style = "margin:0; paddin:0; display:inline;";
     
     linkB.appendChild(emailBannar)
@@ -148,7 +148,7 @@ function makeFooter(link_location = "")
     linkL.appendChild(linkedInBannar);
     linkL.appendChild(linkedInText);
     
-    // sDiv.appendChild(linkB);
+    sDiv.appendChild(linkB);
     sDiv.appendChild(linkL);
     
     footer.appendChild(pDiv);

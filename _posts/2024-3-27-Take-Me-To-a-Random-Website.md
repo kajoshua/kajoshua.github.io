@@ -10,12 +10,19 @@ A list of random websites I find interesting or useful. For better [adulting](ht
 
 # Take me to a Random Website
 
-* GoStudyHall by John Green
-	* [Website](https://gostudyhall.com/){:target="_blank"}
-* Every.to
-	* [Newsletter](https://every.to/){:target="_blank"}
-* Playboard (analysis of thousands of Youtube channels)
-	* [Main page](https://playboard.co/en/){:target="_blank"}
+* GoStudyHall by John Green. [Website](https://gostudyhall.com/){:target="_blank"}
+* Playboard (analysis of thousands of Youtube channels). [Main page](https://playboard.co/en/){:target="_blank"}
+* Personify WildApricot. [How to Start a Nonprofit](https://www.wildapricot.com/blog/how-to-start-a-nonprofit){:target="_blank"}
+* The Fire. 
+    * [College Free Speech Rankings](https://rankings.thefire.org/rank){:target="_blank"}
+* Z-Lib: The world's largest ebook library
+    * [Website](https://z-lib.io/){:target="_blank"}
+* You Will Own Nothing And Be Happy
+    * [Wiki](https://en.wikipedia.org/wiki/You%27ll_own_nothing_and_be_happy){:target="_blank"}
+    * [The Great Taking](https://thegreattaking.com/){:target="_blank"}
+    * [Project Cedar](https://www.newyorkfed.org/aboutthefed/nyic/project-cedar){:target="_blank"} (by the NY FED)
+
+## Podcasts and Newsletters
 * 99% Invisible
 	* [Podcast](https://99percentinvisible.org/){:target="_blank"}
 * Swindled Podcast
@@ -24,22 +31,19 @@ A list of random websites I find interesting or useful. For better [adulting](ht
 	* [Podcast](https://aliabdaal.com/podcast/){:target="_blank"}
 * Jocko Underground
 	* [Podcast](https://jockounderground.com/){:target="_blank"}
-* Personify WildApricot
-	* [How to Start a Nonprofit](https://www.wildapricot.com/blog/how-to-start-a-nonprofit){:target="_blank"}
-* The Fire
-    * [College Free Speech Rankings](https://rankings.thefire.org/rank){:target="_blank"}
-* Z-Lib: The world's largest ebook library
-    * [Website](https://z-lib.io/){:target="_blank"}
-* You Will Own Nothing And Be Happy
-    * [Wiki](https://en.wikipedia.org/wiki/You%27ll_own_nothing_and_be_happy){:target="_blank"}
-    * [The Great Taking](https://thegreattaking.com/){:target="_blank"}
-    * [Project Cedar](https://www.newyorkfed.org/aboutthefed/nyic/project-cedar){:target="_blank"} (by the NY FED)
+* Every.to
+	* [Newsletter](https://every.to/){:target="_blank"}
 * Articles of interest
     * [Blog](https://articlesofinterest.substack.com/){:target="_blank"}
 * Modern-O
 	* Some [hippie](https://modern-o.com/){:target="_blank"} I met once in Traverse City, MI
-* Bret Victor (how to be an active reader)
-    * [Exploreable Explanations](https://worrydream.com/ExplorableExplanations/){:target="_blank"}
+
+
+## Culture
+* Smithsonian Center for Folklife and Cultural Heritage
+    * [Education](https://folklife.si.edu/education){:target="_blank"}
+    * [Interviewing Guide](https://folklife-media.si.edu/docs/folklife/interviewing_guide/InterviewingGuide.pdf){:target="_blank"}
+
 
 
 ## Music

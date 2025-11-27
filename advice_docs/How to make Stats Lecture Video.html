@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="https://ben-lambert.com/xmlrpc.php">
+<title>How I make stats videos? &#8211;  </title>
+
+<!-- Async WordPress.com Remote Login -->
+<script id="wpcom_remote_login_js">
+var wpcom_remote_login_extra_auth = '';
+function wpcom_remote_login_remove_dom_node_id( element_id ) {
+	var dom_node = document.getElementById( element_id );
+	if ( dom_node ) { dom_node.remove(); }
+}
+function wpcom_remote_login_remove_dom_node_classes( class_name ) {
+	var dom_nodes = document.querySelectorAll( '.' + class_name );
+	for ( var i = 0; i < dom_nodes.length; i++ ) {
+		dom_nodes[i].remove();
+	}
+}
+function wpcom_remote_login_final_cleanup() {
+	wpcom_remote_login_remove_dom_node_classes( "wpcom_remote_login_msg" );
+	wpcom_remote_login_remove_dom_node_id( "wpcom_remote_login_key" );
+	wpcom_remote_login_remove_dom_node_id( "wpcom_remote_login_validate" );
+	wpcom_remote_login_remove_dom_node_id( "wpcom_remote_login_js" );
+	wpcom_remote_login_remove_dom_node_id( "wpcom_request_access_iframe" );
+	wpcom_remote_login_remove_dom_node_id( "wpcom_request_access_styles" );
+}
+
+// Watch for messages back from the remote login
+window.addEventListener( "message", function( e ) {
+	if ( e.origin === "https://r-login.wordpress.com" ) {
+		var data = {};
+		try {
+			data = JSON.parse( e.data );
+		} catch( e ) {
+			wpcom_remote_login_final_cleanup();
+			return;
+		}
+
+		if ( data.msg === 'LOGIN' ) {
+			// Clean up the login check iframe
+			wpcom_remote_login_remove_dom_node_id( "wpcom_remote_login_key" );
+
+			var id_regex = new RegExp( /^[0-9]+$/ );
+			var token_regex = new RegExp( /^.*|.*|.*$/ );
+			if (
+				token_regex.test( data.token )
+				&& id_regex.test( data.id )
+			) {
+				// We have everything we need to ask for a login
+				var script = document.createElement( "script" );
+				script.setAttribute( "id", "wpcom_remote_login_validate" );
+				script.src = '/remote-login.php?wpcom_remote_login=validate'
+					+ '&id=' + data.id
+					+ '&token=' + encodeURIComponent( data.token )
+					+ '&host=' + window.location.protocol
+						+ '//' + window.location.hostname;
+				document.body.appendChild( script );
+			}
+
+			return;
+		}
+
+		// Safari ITP, not logged in, so redirect
+		if ( data.msg === 'LOGIN-REDIRECT' ) {
+			window.location = 'https://wordpress.com/log-in?redirect_to=' + window.location.href;
+			return;
+		}
+
+		// Safari ITP, storage access failed, remove the request
+		if ( data.msg === 'LOGIN-REMOVE' ) {
+			var css_zap = 'html { -webkit-transition: margin-top 1s; transition: margin-top 1s; } /* 9001 */ html { margin-top: 0 !important; } * html body { margin-top: 0 !important; } @media screen and ( max-width: 782px ) { html { margin-top: 0 !important; } * html body { margin-top: 0 !important; } }';
+			var style_zap = document.createElement( 'style' );
+			style_zap.type = 'text/css';
+			style_zap.appendChild( document.createTextNode( css_zap ) );
+			document.body.appendChild( style_zap );
+
+			var e = document.getElementById( 'wpcom_request_access_iframe' );
+			e.parentNode.removeChild( e );
+
+			document.cookie = 'wordpress_com_login_access=denied; path=/; max-age=31536000';
+
+			return;
+		}
+
+		// Safari ITP
+		if ( data.msg === 'REQUEST_ACCESS' ) {
+			console.log( 'request access: safari' );
+
+			// Check ITP iframe enable/disable knob
+			if ( wpcom_remote_login_extra_auth !== 'safari_itp_iframe' ) {
+				return;
+			}
+
+			// If we are in a "private window" there is no ITP.
+			var private_window = false;
+			try {
+				var opendb = window.openDatabase( null, null, null, null );
+			} catch( e ) {
+				private_window = true;
+			}
+
+			if ( private_window ) {
+				console.log( 'private window' );
+				return;
+			}
+
+			var iframe = document.createElement( 'iframe' );
+			iframe.id = 'wpcom_request_access_iframe';
+			iframe.setAttribute( 'scrolling', 'no' );
+			iframe.setAttribute( 'sandbox', 'allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-top-navigation-by-user-activation' );
+			iframe.src = 'https://r-login.wordpress.com/remote-login.php?wpcom_remote_login=request_access&origin=' + encodeURIComponent( data.origin ) + '&id=' + encodeURIComponent( data.id );
+
+			var css = 'html { -webkit-transition: margin-top 1s; transition: margin-top 1s; } /* 9001 */ html { margin-top: 46px !important; } * html body { margin-top: 46px !important; } @media screen and ( max-width: 660px ) { html { margin-top: 71px !important; } * html body { margin-top: 71px !important; } #wpcom_request_access_iframe { display: block; height: 71px !important; } } #wpcom_request_access_iframe { border: 0px; height: 46px; position: fixed; top: 0; left: 0; width: 100%; min-width: 100%; z-index: 99999; background: #23282d; } ';
+
+			var style = document.createElement( 'style' );
+			style.type = 'text/css';
+			style.id = 'wpcom_request_access_styles';
+			style.appendChild( document.createTextNode( css ) );
+			document.body.appendChild( style );
+
+			document.body.appendChild( iframe );
+		}
+
+		if ( data.msg === 'DONE' ) {
+			wpcom_remote_login_final_cleanup();
+		}
+	}
+}, false );
+
+// Inject the remote login iframe after the page has had a chance to load
+// more critical resources
+window.addEventListener( "DOMContentLoaded", function( e ) {
+	var iframe = document.createElement( "iframe" );
+	iframe.style.display = "none";
+	iframe.setAttribute( "scrolling", "no" );
+	iframe.setAttribute( "id", "wpcom_remote_login_key" );
+	iframe.src = "https://r-login.wordpress.com/remote-login.php"
+		+ "?wpcom_remote_login=key"
+		+ "&origin=aHR0cHM6Ly9iZW4tbGFtYmVydC5jb20%3D"
+		+ "&id=107025120"
+		+ "&time=1554574402";
+	document.body.appendChild( iframe );
+}, false );
+</script>
+<link rel='dns-prefetch' href='//s2.wp.com' />
+<link rel='dns-prefetch' href='//s1.wp.com' />
+<link rel='dns-prefetch' href='//benlambertdotcom.wordpress.com' />
+<link rel='dns-prefetch' href='//s0.wp.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel="alternate" type="application/rss+xml" title="  &raquo; Feed" href="https://ben-lambert.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="  &raquo; Comments Feed" href="https://ben-lambert.com/comments/feed/" />
+	<script type="text/javascript">
+		/* <![CDATA[ */
+		function addLoadEvent(func) {
+			var oldonload = window.onload;
+			if (typeof window.onload != 'function') {
+				window.onload = func;
+			} else {
+				window.onload = function () {
+					oldonload();
+					func();
+				}
+			}
+		}
+		/* ]]> */
+	</script>
+			<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/wpcom-smileys\/twemoji\/2\/72x72\/","ext":".png","svgUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/wpcom-smileys\/twemoji\/2\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/s0.wp.com\/wp-includes\/js\/wp-emoji-release.min.js?m=1550249335h&ver=5.2-beta1-45048"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='all-css-0-1' href='https://s1.wp.com/_static/??-eJx9kNFuwyAMRX9o1NrURXmp9i1ArMYJBoRBVf5+TtJW6lblBdmXe7AvcMvGp1gxVuBmcmhXigK37BMbYQq4/OlOXuQD3mOBZhSYsGbrZ7N1TztFH9qg1yrAQFLBhbS5XLFlAalLwBNTPBrgU0HVOdu6OhgHshiQ1XaEce4e1FqOut1hjj2wc7mgiNGTqbGpow465JRaV9mTb0FflB0liKmS0vIs/r25j4LcHIy2cIrk7x+kzh++fH6fu77vz93X9AsbIaiO?cssminify=yes' type='text/css' media='all' />
+<link rel='stylesheet' id='harmonic-hind-css'  href='https://fonts.googleapis.com/css?family=Hind%3A300%2C400%2C500%2C600%2C700&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='all-css-2-1' href='https://s1.wp.com/_static/??-eJx9jdsKAjEMRH/IGtcb+iB+SzfEbqRJSi+If2/1RRfRtxnmHAZuyaFpJa0gzaXYAmuBQEqZ+/AjLrGUBXy4dSKhAqmNMPkspozQmY6giSv1HunLmf2Zi4a+sumsuEv0nP+pmcZoocfwOnzXp3SW07A97Fe747BZXx8UkliO?cssminify=yes' type='text/css' media='all' />
+<link rel='stylesheet' id='print-css-3-1' href='https://s2.wp.com/wp-content/mu-plugins/global-print/global-print.css?m=1465851035h&cssminify=yes' type='text/css' media='print' />
+<link rel='stylesheet' id='all-css-4-1' href='https://s1.wp.com/_static/??-eJx9i0EKAjEMRS9kDQUrsxHPkim1jaRJaTJ4fZmFiCiu/vvwHjxGyCpexKFvYfBWSQwwO6msON90zGYH+K0PNQ83RppgDSdJfe2/yjQTcmCt+nm+Im+lF4N2gsq6Iu/CtV9iSnGJyzml+xPFaUm5?cssminify=yes' type='text/css' media='all' />
+<script type='text/javascript'>
+/* <![CDATA[ */
+var BackStretchImg = {"src":"https:\/\/benlambertdotcom.files.wordpress.com\/2016\/02\/cropped-nicaraguaclouds.jpg"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://s1.wp.com/_static/??-eJyNjuEKwjAMhF/Irqgb/hKfpatxS13T2qQOfXorOGQ4VAgkcN/lTo9RIdkhH4G1K3PJkG6vVTle6W+A8tglI1B5pAm2gQRInmwMLB6YTQcLqg8tDqAyQyoASYk5hQVuXgnpijD+xBxINPasEjDeP9Klh9JLx9zq3iQfCO37RdUWI0sCsf2fxulWc+vB79dNU2+2211duwe5o4fu'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://benlambertdotcom.wordpress.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://s1.wp.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress.com" />
+<link rel="canonical" href="https://ben-lambert.com/how-i-make-stats-videos/" />
+<link rel='shortlink' href='https://wp.me/P7f47C-aa' />
+<link rel="alternate" type="application/json+oembed" href="https://public-api.wordpress.com/oembed/?format=json&amp;url=https%3A%2F%2Fben-lambert.com%2Fhow-i-make-stats-videos%2F&amp;for=wpcom-auto-discovery" /><link rel="alternate" type="application/xml+oembed" href="https://public-api.wordpress.com/oembed/?format=xml&amp;url=https%3A%2F%2Fben-lambert.com%2Fhow-i-make-stats-videos%2F&amp;for=wpcom-auto-discovery" />
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="article" />
+<meta property="og:title" content="How I make stats videos?" />
+<meta property="og:url" content="https://ben-lambert.com/how-i-make-stats-videos/" />
+<meta property="og:description" content="I sometimes get asked what software and hardware I use to make the statistics videos. I use, A Mac, A Wacom tablet, Sketchbook express (it&#8217;s free) to draw, Camtasia (not free) to record the s…" />
+<meta property="article:published_time" content="2018-09-20T16:41:51+00:00" />
+<meta property="article:modified_time" content="2018-09-20T17:17:24+00:00" />
+<meta property="og:site_name" content=" " />
+<meta property="og:image" content="https://s0.wp.com/i/blank.jpg" />
+<meta property="og:locale" content="en_US" />
+<meta name="twitter:site" content="@wordpressdotcom" />
+<meta name="twitter:text:title" content="How I make stats&nbsp;videos?" />
+<meta name="twitter:card" content="summary" />
+<meta property="article:publisher" content="https://www.facebook.com/WordPresscom" />
+
+<!-- End Jetpack Open Graph Tags -->
+<link rel="shortcut icon" type="image/x-icon" href="https://s1.wp.com/i/favicon.ico" sizes="16x16 24x24 32x32 48x48" />
+<link rel="icon" type="image/x-icon" href="https://s1.wp.com/i/favicon.ico" sizes="16x16 24x24 32x32 48x48" />
+<link rel="apple-touch-icon-precomposed" href="https://s2.wp.com/i/webclip.png" />
+<link rel="search" type="application/opensearchdescription+xml" href="https://ben-lambert.com/osd.xml" title=" " />
+<link rel="search" type="application/opensearchdescription+xml" href="https://s1.wp.com/opensearch.xml" title="WordPress.com" />
+<meta name="theme-color" content="#ffffff" />
+		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+				<style type="text/css">
+			.recentcomments a {
+				display: inline !important;
+				padding: 0 !important;
+				margin: 0 !important;
+			}
+
+			table.recentcommentsavatartop img.avatar, table.recentcommentsavatarend img.avatar {
+				border: 0px;
+				margin: 0;
+			}
+
+			table.recentcommentsavatartop a, table.recentcommentsavatarend a {
+				border: 0px !important;
+				background-color: transparent !important;
+			}
+
+			td.recentcommentsavatarend, td.recentcommentsavatartop {
+				padding: 0px 0px 1px 0px;
+				margin: 0px;
+			}
+
+			td.recentcommentstextend {
+				border: none !important;
+				padding: 0px 0px 2px 10px;
+			}
+
+			.rtl td.recentcommentstextend {
+				padding: 0px 10px 2px 0px;
+			}
+
+			td.recentcommentstexttop {
+				border: none;
+				padding: 0px 0px 0px 10px;
+			}
+
+			.rtl td.recentcommentstexttop {
+				padding: 0px 10px 0px 0px;
+			}
+		</style>
+		<meta name="application-name" content=" " /><meta name="msapplication-window" content="width=device-width;height=device-height" /><meta name="msapplication-task" content="name=Subscribe;action-uri=https://ben-lambert.com/feed/;icon-uri=https://s1.wp.com/i/favicon.ico" /><meta name="msapplication-task" content="name=Sign up for a free blog;action-uri=http://wordpress.com/signup/;icon-uri=https://s1.wp.com/i/favicon.ico" /><meta name="msapplication-task" content="name=WordPress.com Support;action-uri=http://support.wordpress.com/;icon-uri=https://s1.wp.com/i/favicon.ico" /><meta name="msapplication-task" content="name=WordPress.com Forums;action-uri=http://forums.wordpress.com/;icon-uri=https://s1.wp.com/i/favicon.ico" /><meta name="description" content="I sometimes get asked what software and hardware I use to make the statistics videos. I use, A Mac, A Wacom tablet, Sketchbook express (it&#039;s free) to draw, Camtasia (not free) to record the screen, A mix of Matlab, R and Mathematica for numerical examples. Tips for making good content If of interest, I have&hellip;" />
+<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #ffffff; }
+</style>
+	<style type="text/css" id="syntaxhighlighteranchor"></style>
+<style type="text/css" id="custom-colors-css">button:hover,input[type="button"]:hover,input[type="reset"]:hover,input[type="submit"]:hover{color:#fff}::selection,::-moz-selection{color:#fff}mark,ins{color:#fff}a:hover.button{color:#fff}#mobile-link{color:#fff}#infinite-handle span:hover{color:#fff}blockquote,.more-projects{color:#6d6d6d}.widget{color:#6d6d6d}.reply a{color:#6d6d6d}.reply a{border-color:#6d6d6d}.widget h1,.widget h2{color:#6d6d6d}.tagcloud a:hover,.entry-meta .tags-links a:hover,.wp_widget_tag_cloud a:hover{color:#6d6d6d}.tagcloud a:hover,.entry-meta .tags-links a:hover,.wp_widget_tag_cloud a:hover{border-color:#6d6d6d}button,input[type="button"],input[type="reset"],input[type="submit"]{color:#6d6d6d}button,input[type="button"],input[type="reset"],input[type="submit"]{border-color:#6d6d6d}.entry-header,.page-title{border-color:#999}.entry-header,.page-title{border-color:rgba(153,153,153,.2)}blockquote{border-color:#ccc}blockquote{border-color:rgba(204,204,204,.3)}th,td,table{border-color:#eee}th,td,table{border-color:rgba(238,238,238,.3)}pre{background-color:#eee}pre{background-color:rgba(238,238,238,.2)}#colophon{background-color:#111}.more-projects{border-color:#333}.more-projects{border-color:rgba(51,51,51,.2)}.paging-navigation a,.post-navigation a{border-color:#222}.paging-navigation a,.post-navigation a{color:#222}h1 a{color:#222}.page-template-templatesportfolio-page-php h1 a,.post-type-archive-jetpack-portfolio h1 a,body[class*="jetpack-portfolio"].archive h1 a{color:#222}#comments{border-color:#222}#comments{border-color:rgba(34,34,34,.3)}.paging-navigation a:hover,.post-navigation a:hover{background-color:#222}.paging-navigation a:hover,.post-navigation a:hover{background-color:rgba(34,34,34,.5)}.paging-navigation a:hover,.post-navigation a:hover{border-color:#222}.paging-navigation a:hover,.post-navigation a:hover{border-color:rgba(34,34,34,.01)}body{background-color:#fff}body.page-template-templatesportfolio-page-php,body.post-type-archive-jetpack-portfolio,body[class*="jetpack-portfolio"].archive{background-color:#fff}body{color:#111}button{color:#111}input{color:#111}select{color:#111}textarea{color:#111}::selection,::-moz-selection{background-color:#d4651c}mark,ins{background-color:#d4651c}a:hover.button{background-color:#d4651c}a:hover.button{border-color:#d4651c}#mobile-link{background-color:#d4651c}#infinite-handle span:hover{background-color:#d4651c}#infinite-handle span:hover{border-color:#d4651c}a{color:#b15315}.reply a:hover{color:#b15315}.reply a:hover{border-color:#b15315}h1 a:hover{color:#b15315}a:hover,.posted-on a{color:#d4651c}.entry-meta a:hover{color:#b15315}.tagcloud a,.entry-meta .tags-links a,.wp_widget_tag_cloud a{color:#b15315}.tagcloud a,.entry-meta .tags-links a,.wp_widget_tag_cloud a{border-color:#b15315}button:hover,input[type="button"]:hover,input[type="reset"]:hover,input[type="submit"]:hover{background-color:#d4651c}button:hover,input[type="button"]:hover,input[type="reset"]:hover,input[type="submit"]:hover{border-color:#d4651c}page-template-templatesportfolio-page-php h1 a:hover,.post-type-archive-jetpack-portfolio h1 a:hover,body[class*="jetpack-portfolio"].archive h1 a:hover{color:#b15315}input,select,textarea{color:#b15315}.main-navigation li.current_page_item a:hover{color:#d4651c}.social-links ul li a:hover:before{color:#d4651c}.screen-reader-text:hover,.screen-reader-text:active,.screen-reader-text:focus{color:#a54d12}</style>
+</head>
+<body class="page-template-default page page-id-630 custom-background mp6 customizer-styles-applied loading highlander-enabled highlander-light custom-colors">
+
+<div id="page" class="hfeed site">
+	
+	<header id="masthead" role="banner">
+		<div id="mobile-panel">
+			<div id="mobile-link">
+				<span id="menu-title">Menu</span>
+			</div><!-- #mobile-link -->
+			<h1 class="site-title"><a href="https://ben-lambert.com/" rel="home"> </a></h1>
+		</div><!-- #mobile-panel -->
+		<div id="mobile-block">
+			<nav id="site-navigation" class="main-navigation" role="navigation">
+				<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+				<div class="menu-menu-1-container"><ul id="menu-menu-1" class="menu"><li id="menu-item-117" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-117"><a href="https://ben-lambert.com/about/">About</a></li>
+<li id="menu-item-314" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-314"><a href="https://ben-lambert.com/bayesian/">Bayesian statistics</a>
+<ul class="sub-menu">
+	<li id="menu-item-665" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-665"><a href="https://ben-lambert.com/bayesian-short-course/">Bayesian short course</a></li>
+	<li id="menu-item-372" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-372"><a href="https://ben-lambert.com/bayesian-lectures/">Bayesian lectures syllabus</a></li>
+	<li id="menu-item-370" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-370"><a href="https://ben-lambert.com/bayesian-lecture-slides/">Bayesian lecture slides</a></li>
+	<li id="menu-item-622" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-622"><a href="https://ben-lambert.com/a-students-guide-to-bayesian-statistics/">A Student&#8217;s Guide to Bayesian Statistics</a></li>
+	<li id="menu-item-638" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-630 current_page_item menu-item-638"><a href="https://ben-lambert.com/how-i-make-stats-videos/" aria-current="page">How I make stats videos?</a></li>
+</ul>
+</li>
+<li id="menu-item-118" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-118"><a href="https://ben-lambert.com/epidemiology/">Epidemiology</a></li>
+<li id="menu-item-119" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-119"><a href="https://ben-lambert.com/biology/">Biology</a></li>
+<li id="menu-item-120" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-120"><a href="https://ben-lambert.com/evolution/">Inference in evolution</a></li>
+<li id="menu-item-544" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-544"><a href="https://ben-lambert.com/evolutionary-epidemiology/">HIV evolution</a></li>
+<li id="menu-item-562" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-562"><a href="https://ben-lambert.com/econometrics/">Econometrics</a>
+<ul class="sub-menu">
+	<li id="menu-item-593" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-593"><a href="https://ben-lambert.com/econometrics-course-problem-sets-and-data/">Econometrics course problem sets and data</a></li>
+	<li id="menu-item-605" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-605"><a href="https://ben-lambert.com/econometrics-and-statistics-books/">Econometrics and statistics books</a></li>
+	<li id="menu-item-637" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-630 current_page_item menu-item-637"><a href="https://ben-lambert.com/how-i-make-stats-videos/" aria-current="page">How I make stats videos?</a></li>
+</ul>
+</li>
+</ul></div>			</nav><!-- #site-navigation .main-navigation -->
+		</div><!-- #mobile-block -->
+
+		<div id="site-branding">
+			<h1 class="site-title"><a href="https://ben-lambert.com/" rel="home"> </a></h1>
+					</div><!-- #site-branding -->
+
+		<nav id="site-navigation" class="desktop-nav main-navigation site-wrapper" role="navigation">
+			<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+			<div class="menu-menu-1-container"><ul id="menu-menu-2" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-117"><a href="https://ben-lambert.com/about/">About</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-314"><a href="https://ben-lambert.com/bayesian/">Bayesian statistics</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-665"><a href="https://ben-lambert.com/bayesian-short-course/">Bayesian short course</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-372"><a href="https://ben-lambert.com/bayesian-lectures/">Bayesian lectures syllabus</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-370"><a href="https://ben-lambert.com/bayesian-lecture-slides/">Bayesian lecture slides</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-622"><a href="https://ben-lambert.com/a-students-guide-to-bayesian-statistics/">A Student&#8217;s Guide to Bayesian Statistics</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-630 current_page_item menu-item-638"><a href="https://ben-lambert.com/how-i-make-stats-videos/" aria-current="page">How I make stats videos?</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-118"><a href="https://ben-lambert.com/epidemiology/">Epidemiology</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-119"><a href="https://ben-lambert.com/biology/">Biology</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-120"><a href="https://ben-lambert.com/evolution/">Inference in evolution</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-544"><a href="https://ben-lambert.com/evolutionary-epidemiology/">HIV evolution</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-562"><a href="https://ben-lambert.com/econometrics/">Econometrics</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-593"><a href="https://ben-lambert.com/econometrics-course-problem-sets-and-data/">Econometrics course problem sets and data</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-605"><a href="https://ben-lambert.com/econometrics-and-statistics-books/">Econometrics and statistics books</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-630 current_page_item menu-item-637"><a href="https://ben-lambert.com/how-i-make-stats-videos/" aria-current="page">How I make stats videos?</a></li>
+</ul>
+</li>
+</ul></div>		</nav><!-- #site-navigation .desktop-nav .main-navigation .site-wrapper -->
+
+	</header><!-- #masthead -->
+<main id="single-template">
+	<div id="skrollr-body">
+		
+	<section id="slide-content" class="slide">
+		<div id="content-wrapper" data-menu-offset="-100">
+			<div id="content" class="site-wrapper">
+				<div id="primary" class="content-area">
+					<div id="main" class="site-main" role="main">
+
+						
+<article id="post-630" class="post-630 page type-page status-publish hentry">
+	<header class="entry-header">
+		<h1 class="entry-title">How I make stats&nbsp;videos?</h1>
+	</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		<p><span style="color:#000000;"><span style="font-family:Arial;">I sometimes get asked what software and hardware I use to make the statistics videos. I use,</span></span></p>
+<ul>
+<li><span style="color:#000000;"><span style="font-family:Arial;">A Mac,</span></span></li>
+<li><span style="color:#000000;"><span style="font-family:Arial;">A Wacom tablet,</span></span></li>
+<li><span style="color:#000000;"><span style="font-family:Arial;">Sketchbook express (it&#8217;s free) to draw,</span></span></li>
+<li><span style="color:#000000;"><span style="font-family:Arial;">Camtasia (not free) to record the screen,</span></span></li>
+<li><span style="color:#000000;"><span style="font-family:Arial;">A mix of Matlab, R and Mathematica for numerical examples.</span></span></li>
+</ul>
+<h3 class="western"><span style="color:#000000;"><span style="font-family:Arial;">Tips for making good content</span></span></h3>
+<p><span style="color:#000000;"><span style="font-family:Arial;">If of interest, I have also written down a few tips I&#8217;ve learned whilst making videos. These fall under the headings of </span></span><strong><span style="color:#000000;"><span style="font-family:Arial;">syllabus planning</span></span></strong><span style="color:#000000;"><span style="font-family:Arial;">, </span></span><strong><span style="color:#000000;"><span style="font-family:Arial;">video planning</span></span></strong><span style="color:#000000;"><span style="font-family:Arial;">, </span></span><strong><span style="color:#000000;"><span style="font-family:Arial;">recording, editing</span></span></strong><span style="color:#000000;"><span style="font-family:Arial;">, </span></span><strong><span style="color:#000000;"><span style="font-family:Arial;">improving content</span></span></strong><span style="color:#000000;"><span style="font-family:Arial;"> and </span></span><strong><span style="color:#000000;"><span style="font-family:Arial;">uploading</span></span></strong><span style="color:#000000;"><span style="font-family:Arial;">. There&#8217;s also a section at the end about my general approach to making videos.</span></span></p>
+<h3 class="western"><span style="color:#000000;"><span style="font-family:Arial;">Syllabus planning</span></span></h3>
+<ol>
+<li><span style="color:#000000;"><span style="font-family:Arial;"><span lang="en-GB"><b>Plan your syllabus in detail</b></span><span lang="en-GB">; even down to the specific individual videos that you want to produce. This will change as you start to produce videos, but it is a good starting point. </span></span></span></li>
+<li><span style="color:#000000;"><span style="font-family:Arial;"><span lang="en-GB"><b>Make a video describing your syllabus</b></span><span lang="en-GB">. I think this is a really important part of a good lecture course, and serves a few purposes: the obvious one is that it tells people what content you intend to cover; the second point is that it can actually serve as a really simple, and jargon-free introduction to the topic you are lecturing. This latter point in particular can attract many students to your course. I sometimes think it also helps to clarify in your own head, in simple terms, what it is that you will exactly be covering.</span></span></span></li>
+<li><span style="color:#000000;"><span style="font-family:Arial;"><span lang="en-GB"><b>Plan to make ‘What is XXXXX</b></span><span lang="en-GB">?’ </span><span lang="en-GB"><b>videos.</b></span> <span lang="en-GB">This is a very good way of attracting viewership to your lecture series, and is a common term put into Google. </span></span></span></li>
+<li><span style="color:#000000;"><span style="font-family:Arial;"><span lang="en-GB"><b>Think of topic ideas and then check for their importance on Google Keyword Tool or Google Trends.</b></span> <span lang="en-GB">This is a way of gauging the traffic likely to come from covering a certain topic, as well as suggesting new topics/videos that may be worth your time making. It is important to make videos that are aligned with the most highly-searched keywords. For example, for synonyms, either choose the term with the most highly searched history, or, better, make both.</span></span></span></li>
+<li><span style="color:#000000;"><span style="font-family:Arial;"><span lang="en-GB"><b>Plan example videos.</b></span> <span lang="en-GB">There will be a number of videos where you introduce theoretical concepts to the student. However, where a lot of content perhaps falls foul is that there are not sufficient examples of using those theoretical constructs. A good way to plan these is to look for canonical examples across different texts, and lecture series. Are there examples of problems that come up time and time again? </span></span></span></li>
+<li><span style="color:#000000;"><span style="font-family:Arial;"><span lang="en-GB"><b>Plan v. short progress videos</b></span> <span lang="en-GB">where you will inform the student of where they are in the course.</span></span></span></li>
+<li><span style="color:#000000;"><span style="font-family:Arial;"><span lang="en-GB"><b>Don’t be afraid to change your syllabus!</b></span> <span lang="en-GB">Add more material covering further topics, add material providing better examples and intuition behind the theory.</span></span></span></li>
+</ol>
+<h3 class="western"><span style="color:#000000;"><span style="font-family:Arial;">Video planning</span></span></h3>
+<ol>
+<li>
+<p lang="en-GB"><span style="color:#000000;"><span style="font-family:Arial;"><b>Know exactly the topic you want to cover in your video.</b></span></span></p>
+</li>
+<li><span style="color:#000000;"><span style="font-family:Arial;"><span lang="en-GB"><b>Research your topic in detail. </b></span><span lang="en-GB">As well as helping you to consolidate the concepts in your own head, this will also open you up to other ways of explaining the theory; some of which may be useful.</span></span></span></li>
+<li><span style="color:#000000;"><span style="font-family:Arial;"><span lang="en-GB"><b>Think of a number of different ways to explain a given concept before deciding on one.</b></span> <span lang="en-GB">This sounds simple, but I believe, is the most important step in producing good, accessible, content. Whenever you have an idea as to how to explain the concept, always be thinking, ‘Could I have explained this in a way that someone at high school could understand?’</span></span></span></li>
+<li><span style="color:#000000;"><span style="font-family:Arial;"><span lang="en-GB"><b>Minimise the use of complex ‘scary-looking’ mathematical tools.</b></span> <span lang="en-GB">If you can explain your concept without the use of matrices, for example, do it! You can of course use complex tools, but be aware that this will be reducing your audience.</span></span></span></li>
+<li><span style="color:#000000;"><span style="font-family:Arial;"><span lang="en-GB"><b>Whenever maths is used, explain it in detail.</b></span> <span lang="en-GB">This is especially true if you are using tools and concepts which people struggle with. In my experience, linear algebra for example, is an intimidating subject for a number of people. Taking the time to explain the idea in detail to your audience is worthwhile, even if it seems ‘obvious’ to you.</span></span></span></li>
+<li><span style="color:#000000;"><span style="font-family:Arial;"><span lang="en-GB"><b>Use diagrams and graphs rather than words and equations.</b></span> <span lang="en-GB">Wherever possible use these tools preferentially since people gain a better intuitive understanding of the theory via these tools.</span></span></span></li>
+<li><span style="color:#000000;"><span style="font-family:Arial;"><span lang="en-GB"><b>First tell your audience what is going to be covered, at the end, tell them what you have covered.</b></span> <span lang="en-GB">This is really important as otherwise the audience (apart from your description at the bottom of the video) won’t know what it is they are going to get from your video.</span></span></span></li>
+<li><span style="color:#000000;"><span style="font-family:Arial;"><span lang="en-GB"><b>Do not, unless it is unavoidable, tell the audience what you will cover next in the course.</b></span> <span lang="en-GB">The reason for this is that you may want to add videos in the future between previously-contiguous parts. If you </span></span></span></li>
+<li><span style="color:#000000;"><span style="font-family:Arial;"><span lang="en-GB"><b>Always start with something (ideally visually-appealing) on the screen. </b></span><span lang="en-GB">If people only see a black screen and just hear you talking, they drop off. </span></span></span></li>
+<li><span style="color:#000000;"><span style="font-family:Arial;"><span lang="en-GB"><b>Plan on paper, practising the speaking as well.</b></span> <span lang="en-GB">This allows you to see whether you are over-promising in terms of paper space, and also whether the lesson ‘flows’ as easily as you thought it would. After this stage, for example, it may become apparent that the content would be better covered in two videos rather than just a single one.</span></span></span></li>
+</ol>
+<h3 class="western"><span style="color:#000000;"><span style="font-family:Arial;">Recording</span></span></h3>
+<ol>
+<li><span style="color:#000000;"><span style="font-family:Arial;"><span lang="en-GB"><b>Always check</b></span> <span lang="en-GB">by doing a short recording that your screen recorder is set to record both visual and audio (if needs be). This would have saved me hours if I’d always done this.</span></span></span></li>
+<li>
+<p lang="en-GB"><span style="color:#000000;"><span style="font-family:Arial;"><b>Close your windows.</b></span></span></p>
+</li>
+<li>
+<p lang="en-GB"><span style="color:#000000;"><span style="font-family:Arial;"><b>Turn off your phone or place it away from where you will be doing the recording.</b></span></span></p>
+</li>
+<li><span style="color:#000000;"><span style="font-family:Arial;"><span lang="en-GB"><b>Do not be afraid to</b></span><span lang="en-GB">, if you say something wrong or mumbled, </span><span lang="en-GB"><b>just stop</b></span> <span lang="en-GB">and have a few moments. You can always edit it out at the end.</span></span></span></li>
+<li><span style="color:#000000;"><span style="font-family:Arial;"><span lang="en-GB"><b>Avoid visual jumps</b></span><span lang="en-GB">. If you write something then decide that you want to say your speech part again, then just undo the drawing. It is visually distracting if lines etc. just appear on your screen.</span></span></span></li>
+<li><span style="color:#000000;"><span style="font-family:Arial;"><span lang="en-GB"><b>Try to use the same colour for the same things. </b></span><span lang="en-GB">If you use different colours for similar equations, axes on graphs etc. it makes it visually distracting.</span></span></span></li>
+<li><strong><span style="color:#000000;"><span style="font-family:Arial;">Avoid use of red and green</span></span></strong><span style="color:#000000;"><span style="font-family:Arial;"> together as this can make content unreadable for colour blind people (about 8% of men and c. 1% of women). I often fall into this trap.</span></span></li>
+<li>
+<p lang="en-GB"><span style="color:#000000;"><span style="font-family:Arial;"><b>Write large enough.</b></span></span></p>
+</li>
+</ol>
+<h3 class="western"><span style="color:#000000;"><span style="font-family:Arial;">Editing</span></span></h3>
+<ol>
+<li><span style="color:#000000;"><span style="font-family:Arial;"><span lang="en-GB"><b>Before you start editing, s</b></span></span></span><strong><span style="color:#000000;"><span style="font-family:Arial;"><span lang="en-GB">ave your work</span></span></span></strong><span style="color:#000000;"><span style="font-family:Arial;"><span lang="en-GB">! Importantly, save your work as a file name with a number (corresponding to the order in which this video corresponds in your playlist), followed by a keyword-filled file name.</span></span></span></li>
+<li><span style="color:#000000;"><span style="font-family:Arial;"><span lang="en-GB"><b>Before you start editing, save your drawing canvas.</b></span> <span lang="en-GB">This is helpful if you need to go back in the future and redo the video. It saves you having to start again from scratch.</span></span></span></li>
+<li><span style="color:#000000;"><span style="font-family:Arial;"><span lang="en-GB"><b>Before you start cutting up the material</b></span><span lang="en-GB">, make any adjustments to the cropping and canvas size.</span></span></span></li>
+<li><span style="color:#000000;"><span style="font-family:Arial;"><span lang="en-GB"><b>Do not edit too tightly.</b></span> <span lang="en-GB">It is natural to have pauses in what you are saying. If it is just one continuous voice, this is not appealing for a viewer.</span></span></span></li>
+<li>
+<p lang="en-GB"><span style="color:#000000;"><span style="font-family:Arial;"><b>Re-watch your edit points to make sure that edits do not leave the material nonsensical. </b></span></span></p>
+</li>
+<li><span style="color:#000000;"><span style="font-family:Arial;"><span lang="en-GB"><b>Adjust the volume of the audio if needs be, don’t use fancy audio/visual tricks unless necessary. </b></span><span lang="en-GB">The important thing is to make the content sufficiently loud. However, do ensure that the ‘loudness’ is consistent across all the videos.</span></span></span></li>
+</ol>
+<h3 class="western"><span style="color:#000000;"><span style="font-family:Arial;">Improving content</span></span></h3>
+<p><span style="color:#000000;"><span style="font-family:Arial;">A key way to make sure that you are improving in your ability to explain content is (as painful as it is) to re-watch your videos. When you do so, here are some things that I&#8217;ve found useful for me,</span></span></p>
+<ol>
+<li><span style="color:#000000;"><span style="font-family:Arial;"><span lang="en-GB"><b>Are there any conversational idiosyncrasies which you can avoid? </b></span><span lang="en-GB">For me this was saying, ‘errm’ and ‘like’ a lot. It’s painful at first to watch your own material, but it helps you to eliminate any annoying turns of phrase.</span></span></span></li>
+<li><span style="color:#000000;"><span style="font-family:Arial;"><span lang="en-GB"><b>Is the English you are using going to be understood widely?</b></span> <span lang="en-GB">Avoid colloquial English, as well as the use of overly complex words. Where a simple word can explain a point, use that preferentially.</span></span></span></li>
+<li><span style="color:#000000;"><span style="font-family:Arial;"><span lang="en-GB"><b>Are you speaking slowly enough?</b></span> <span lang="en-GB">It’s common when you feel the pressure of being recorded to start talking quickly. </span></span></span></li>
+<li><span style="color:#000000;"><span style="font-family:Arial;"><span lang="en-GB"><b>Watch your material on a range of computers.</b></span> <span lang="en-GB">Is the colour you are using easily readable? Can you always hear what you are saying?</span></span></span></li>
+<li><span style="color:#000000;"><span style="font-family:Arial;"><span lang="en-GB"><b>Get friends and family to watch your material.</b></span> <span lang="en-GB">Some of my family have given me very constructive comments, ranging from, ‘don’t use that colour – I can’t read it’, to ‘speak louder, I can’t hear that’. It can be hard to hear these things, but ultimately they will help you to make better content.</span></span></span></li>
+</ol>
+<p><span style="color:#000000;"><span style="font-family:Arial;">An additional source of criticism are comments by people on your videos themselves. These range from less constructive (all real examples),</span></span></p>
+<ul>
+<li><span style="color:#000000;"><span style="font-family:Arial;">&#8220;My girlfriend cheated on me and now I can&#8217;t concentrate. Was I not good enough? Maybe I ought to fight the other guy to prove myself. Even if I don&#8217;t plan to get back with her. Maybe it is the only way&#8221;</span></span></li>
+<li><span style="color:#000000;"><span style="font-family:Arial;">&#8220;You are such a looser pussy&#8221;</span></span></li>
+<li><span style="color:#000000;"><span style="font-family:Arial;">&#8220;Dafuq&#8221;</span></span></li>
+<li><span style="color:#000000;"><span style="font-family:Arial;">&#8220;kill yo self muh niggum&#8221;</span></span></li>
+<li><span style="color:#000000;"><span style="font-family:Arial;">&#8220;This is boring.&#8221; Can be useful if the content isn&#8217;t engaging but not if it&#8217;s referring to a video about heteroscedasticity.</span></span></li>
+</ul>
+<p><span style="color:#000000;"><span style="font-family:Arial;">To constructive,</span></span></p>
+<ul>
+<li><span style="color:#000000;"> <span style="font-family:Arial;">&#8220;ASHUME&#8221; &#8211; helps me to avoid talking like a weirdo.</span></span></li>
+<li><span style="color:#000000;"><span style="font-family:Arial;">&#8220;This sort of sampling holds (at least in part) because of the Law of Large Numbers, yeah?&#8221; &#8211; provides ideas of other content to make based on links to other material.</span></span></li>
+<li><span style="color:#000000;"><span style="font-family:Arial;">&#8220;Please increase the volume of this video and resubmit it!&#8221;</span></span></li>
+<li><span style="color:#000000;"><span style="font-family:Arial;">&#8220;Drop the frequent use of &#8220;sort of.&#8221;&#8221;</span></span></li>
+<li><span style="color:#000000;"><span style="font-family:Arial;">&#8220;Does endogeneity happen in linear regressions only?&#8221;</span></span></li>
+<li><span style="color:#000000;"><span style="font-family:Arial;">&#8220;Sorry professor but I can&#8217;t read chicken shit. Use a better of displaying your calculations.&#8221;</span></span></li>
+</ul>
+<h3 class="western"><span style="color:#000000;"><span style="font-family:Arial;">Uploading</span></span></h3>
+<ol>
+<li>
+<p lang="en-GB"><span style="color:#000000;"><span style="font-family:Arial;"><b>Before uploading, create a playlist, with an appropriate keyword-filled description.</b></span></span></p>
+</li>
+<li>
+<p lang="en-GB"><span style="color:#000000;"><span style="font-family:Arial;"><b>Before you upload make sure your content is named with a keyword name.</b></span></span></p>
+</li>
+<li><span style="color:#000000;"><span style="font-family:Arial;"><span lang="en-GB"><b>Create a description, which is has some of the keywords you are aiming to rank for. </b></span><span lang="en-GB">However, do not overdo this – the most important thing about a description is that it should detail your video clearly and concisely.</span></span></span></li>
+<li>
+<p lang="en-GB"><span style="color:#000000;"><span style="font-family:Arial;"><b>Add the video into a playlist.</b></span></span></p>
+</li>
+<li><span style="color:#000000;"><span style="font-family:Arial;"><span lang="en-GB"><b>If you have time, or a spare 20 mins –</b></span> <span lang="en-GB"><b>manually add captions to your video. </b></span><span lang="en-GB">Google does trawl through captions and use this to help rank your video appropriately. The automatic voice detection they currently use is not particularly good, so you really need to do it manually. On another note, this also is really helpful to people for which English isn’t their first language, or they are deaf. </span></span></span></li>
+<li><span style="color:#000000;"><span style="font-family:Arial;"><span lang="en-GB"><b>Add your captions to the bottom of your description.</b></span> <span lang="en-GB">Again, something which Google trawls through for ranking.</span></span></span></li>
+</ol>
+<h3 class="western"><span style="color:#000000;"><span style="font-family:Arial;">My general approach and timescales for making a video</span></span></h3>
+<ol>
+<li><span style="color:#000000;"><span style="font-family:Arial;"><span lang="en-GB">Brainstorm for ideas that will help me to convey the theoretical concepts (this often involves doing internet searches to look through existing material) ~ 10 to 20 minutes.</span></span></span></li>
+<li><span style="color:#000000;"><span style="font-family:Arial;">Code any software demonstrations. I increasingly think this is invaluable for making good mathsy content since it a) allows you to give the user material which they can play with themselves b) shows them how theory translates into practice and c) let&#8217;s you check your own knowledge. This is nowadays the majority of the time I spend making videos and can take anywhere from 15 minutes to 3 hours.</span></span></li>
+<li><span style="color:#000000;"><span style="font-family:Arial;"><span lang="en-GB">On a blank sheet of paper do a run through the material; speaking at the same time ~ 10 minutes</span> <span lang="en-GB">(sometimes I repeat this process to get the material exactly as I would like it).</span></span></span></li>
+<li><span style="color:#000000;"><span style="font-family:Arial;"><span lang="en-GB">Using the sheet of paper with the drawings on it for reference, I then record the video itself. ~ 10 minutes</span></span></span></li>
+<li><span style="color:#000000;"><span style="font-family:Arial;"><span lang="en-GB">Edit. ~ 10 minutes</span></span></span></li>
+</ol>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><span style="font-family:Arial;">­</span></p>
+<div id="jp-post-flair" class="sharedaddy sd-like-enabled sd-sharing-enabled"><div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-twitter"><a rel="nofollow noopener noreferrer" data-shared="sharing-twitter-630" class="share-twitter sd-button share-icon" href="https://ben-lambert.com/how-i-make-stats-videos/?share=twitter" target="_blank" title="Click to share on Twitter"><span>Twitter</span></a></li><li class="share-facebook"><a rel="nofollow noopener noreferrer" data-shared="sharing-facebook-630" class="share-facebook sd-button share-icon" href="https://ben-lambert.com/how-i-make-stats-videos/?share=facebook" target="_blank" title="Click to share on Facebook"><span>Facebook</span></a></li><li class="share-end"></li></ul></div></div></div><div class='sharedaddy sd-block sd-like jetpack-likes-widget-wrapper jetpack-likes-widget-unloaded' id='like-post-wrapper-107025120-630-5ca8ec42715d1' data-src='//widgets.wp.com/likes/index.html?ver=20190321#blog_id=107025120&amp;post_id=630&amp;origin=benlambertdotcom.wordpress.com&amp;obj_id=107025120-630-5ca8ec42715d1&amp;domain=ben-lambert.com' data-name='like-post-frame-107025120-630-5ca8ec42715d1'><h3 class='sd-title'>Like this:</h3><div class='likes-widget-placeholder post-likes-widget-placeholder' style='height: 55px;'><span class='button'><span>Like</span></span> <span class="loading">Loading...</span></div><span class='sd-text-color'></span><a class='sd-link-color'></a></div></div>			</div><!-- .entry-content -->
+	</article><!-- #post-## -->
+						<div class="clear"></div>
+												<div class="clear"></div>
+					</div><!-- #main .site-main -->
+				</div><!-- #primary .content-area -->
+
+
+
+
+							</div><!-- #content .site-wrapper -->
+							<div class="clear"></div>
+						</div><!-- #content-wrapper -->
+					</section><!-- #slide-content .slide -->
+				</div>
+			</main>
+
+			<footer id="colophon" class="site-footer" role="contentinfo">
+
+				<div class="site-info">
+										<a href="https://wordpress.com/?ref=footer_blog">Blog at WordPress.com.</a>
+					
+									</div><!-- .site-info -->
+
+			</footer><!-- #colophon .site-footer -->
+		</div><!-- #page -->
+		<!--  -->
+<script type='text/javascript' src='//0.gravatar.com/js/gprofiles.js?ver=201914y'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://s1.wp.com/wp-content/mu-plugins/gravatar-hovercards/wpgroho.js?m=1380573781h'></script>
+
+	<script>
+		//initialize and attach hovercards to all gravatars
+		jQuery( document ).ready( function( $ ) {
+
+			if (typeof Gravatar === "undefined"){
+				return;
+			}
+
+			if ( typeof Gravatar.init !== "function" ) {
+				return;
+			}			
+
+			Gravatar.profile_cb = function( hash, id ) {
+				WPGroHo.syncProfileData( hash, id );
+			};
+			Gravatar.my_hash = WPGroHo.my_hash;
+			Gravatar.init( 'body', '#wp-admin-bar-my-account' );
+		});
+	</script>
+
+		<div style="display:none">
+	</div>
+
+	<script type="text/javascript">
+		window.WPCOM_sharing_counts = {"https:\/\/ben-lambert.com\/how-i-make-stats-videos\/":630};
+	</script>
+				<script type='text/javascript'>
+/* <![CDATA[ */
+var comment_like_text = {"loading":"Loading..."};
+/* ]]> */
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var actionbardata = {"siteID":"107025120","siteName":" ","siteURL":"https:\/\/ben-lambert.com","icon":"<img alt='' src='https:\/\/s2.wp.com\/i\/logo\/wpcom-gray-white.png' class='avatar avatar-50' height='50' width='50' \/>","canManageOptions":"","canCustomizeSite":"","isFollowing":"","themeSlug":"pub\/harmonic","signupURL":"https:\/\/wordpress.com\/start\/","loginURL":"https:\/\/wordpress.com\/log-in?redirect_to=https%3A%2F%2Fben-lambert.com%2Fhow-i-make-stats-videos%2F&signup_flow=account&domain=ben-lambert.com","themeURL":"","xhrURL":"https:\/\/ben-lambert.com\/wp-admin\/admin-ajax.php","nonce":"d39e8ce9d3","isSingular":"1","isFolded":"","isLoggedIn":"","isMobile":"","subscribeNonce":"<input type=\"hidden\" id=\"_wpnonce\" name=\"_wpnonce\" value=\"a9b5da3816\" \/>","referer":"https:\/\/ben-lambert.com\/how-i-make-stats-videos\/","canFollow":"1","feedID":"44278026","statusMessage":"","customizeLink":"https:\/\/benlambertdotcom.wordpress.com\/wp-admin\/customize.php?url=https%3A%2F%2Fbenlambertdotcom.wordpress.com%2Fhow-i-make-stats-videos%2F","postID":"630","shortlink":"https:\/\/wp.me\/P7f47C-aa","canEditPost":"","editLink":"https:\/\/wordpress.com\/page\/ben-lambert.com\/630","statsLink":"https:\/\/wordpress.com\/stats\/post\/630\/ben-lambert.com","i18n":{"view":"View site","follow":"Follow","following":"Following","edit":"Edit","login":"Log in","signup":"Sign up","customize":"Customize","report":"Report this content","themeInfo":"Get theme: Harmonic","shortlink":"Copy shortlink","copied":"Copied","followedText":"New posts from this site will now appear in your <a href=\"https:\/\/wordpress.com\/\">Reader<\/a>","foldBar":"Collapse this bar","unfoldBar":"Expand this bar","editSubs":"Manage subscriptions","viewReader":"View site in Reader","viewReadPost":"View post in Reader","subscribe":"Sign me up","enterEmail":"Enter your email address","followers":"","alreadyUser":"Already have a WordPress.com account? <a href=\"https:\/\/wordpress.com\/log-in?redirect_to=https%3A%2F%2Fben-lambert.com%2Fhow-i-make-stats-videos%2F&signup_flow=account&domain=ben-lambert.com\">Log in now.<\/a>","stats":"Stats"}};
+/* ]]> */
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var sharing_js_options = {"lang":"en","counts":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://s0.wp.com/_static/??-eJyVkdFuwyAMRX9o1JuWStvDtG+h4CROwFAMbT9/RFWjrlGj5okrc4/la8M5KhM4I2cYBCyeyGC87AZ5g7svX1R0pSMWcDSiwLFgwV6zdZhWzCZ4X0vqCg0TfQA5U8Qt0L/CI5h79NUWywF6nXxgMhMjI8UK8KjaYIqolhahnpIpODenIjau2Osg5HWH4oK2aHeeeGPHGqK8iCAfC6XFlp64b1o9zP4itnILbWtMddAJvJaMqSoVTpgSTSuZaxs75KTNuLjkPWQyBZ6gWa24Y5CsWqcpgdRMxN3trdCv//nY75vm/fvzqxn+AAYKGjs='></script>
+<script type='text/javascript'>
+var windowOpen;
+			jQuery( document.body ).on( 'click', 'a.share-twitter', function() {
+				// If there's another sharing window open, close it.
+				if ( 'undefined' !== typeof windowOpen ) {
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery( this ).attr( 'href' ), 'wpcomtwitter', 'menubar=1,resizable=1,width=600,height=350' );
+				return false;
+			});
+var windowOpen;
+			jQuery( document.body ).on( 'click', 'a.share-facebook', function() {
+				// If there's another sharing window open, close it.
+				if ( 'undefined' !== typeof windowOpen ) {
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery( this ).attr( 'href' ), 'wpcomfacebook', 'menubar=1,resizable=1,width=600,height=400' );
+				return false;
+			});
+</script>
+<script type="text/javascript">
+// <![CDATA[
+(function() {
+try{
+  if ( window.external &&'msIsSiteMode' in window.external) {
+    if (window.external.msIsSiteMode()) {
+      var jl = document.createElement('script');
+      jl.type='text/javascript';
+      jl.async=true;
+      jl.src='/wp-content/plugins/ie-sitemode/custom-jumplist.php';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(jl, s);
+    }
+  }
+}catch(e){}
+})();
+// ]]>
+</script>		<iframe src='https://widgets.wp.com/likes/master.html?ver=20190321#ver=20190321' scrolling='no' id='likes-master' name='likes-master' style='display:none;'></iframe>
+		<div id='likes-other-gravatars'><div class="likes-text"><span>%d</span> bloggers like this:</div><ul class="wpl-avatars sd-like-gravatars"></ul></div>
+<script src="//stats.wp.com/w.js?59" type="text/javascript" async defer></script>
+<script type="text/javascript">
+_tkq = window._tkq || [];
+_stq = window._stq || [];
+_tkq.push(['storeContext', {'blog_id':'107025120','blog_tz':'0','user_lang':'en','blog_lang':'en','user_id':'0'}]);
+_stq.push(['view', {'blog':'107025120','v':'wpcom','tz':'0','user_id':'0','post':'630','subd':'benlambertdotcom'}]);
+_stq.push(['extra', {'crypt':'UE40eW5QN0p8M2Y/RE1TaVhzUzFMbjdWNHpwZGhTayxPSUFCMGRVYVNrSFguN3FwSmQ5RGtNX3VQcj1yVzhiflM1THQtLGFdQ2toOXYlWm9sZlFnOFR6Y0RLMD1hYlZHZV1kQ3drJXdvRnFZaHR4T0xEMklob1Q9K2RLL1gzTl13OTF2N3NTX2FXW1Q4JWhKdUZfaXZNVV89S3FbMHN8VkRFdlhzYlRdLXJfK3NaZz0lbHx1M2hVdklIJjdTMit5Z01HQURJZy9VMVBnOXNuZVtFLDRxUkMuT2N4Jj9uPWJXTmUmU3NWLmFBNjEldllXRF1zXSVB'}]);
+_stq.push([ 'clickTrackerInit', '107025120', '630' ]);
+	</script>
+<noscript><img src="https://pixel.wp.com/b.gif?v=noscript" style="height:0px;width:0px;overflow:hidden" alt="" /></noscript>
+<script>
+if ( 'object' === typeof wpcom_mobile_user_agent_info ) {
+
+	wpcom_mobile_user_agent_info.init();
+	var mobileStatsQueryString = "";
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedPlatformName )
+		mobileStatsQueryString += "&x_" + 'mobile_platforms' + '=' + wpcom_mobile_user_agent_info.matchedPlatformName;
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedUserAgentName )
+		mobileStatsQueryString += "&x_" + 'mobile_devices' + '=' + wpcom_mobile_user_agent_info.matchedUserAgentName;
+	
+	if( wpcom_mobile_user_agent_info.isIPad() )
+		mobileStatsQueryString += "&x_" + 'ipad_views' + '=' + 'views';
+
+	if( "" != mobileStatsQueryString ) {
+		new Image().src = document.location.protocol + '//pixel.wp.com/g.gif?v=wpcom-no-pv' + mobileStatsQueryString + '&baba=' + Math.random();
+	}
+	
+}
+</script>	</body>
+</html>

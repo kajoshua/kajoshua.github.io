@@ -4,9 +4,15 @@ title: Perspective Papers on EconCS
 excerpt_separator: <!--more-->
 ---
 
-A Handful of Perspective Papers in EconCS, sorted by topic.
+There are five different conceptual levels in computational social choice:
+* **Interpersonal Comparisons of Utility:** One of the fundamental problems in economics is how to evaluate trade-offs across individuals. In the Trolly Problem, is it just to sacrifice one in favor of many? We cannot evaluate this trade-off without appealing to a greater ethic, such as utilitarianism. See Sen (1998) [[Link](https://www.nobelprize.org/uploads/2018/06/sen-lecture.pdf){:target="_blank"}].
+* **How do people know their own values?** This is a self-valuation problem since individuals have to ask themselves how good some alternative is. In finance, prices are set by the relative value of goods and services with respect to each other. Still, value is inherently subjective, as food is worth more than gold in a deserted island. <!--more-->
+* **Communication and elicitation:** If there are an exponential number of alternatives, such as in a combinatorial planning problem, how do people communicate their preferences efficiently?
+* **Truthful elicitation:** Incentive compatibility. See the [Gibbard-Satterthwaite Theorem](https://web.stanford.edu/~ashishg/msande336/aut2021/handouts/lecture5_notes.pdf){:target="_blank"}.
+* **Aggregation:** See [Arrow's Impossibility Theorem](https://corporatefinanceinstitute.com/resources/economics/arrows-impossibility-theorem/){:target="_blank"}.
 
-<!--more-->
+This post contains a handful of perspective papers in EconCS, sorted by topic.
+
 
 # Multi-Agent Systems
 

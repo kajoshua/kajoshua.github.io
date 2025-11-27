@@ -9,14 +9,14 @@ Welcome! This blog is to provide a space for me to share assorted knowledge I've
 
 ### Who Am I?
 
-Professionally: I am a PhD candidate in artificial intelligence at Rensselaer Polytechnic Institute. I am interested in formal methods of decision making: inter-dependent, strategic, and under uncertainty -- leading me to research *computational social choice*, *multiagent systems*, and *reinforcement learning*. 
+I am a senior data scientist at C3.AI. Previously, I worked at the RAND Corporation after completing my PhD in artificial intelligence at Rensselaer Polytechnic Institute. I am interested in formal methods of decision making: inter-dependent, strategic, and under uncertainty -- leading me to research *computational social choice*, *multiagent systems*, and *reinforcement learning*. 
 
-Check out my professional website [here](http://homepages.rpi.edu/%7Ekavnej/)!
+Check out my professional website [here](http://kajoshua.github.io/)!
 
-Personally: I am a dancer (swing, jazz, improvisation), hiker, musician, reader, and photographer. I also have some interest in political economy, political philosophy, environmentalism, sustainability, epistemology, and world religions.
+Personally: I am a lindy hop dancer, hiker, musician, reader, and photographer. I also have some interest in political economy, political philosophy, environmentalism, sustainability, epistemology, and world religions.
 
 
 ### Contact me
 
-Have any thoughts? Leave me a note! Email: [kavnej@rpi.edu](mailto:kavnej@rpi.edu).
+Have any thoughts? Leave me a note! Email: [josh.kavner@c3.ai](mailto:josh.kavner@c3.ai).
 

@@ -6,7 +6,7 @@
 name: Joshua Kavner's Blog
 
 # Short bio or description (displayed in the header)
-description: Associate Information Scientist at RAND
+description: Senior Data Scientist at C3 AI
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://kajoshua.github.io/images/JKavner2.jpg
@@ -18,7 +18,7 @@ avatar: https://kajoshua.github.io/images/JKavner2.jpg
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email: kavnej@rpi.edu
+  email: josh.kavner@c3.ai
   facebook:
   flickr: people/195337688@N07/
   github: # kajoshua/jekyll-now

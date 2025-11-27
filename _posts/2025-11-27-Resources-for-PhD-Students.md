@@ -11,19 +11,22 @@ A list of Resources for PhD Students.
 # General References
 
 ## Surviving your PhD
-* [[Andrej Karpathy](http://karpathy.github.io/2016/09/07/phd/){:target="_blank"}]
-* [[Dave Evans](https://www.cs.virginia.edu/~evans/advice/){:target="_blank"}]
+* [[A Survival Guide to a PhD (Andrej Karpathy)](http://karpathy.github.io/2016/09/07/phd/){:target="_blank"}]
+* [[Dave Evans Advice (compilation)](https://www.cs.virginia.edu/~evans/advice/){:target="_blank"}] [[html](../advice_docs/evans_d_advice.html){:target="_blank"}]
 * [[Tuomas Sandholm](http://www.cs.cmu.edu/~sandholm/Group/AdviceForGroup.htm){:target="_blank"}]
-* [[You and your Research](../advice_docs/You_and_Your_Research.html){:target="_blank"}]
+* [[You and your Research (Richard Hamming)](../advice_docs/You_and_Your_Research.html){:target="_blank"}]
 * [[The PhD Grind (Philip Guo)](../advice_docs/pguo-PhD-grind.pdf){:target="_blank"}] [[dropbox link](https://www.dropbox.com/scl/fi/g8mc1lniyf26opxtrqgna/pguo-PhD-grind.pdf?rlkey=mmj1sryb14hl8o4k9offkyj6u&e=1&dl=0){:target="_blank"}]
-* [[Shomir Wilson](https://shomir.net/advice.html){:target="_blank"}]
-* [[On Procrastination](../advice_docs/On_Procrastination.pdf){:target="_blank"}]
-* [[Everything I wanted to know about C.S. graduate school at the beginning but didn't learn until later](../advice_docs/grad_school_survival_guide.html){:target="_blank"}]
+* [[Shomir Wilson (compilation)](https://shomir.net/advice.html){:target="_blank"}] [[html](../advice_docs/wilson_s_advice.html){:target="_blank"}]
+* [[On Procrastination (Paul Graham)](../advice_docs/On_Procrastination.pdf){:target="_blank"}]
+* [[So long, and thanks for the PhD! (Ronald T. Azuma)](../advice_docs/grad_school_survival_guide.html){:target="_blank"}] [[Original link](https://www.cs.unc.edu/~azuma/hitch4.html){:target="_blank"}]
 * [[The N=1 guide to grad school (and hopefully, knowledge work)](../advice_docs/n_1_guide.pdf){:target="_blank"}]
-* [[How to Be a Successful PhD Student](../advice_docs/HowtoBeaSuccessfulPhDStudent.pdf){:target="_blank"}]
-* [[Advice on Research](https://webpages.charlotte.edu/sakella/advice.html){:target="_blank"}]
-* [[Advice on Research and Writing (for computer scientists)](http://www.cs.cmu.edu/afs/cs.cmu.edu/user/mleone/web/how-to.html){:target="_blank"}]
-* [[How to Build an Economic Model in your Spare Time](../advice_docs/build_models.pdf){:target="_blank"}]
+* [[How to Be a Successful PhD Student (Adam Marcus)](../advice_docs/HowtoBeaSuccessfulPhDStudent.pdf){:target="_blank"}]
+* [[Advice on Research (Srinivas Akella) (compilation)](https://webpages.charlotte.edu/sakella/advice.html){:target="_blank"}] [[html](../advice_docs/akella_s_advice.html){:target="_blank"}]
+* [[Advice on Research and Writing (for computer scientists) (compilation)](http://www.cs.cmu.edu/afs/cs.cmu.edu/user/mleone/web/how-to.html){:target="_blank"}] [[html](../advice_docs/advice_comp_sci.html){:target="_blank"}]
+* [[How to Build an Economic Model in your Spare Time (Hal R. Varian)](../advice_docs/build_models.pdf){:target="_blank"}]
+* [[Surviving your stupid, stupid decision to go to grad school)](https://cdn.bookey.app/files/pdf/book/en/surviving-your-stupid-stupid-decision-to-go-to-grad-school.pdf){:target="_blank"}]
+
+
 
 
 
@@ -62,7 +65,7 @@ A list of Resources for PhD Students.
 
 ## Job Market
 * [[Computer Science Grad Student Job Application & Interview Guide](../advice_docs/cs_grad_application_interview.html){:target="_blank"}]
-* [[Guide for the Tenure-Track Job Market in Computer/Information Sciences (Shomir Wilson))](https://shomir.net/tt_job_guide.html){:target="_blank"}]
+* [[Guide for the Tenure-Track Job Market in Computer/Information Sciences (Shomir Wilson)](https://shomir.net/tt_job_guide.html){:target="_blank"}]
 
 
 
@@ -102,6 +105,9 @@ A list of Resources for PhD Students.
 * [[What is a thesis defense](../advice_docs/What is a thesis defense.html){:target="_blank"}]
 * [[Alex Lang NSF](https://www.alexhunterlang.com/nsf-fellowship){:target="_blank"}]
 * [[Writing a Research Proposal](../advice_docs/Writing Research Proposals.html){:target="_blank"}]
+* [[Making a CV (Shomir Wilson)](https://shomir.net/wilhom_rosins.html){:target="_blank"}]
+
+
 
 ## Reviewing Tips
 * [[Mark Allman Thoughts on Reviewing](https://www.icir.org/mallman/pubs/All08a/All08a.pdf){:target="_blank"}]
@@ -116,6 +122,13 @@ A list of Resources for PhD Students.
 * Better Explained [[Link](https://betterexplained.com/cheatsheet/){:target="_blank"}]
 * Emory College Math 117 [[Link](https://mathcenter.oxford.emory.edu/site/math117/){:target="_blank"}]
 * Computer Science Student Resources [[Link](http://www.computersciencestudent.com/){:target="_blank"}]
+
+## Software Style Guides
+* Google Style Guide [[Link](https://google.github.io/styleguide/){:target="_blank"}] [[Technical communication guide](https://developers.google.com/style){:target="_blank"}]
+* JS Style Guides [[Link](https://exploringjs.com/es5/ch26.html){:target="_blank"}]
+
+
+
 
 
 

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width,initial-scale=1">
+
+ <title>Matt Might's blog</title>
+
+ <link rel="stylesheet" href="../css/mm2.css">
+ <style>
+ </style>
+
+ <script src="../js/mm2.js"></script> 
+
+ <script src="manifest.js"></script>
+ <script src="index-manifest.js"></script>
+
+ <script>
+function OpenSocial() {
+  var socialInfoDiv = document.getElementById("social-info") ;
+  socialInfoDiv.style.display = "block" ;
+  return false;
+}
+ </script>
+
+</head>
+
+
+<body>
+
+ <div id="main">
+
+  <div id="navbar">
+   <span class="navbar-item"><a href="../">matt.might.net</a></span>
+   <span class="navbar-item"><a href="./" onclick="return OpenSocial()">@mattmight</a></span>
+   <span class="navbar-item"><a href="./feed.rss">rss</a></span>
+
+
+  </div>
+
+  <div id="main-meta-info"><!-- TODO: Put article navigation links here --></div>
+
+  <div id="main-content-start"></div>
+
+  <div id="social-info" style="display: none;">
+  <a name="social"></a>
+   <hr />
+  Twitter: <a href="https://twitter.com/mattmight">@mattmight</a><br />
+  Instagram: <a href="https://instagram.com/mattmight">@mattmight</a><br />
+  LinkedIn: <a href="https://www.linkedin.com/in/matthewmight/">matthewmight</a><br />
+  Mastodon: <a href="https://mathstodon.xyz/@mattmight">@mattmight@mathstodon.xyz</a><br />
+  Sub-reddit: <a href="https://reddit.com/r/mattmight">/r/mattmight</a>
+   <hr />
+  </div>
+
+
+  <h1 id="title">Matt Might's article index</h1>
+
+
+  <div id="main-abstract">
+  </div>
+
+
+  <div id="main-content">
+
+
+    <b>Newest</b>:
+    <ul>
+    <script>
+    for (var i = 0; i < 5; ++i) {
+      var a = Manifest[i] ;
+      RenderArticleLink(a) ;
+    }
+    </script>
+    <li> [<a href="#chronological">see all</a>] </li>
+    </ul>
+
+
+
+    
+    <hr />
+    
+    
+    <b>Random</b>:
+    <ul>
+    <script>
+    for (var i = 0; i < 3; ++i) {
+      var c = Math.round(Math.random() * Manifest.length,0) ;
+      if (c == Manifest.length) c-- ;
+      var a = Manifest[c] ;
+      RenderArticleLink(a) ;
+    }
+    </script>
+    </ul>
+    
+    <hr />
+    
+    <script>
+    for (var i = 0; i < Order.length; ++i) {
+     var tag = Order[i] ;
+     if (!Cats[tag]) Cats[tag] = "undefined--" + tag ;
+     var arts = Articles[tag] ;
+     if (arts == undefined) continue ;
+     document.write("<b>" + Cats[tag] + "</b>: <br />") ;
+     document.write("<ul>") ;
+     for (var k = 0; k < arts.length; ++k) {
+      a = arts[k]; 
+      RenderArticleLink(a) ;
+     }
+     document.write("</ul>");
+     delete Articles[tag] ;
+    }
+    
+    
+    for (tag in Articles) {
+     var arts = Articles[tag] ;
+     if (arts == undefined) continue ;
+     document.write(tag + ": <br />") ;
+     document.write("<ul>") ;
+     for (var k = 0; k < arts.length; ++k) {
+      a = arts[k]; 
+      document.write("<li>") ;
+      document.write(a.id + ": ") ;
+      document.write("<em>" + a.title + "</em>") ;
+      document.write("</li>") ;
+     }
+     document.write("</ul>");
+    }
+    </script>
+    
+    <hr />
+    
+    <a name="chronological"></a>
+    <b>Chronological Order:</b>
+    
+    <ul>
+    <script>
+    for (var i = 0; i < Manifest.length; ++i) {
+      var a = Manifest[i] ;
+      RenderArticleLink(a) ;
+    }
+    </script>
+    </ul>
+
+
+
+
+
+
+  </div> <!-- /main-content -->
+
+
+  <div id="main-footer">
+  </div>
+
+</div> <!-- /main -->
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KBLDCT7XGS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-KBLDCT7XGS');
+</script>
+
+			
+</body>
+</html>

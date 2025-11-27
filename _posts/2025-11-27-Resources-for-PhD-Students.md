@@ -28,9 +28,10 @@ A list of Resources for PhD Students.
 * [[Graduate Study in the Computer and Mathematical Sciences: A Survival Manual (Dianne Prost O'Leary)](../advice_docs/gradstudy.pdf){:target="_blank"}]
 * [[How to Succeed in Graduate School: A Guide for Students and Advisors (Marie desJardins)](../advice_docs/Advice_for_Grad_Students.pdf){:target="_blank"}]
 * [[The Graduate Student Survival Guide (Wanda Pratt)](https://gradresources.org/the-graduate-student-survival-guide/){:target="_blank"}]
-
-
-
+* [[Matt Might's article index](https://matt.might.net/articles/){:target="_blank"}] [[html](../advice_docs/Advice_for_Grad_Students.pdf){:target="_blank"}]
+* Epistemology of a PhD
+* * [[The purpose of the PhD: theorising the skills acquired by students (Mowbray and Halse)](https://www.tandfonline.com/doi/abs/10.1080/07294360.2010.487199){:target="_blank"}]
+* * [[Issue Forum: Breadth and Depth Of Knowledge In Communication (Hample)](https://www.tandfonline.com/doi/full/10.1080/03637750802088323){:target="_blank"}]
 
 
 
@@ -69,6 +70,8 @@ A list of Resources for PhD Students.
 ## Job Market
 * [[Computer Science Grad Student Job Application & Interview Guide](../advice_docs/cs_grad_application_interview.html){:target="_blank"}]
 * [[Guide for the Tenure-Track Job Market in Computer/Information Sciences (Shomir Wilson)](https://shomir.net/tt_job_guide.html){:target="_blank"}]
+* For academia: [[The Professor Is In: The Essential Guide To Turning Your Ph.D. Into a Job](https://www.amazon.com/Professor-Essential-Guide-Turning-Ph-D/dp/0553419420/){:target="_blank"}]
+* [[Motherhood, Not Discrimination, May Account for the Gender Gap in Tenure-Track Science Jobs (Melinda Moyer)](https://www.scientificamerican.com/article/motherhood-not-discrimination-gender-gap-tenure-science-jobs/){:target="_blank"}]
 
 
 

@@ -133,7 +133,17 @@ A list of Resources for PhD Students.
 * Google Style Guide [[Link](https://google.github.io/styleguide/){:target="_blank"}] [[Technical communication guide](https://developers.google.com/style){:target="_blank"}]
 * JS Style Guides [[Link](https://exploringjs.com/es5/ch26.html){:target="_blank"}]
 
+## Technical Blogs
 
+* Alex Lang
+	* [Website](https://n2infinityandbeyond.com/){:target="_blank"}
+* Programmathically
+	* [Website](https://programmathically.com/){:target="_blank"}
+* Optimization Online
+	* [Website](https://optimization-online.org/){:target="_blank"}
+* Decentralized Thoughts (crypto)
+	* [Website](https://decentralizedthoughts.github.io/start-here/){:target="_blank"}
+	
 
 
 

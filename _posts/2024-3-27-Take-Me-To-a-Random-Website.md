@@ -43,6 +43,16 @@ A list of random websites I find interesting or useful. For better [adulting](ht
 * Smithsonian Center for Folklife and Cultural Heritage
     * [Education](https://folklife.si.edu/education){:target="_blank"}
     * [Interviewing Guide](https://folklife-media.si.edu/docs/folklife/interviewing_guide/InterviewingGuide.pdf){:target="_blank"}
+* Webby Awards
+    * [Winner Lists](https://winners.webbyawards.com/winners){:target="_blank"}
+* The Spruce
+	* Concepts to [spruce up](https://www.thespruce.com/home-design-and-decorating-4127998){:target="_blank"} your home
+    * [Feng Shui](https://www.thespruce.com/what-is-feng-shui-1275060){:target="_blank"}
+* Website Design Museum
+    * [Website](https://www.webdesignmuseum.org/){:target="_blank"}
+* Killed By Google
+    * [Website](https://killedbygoogle.com/){:target="_blank"}
+
 
 
 
@@ -88,6 +98,8 @@ A list of random websites I find interesting or useful. For better [adulting](ht
     * [Website](http://shadowstats.com/){:target="_blank"}
 * Harvard Business Review
     * [Website](https://hbr.org/){:target="_blank"}
+* Anthropic's Economic Index (for how jobs are affected by LLMs)
+    * [Website](https://anthropic.com/economic-index){:target="_blank"}
 
 
 ## Finance
@@ -115,6 +127,10 @@ A list of random websites I find interesting or useful. For better [adulting](ht
 * Nerdwallet
     * [Website](https://www.nerdwallet.com/){:target="_blank"}
     * Get information about: Credit cards, Banking, Home, Loans, Insurance, Personal finance, Investing, Small business, and Taxes
+* US Office of Finanical Research
+	* [Monitoring Tools](https://www.financialresearch.gov/monitoring-tools/){:target="_blank"}
+
+
 
 ### Consumer Protection
 * EWG index healthiness of home products
@@ -151,9 +167,20 @@ A list of random websites I find interesting or useful. For better [adulting](ht
 	* [Social-political](https://pluralistic.net/){:target="_blank"}
 * Brookings Institute
     * [Website](https://www.brookings.edu/){:target="_blank"}
-* FiveThirtyEight
+* YouGov 
+    * [Polls](https://yougov.com/en-us){:target="_blank"}
+* FiveThirtyEight (discontinued)
     * [Polls](https://projects.fivethirtyeight.com/polls/){:target="_blank"}
-    
+
+
+AI Governance
+* Governance.AI    
+    * [Website](https://www.governance.ai/){:target="_blank"}
+* UK AI Security Institute
+    * [Website](https://www.aisi.gov.uk/){:target="_blank"}
+* Distributed AI Research Institute
+    * [Website](https://www.dair-institute.org/){:target="_blank"}
+
 
 ## Law
 
@@ -174,34 +201,14 @@ A list of random websites I find interesting or useful. For better [adulting](ht
     * [Website](https://stephanjoppich.com/){:target="_blank"}
 * Berry Belmont
     * [Bio-ethics](https://barrybelmont.com/bioethics/){:target="_blank"}
+* No Vehicles Left in the Park (similar to Trolly Problem)
+    * [Website](https://novehiclesleftinthepark.com ){:target="_blank"}
 
 
 ## Psychology
 
 * Positive Psychology
 	* [Blog](https://positivepsychology.com/blog/){:target="_blank"}
-
-
-## Technical Blogs
-
-* Alex Lang
-	* [Website](https://n2infinityandbeyond.com/){:target="_blank"}
-* Programmathically
-	* [Website](https://programmathically.com/){:target="_blank"}
-* Optimization Online
-	* [Website](https://optimization-online.org/){:target="_blank"}
-* Decentralized Thoughts (crypto)
-	* [Website](https://decentralizedthoughts.github.io/start-here/){:target="_blank"}
-	
-## Design
-
-* The Spruce
-	* Concepts to [spruce up](https://www.thespruce.com/home-design-and-decorating-4127998){:target="_blank"} your home
-    * [Feng Shui](https://www.thespruce.com/what-is-feng-shui-1275060){:target="_blank"}
-* Website Design Museum
-    * [Website](https://www.webdesignmuseum.org/){:target="_blank"}
-* Killed By Google
-    * [Website](https://killedbygoogle.com/){:target="_blank"}
 
 
     

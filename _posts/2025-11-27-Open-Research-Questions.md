@@ -34,7 +34,7 @@ What is the distortion of distributed SLAM? As in, if there are communication co
 What's the philosophy or reason behind becoming an expert at something? Besides intellectual novelty, there are cognitive skills learned by thinking about a problem non-stop for 4+ years straight. What is the change?
 
 
-# Political Economics Questions
+# Economics and Business Mangement Questions
 
 ### RQ1: Executive and Labor Salaries
 Are executives' marginal contributions to the company worth their bonuses? How does marginal performance and compensation on teams correlate with Shapley values? To what extent is compensation correlated with someone's ability to unilaterally impact a company's bottom line (upside or downside via regular operations)? How do we measure marginal impact, and how far off is marginal compensation from what is 'fair'?
@@ -80,11 +80,21 @@ How robust are people, based on their choices throughout a given week, to sensit
 How is inflation captured by liquid markets, such as Meta's auction platform?
 
 
-### RQ14: Political deescalation
+### RQ14: Tacit Knowledge
+How do we systematically measure tacit knowledge? Is it related to how efficient a team or company is at getting someone new to get up to speed? If a consulting company like BCG is recommending cutting labor for cost savings, how should they measure how concentrated certain knowledge is about the company and the price for recouping that knowledge?
+
+# Political Science Questions
+
+### RQ1: Political deescalation
 We know that tit-for-tat can cause political escalation, as discussed extensively by Axelrod and Schelling. What are mechanisms or requirements that can deescalate political tension? Do both players need to have a vested interest in accepting sunk costs in favor of future peace?
 
-### RQ15: Tacit Knowledge
-How do we systematically measure tacit knowledge? Is it related to how efficient a team or company is at getting someone new to get up to speed? If a consulting company like BCG is recommending cutting labor for cost savings, how should they measure how concentrated certain knowledge is about the company and the price for recouping that knowledge?
+
+### RQ2: Case Study in the ethical foundations of societal impacts
+In consumer marketing, there's a positive relationship between advertising exposure and purchasing behavior, dampened by personal consumption susceptibility factors. We can conceivably find data to support that increased advertising exposure causes increased debt load **(TODO: Source)**. Minimum ethical considerations of Freedom of Choice are justified, notably in:
+* (1) option to be exposed to advertising is available to the consumer, since they are going out in public or choosing to activate a device with ads;
+* (2) advertisers paying a platform to place their advert is legal and fair;
+* (3) consumers have the freedom of choice for purchasing advertised products and services or not.
+Despite these ethical microfoundations being justified, increased advertising is (reasonably) causing increased consumer debt load, which affects households' long-term outcomes. The RQ is whether it is ethical to prohibit over-saturation of advertising in public, where the saturation limit is the empirical optimal amount of advertising relative to advert costs and consumer acquisition. If so, how is this regulation justified? Note that this case study is similar to BNPL.
 
 # Other
 

@@ -73,7 +73,7 @@ A list of random websites I find interesting or useful. For better [adulting](ht
 ## Economics
 
 * Truflation
-	* [Dashboard](https://whitepaper.truflation.com/background/dashboard){:target="_blank"}
+	* [Dashboard](https://truflation.com/marketplace/us-inflation-rate){:target="_blank"}
 * Freakonomics
 	* [Website](https://freakonomics.com/){:target="_blank"}
 * Mises Institute (Austrian School of Economics)

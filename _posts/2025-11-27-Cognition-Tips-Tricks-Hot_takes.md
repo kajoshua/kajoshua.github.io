@@ -16,6 +16,8 @@ A list of hot takes about cognition and learning.
 * Saying to yourself "I'm going to remember it later" is a lie. Write it down, especially when you're about to fall asleep.
 * Fancy apartments are facades, albeit niceties needed for human fostering. Functionally they're all the same.
 * The people at your job are who you're going to become in 10 years by staying at that company.
-* "What do you want to be" is a descriptive ask; "to do" is an active planning one
+* "What do you want to be" is a descriptive ask; "What do you want to do" is an active, planning one.
 * Intentionality: recognize your tradeoffs and design your career strategically, just as you'd design your own college degree based on courses you find interesting, if you could.
+* There's a difference in doing research based on: do you want to be the person who gets X done, do you want to take the credit for getting X done, or do you want someone else to do X so that you can do something else based on X's results? 
+* If you forgot what you're about to say, try remembering the trajectory of your thought process. For instance, if you discussed topics X1, X2, and X3, then went on a tangent of Y1, remind yourself of the X-sequence to increase your chances of remembering X4.
 

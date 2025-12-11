@@ -167,11 +167,7 @@ There are many situations where something is technically feasible but very incon
 ### RQ1: Myths
 How do myths, as Joseph Campbell discusses, play out in our daily lives?
 
-### RQ2: Conspiracy Theories, Social Media Monitors, and Fake News
-
-Some conspiracy theories have turned out true. Assuming "the internet" does a reasonably good job at identifying BS, how often would we expect societal fact-finding mechanisms to succeed or fail? When is it beneficial to follow the crowd or not, such as in investing ("you have to vote against the crowd and be right") or trusting public professionals to give proper information? How often do people incorrectly dismiss new information as irrelevant? What is the proper process for people to trust each other -- and how often is this process successful (e.g., if you should talk to three medical professionals before making a decision and that doesn't happen)?
-
-### RQ3: The Giver
+### RQ2: The Giver
 What is the role of consultants or other academics in our society, as in the book The Giver? Who actually reads manuals from the 1950s, or earlier, to see if society has "missed" anything in contemporary language 
 
 

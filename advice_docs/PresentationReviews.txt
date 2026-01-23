@@ -1,0 +1,64 @@
+
+For questions, answer either yes or no. Please also provide some
+additional feedback, especially in the negative case.
+
+For items asking for a summary rating, please give a number from 1 to
+5, where 1 is poor and 5 is excellent.
+
+
+1. Mechanics of Communication 
+
+Were the slides easy to read and not overcrowded?
+
+Was the talk audible from every seat in the room?
+
+Were all crucial slides presented for long enough?
+
+Did the speaker avoid distractive movement and gesture?
+
+Please provide a summary rating for mechanics of communication:
+
+
+2. Presentation
+
+Was the talk well presented (e.g., no major types, no slides out of
+order, good time management)?
+
+Did the speaker strive to keep the audience's attention (e.g., eye
+contact, varying voice and facial expression, movement, humor,
+mystery, surprise)?
+
+Please provide a summary rating for the presentation: 
+
+
+3. Structure
+
+Did the talk have a distinct introductory section, middle section, and
+concluding section?
+
+Did the introduction make clear what the talk was about?
+
+Did the middle section explain the main results, techniques, and terms
+clearly and correctly?
+
+In the middle section, did the speaker strive to make subtle ideas
+simpler? 
+
+Did the conclusion summarize the important ideas and results?
+
+Was it clear what the audience should take away from the talk?
+
+Please provide a summary rating for the structure: 
+
+
+4. Discussion
+
+Did the talk stimulate interesting questions?
+
+Did the speaker come up with interesting questions?
+
+
+5. Other Comments (e.g., strengths, suggestions for improvement)
+
+
+6. Please provide an overall rating for the talk:

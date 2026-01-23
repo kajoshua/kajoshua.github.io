@@ -19,7 +19,7 @@ The field intersects computer science, economics, and operations research and fo
 ## About Computational Social Choice
 - [The COMSOC Website](https://research.illc.uva.nl/COMSOC/what-is-comsoc.html)
 - [COMSOC Seminar](https://www.comsocseminar.org/)
-- International Workshop on Computational Social Choice (COMSOC) [[2023 link](https://www.bgu.ac.il/comsoc2023)]
+- International Workshop on Computational Social Choice (COMSOC) [[link](https://www.bgu.ac.il/comsoc2023)]
 - [Online Social Choice and Welfare Seminar](https://sites.google.com/view/2021onlinescwseminars/) has talks twice a month
 - [Wikipedia - Computational Social Choice](https://en.wikipedia.org/wiki/Computational_social_choice)
 - [Wikipedia - Algorithmic Game Theory](https://en.wikipedia.org/wiki/Algorithmic_game_theory)
@@ -63,8 +63,22 @@ Springer book series -- [Synthesis Lectures on Artificial Intelligence and Machi
 * [Iterative Voting Simulator](https://www.preflib.org/tools/ivs) on Preflib, by Omer Lev, Tel Aviv University
 
 ### Data and Github Repositories
-* [Preflib](https://www.preflib.org/) [[Mattei and Walsh 2013](http://www.cse.unsw.edu/~tw/mwadt2013.pdf)]
-* [PrefSampling](https://github.com/COMSOC-Community/prefsampling)[[Boehmer et al. 2024](https://www.ijcai.org/proceedings/2024/0881.pdf)]
+* [Preflib](https://www.preflib.org/){:target="_blank"} [[Mattei and Walsh 2013](http://www.cse.unsw.edu/~tw/mwadt2013.pdf){:target="_blank"}]
+* [PrefSampling](https://github.com/COMSOC-Community/prefsampling){:target="_blank"}[[Boehmer et al. 2024](https://www.ijcai.org/proceedings/2024/0881.pdf){:target="_blank"}]
+
+### Tools and Techniques
+* [IBM CPLEX](https://ibmdecisionoptimization.github.io/docplex-doc/){:target="_blank"}
+* Youtube [How to choose an appropriate statistical test
+](https://www.youtube.com/watch?v=dYJLUvo0Q6g){:target="_blank"}
+
+
+## Courses
+* [CS886 - Multiagent Systems - Winter 2025](https://cs.uwaterloo.ca/~klarson/teaching/W25-886/){:target="_blank"} by Kate Larson, UWaterloo
+* [15326: Computational Microeconomics](https://www.cs.cmu.edu/~15326-s26/){:target="_blank"}; [15784: FOUNDATIONS OF COOPERATIVE AI](https://www.cs.cmu.edu/~15784/){:target="_blank"} by Vincent Conitzer, CMU.
+* [Economics and Computation](https://people.cs.rutgers.edu/~lirong.xia/Teaching/2025SEconCS/index.html){:target="_blank"} by Lirong Xia, Rutgers
+* [Algorithmic Game Theory](https://www.wisdom.weizmann.ac.il/~feige/agt2024.html){:target="_blank"} by Uri Feigge, Weizmann
+* [Algorithmic Foundations of Collective Decision Making](https://www.cs.ox.ac.uk/teaching/courses/2023-2024/AFCDM/){:target="_blank"} by Edith Elkind, Okford
+* [Optimized Democracy](https://sites.google.com/view/optdemocracy/){:target="_blank"} by Ariel Procaccia, Harvard
 
 
 
@@ -72,17 +86,17 @@ Springer book series -- [Synthesis Lectures on Artificial Intelligence and Machi
 
 | Conference Name      | [Rating](http://portal.core.edu.au/conf-ranks/)* | Link | Approx. Deadline | Conference Dates |
 | ----------- | ----------- | ----------- | ----------- | ----------- |
-| AAAI Conference on Artificial Intelligence | A* | [2023 link](https://aaai-23.aaai.org/) | August | February |
-| International Joint Conference on Artificial Intelligence (IJCAI) | A* | [2023 link](https://ijcai-23.org/) | January | August |
-| Conference on Neural Information Processing Systems (NeurIPS) | A* | [2023 link](https://nips.cc/) | May | December |
-| Conference on Uncertainty in Artificial Intelligence (UAI) | A | [2023 link](https://www.auai.org/uai2023/) | February | July-Aug |
-| International Symposium on Algorithmic Game Theory (SAGT)      | B | [2023 link](https://www.royalholloway.ac.uk/research-and-teaching/departments-and-schools/computer-science/sagt-2023) | May | September |
-| European Conference on Artificial Intelligence (ECAI) | A | [2023 link](https://ecai2023.eu/) | April | Sept-Oct |
-| ACM Conference on Economics and Computation (EC)   | A* | [2023 link](https://ec23.sigecom.org/)| January | July |
-| Conference On Web And Internet Economics (WINE) || [2023 link](https://wine2023.shanghaitech.edu.cn/) | July | December |
-| International Conference on Autonomous Agents and Multiagent Systems (AAMAS) | A* | [2023 link](https://aamas2023.soton.ac.uk/) | October | May-June$^{+1}$ |
-| International Workshop on Computational Social Choice (COMSOC) || [2023 link](https://www.bgu.ac.il/comsoc2023) | March | July |
-| The Web Conference (WWW) | A* | [2023 link](https://www2023.thewebconf.org/) | October | May$^{+1}$ |
+| AAAI Conference on Artificial Intelligence | A* | [link](https://aaai-23.aaai.org/) | August | February |
+| International Joint Conference on Artificial Intelligence (IJCAI) | A* | [link](https://ijcai-23.org/) | January | August |
+| Conference on Neural Information Processing Systems (NeurIPS) | A* | [link](https://nips.cc/) | May | December |
+| Conference on Uncertainty in Artificial Intelligence (UAI) | A | [link](https://www.auai.org/uai2023/) | February | July-Aug |
+| International Symposium on Algorithmic Game Theory (SAGT)      | B | [link](https://www.royalholloway.ac.uk/research-and-teaching/departments-and-schools/computer-science/sagt-2023) | May | September |
+| European Conference on Artificial Intelligence (ECAI) | A | [link](https://ecai2023.eu/) | April | Sept-Oct |
+| ACM Conference on Economics and Computation (EC)   | A* | [link](https://ec23.sigecom.org/)| January | July |
+| Conference On Web And Internet Economics (WINE) || [link](https://wine2023.shanghaitech.edu.cn/) | July | December |
+| International Conference on Autonomous Agents and Multiagent Systems (AAMAS) | A* | [link](https://aamas2023.soton.ac.uk/) | October | May-June$^{+1}$ |
+| International Workshop on Computational Social Choice (COMSOC) || [link](https://www.bgu.ac.il/comsoc2023) | March | July |
+| The Web Conference (WWW) | A* | [link](https://www2023.thewebconf.org/) | October | May$^{+1}$ |
 
 **Ratings per Computing Research and Education Association of Australasia, [CORE Inc.](https://www.core.edu.au/)*
 
@@ -91,15 +105,25 @@ Springer book series -- [Synthesis Lectures on Artificial Intelligence and Machi
 
 
 ## Open Repositories of Ongoing Research
-- [Opitmization Online](https://optimization-online.org/) by Andreas Wächter, Northwestern University
-- [Theory of Computing](https://theoryofcomputing.org/)
+* [Opitmization Online](https://optimization-online.org/) by Andreas Wächter, Northwestern University
+* [Theory of Computing](https://theoryofcomputing.org/)
+
+## Related Institutions and Organizations
+* [Project Nanda](https://projectnanda.org/){:target="_blank"}
+* [Cooperative AI Foundation](https://www.cooperativeai.com/){:target="_blank"}
+* [ACM Transactions on Economics and Computation](https://dl.acm.org/journal/teac){:target="_blank"}
+* Google Cloud Blog [Guide to multi-agent systems (MAS)](https://cloud.google.com/discover/what-is-a-multi-agent-system){:target="_blank"}
+* DIMACS workshops [[modern](http://dimacs.rutgers.edu/events/details?eID=2241)] [[list 1989-2018](http://archive.dimacs.rutgers.edu/Workshops/index-allbydate.html)]
+  * Including: [IBM/DIMACS Workshop on Bridging Game Theory and Machine Learning for Multi-party Decision Making](http://dimacs.rutgers.edu/events/details?eID=2241) (October, 2022)
+* Simons Institute workshop on [Economics and Computation](https://simons.berkeley.edu/programs/economics-computation) (2015)
+* Complexity Explorer
+
 
 
 
 ## Other useful links
 - [CS rankings](https://csrankings.org/#/index?all&us) for ranking US graduate programs in computer science
-- DIMACS workshops [[modern](http://dimacs.rutgers.edu/events/details?eID=2241)] [[list 1989-2018](http://archive.dimacs.rutgers.edu/Workshops/index-allbydate.html)]
--- Including: [IBM/DIMACS Workshop on Bridging Game Theory and Machine Learning for Multi-party Decision Making](http://dimacs.rutgers.edu/events/details?eID=2241) (October, 2022)
+
 
 
 

@@ -30,8 +30,8 @@ A list of Resources for PhD Students.
 * [[The Graduate Student Survival Guide (Wanda Pratt)](https://gradresources.org/the-graduate-student-survival-guide/){:target="_blank"}]
 * [[Matt Might's article index](https://matt.might.net/articles/){:target="_blank"}] [[html](../advice_docs/Advice_for_Grad_Students.pdf){:target="_blank"}]
 * Epistemology of a PhD
-* * [[The purpose of the PhD: theorising the skills acquired by students (Mowbray and Halse)](https://www.tandfonline.com/doi/abs/10.1080/07294360.2010.487199){:target="_blank"}]
-* * [[Issue Forum: Breadth and Depth Of Knowledge In Communication (Hample)](https://www.tandfonline.com/doi/full/10.1080/03637750802088323){:target="_blank"}]
+  * [[The purpose of the PhD: theorising the skills acquired by students (Mowbray and Halse)](https://www.tandfonline.com/doi/abs/10.1080/07294360.2010.487199){:target="_blank"}]
+  * [[Issue Forum: Breadth and Depth Of Knowledge In Communication (Hample)](https://www.tandfonline.com/doi/full/10.1080/03637750802088323){:target="_blank"}]
 
 
 
@@ -49,7 +49,7 @@ A list of Resources for PhD Students.
 * [[Orwell Politics and the English Language](../advice_docs/Orewell - Politics and the English Language.pdf){:target="_blank"}]
 * [[How to create a paper presentation and lead discussion](../advice_docs/How to create a paper presentation and lead discussion.pdf){:target="_blank"}]
 * [[How to make Stats Lecture Video](../advice_docs/How to make Stats Lecture Video.html){:target="_blank"}]
-
+* [[Presentation Reviews (Kate Larson)](../advice_docs/PresentationReviews.txt){:target="_blank"}]
 
 
 
@@ -102,6 +102,7 @@ A list of Resources for PhD Students.
 * [[How to Read a Technical Paper](../advice_docs/reading_2.html){:target="_blank"}]
 * [[How to read a research paper.](../advice_docs/reading_3){:target="_blank"}]
 * [[How NOT to review a paper](../advice_docs/reading_4.pdf){:target="_blank"}]
+* [[Paper Reviews (Kate Larson)](../advice_docs/PaperReview.txt){:target="_blank"}]
 
 
 

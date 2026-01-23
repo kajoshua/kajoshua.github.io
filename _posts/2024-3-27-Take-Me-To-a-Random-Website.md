@@ -129,7 +129,10 @@ A list of random websites I find interesting or useful. For better [adulting](ht
     * Get information about: Credit cards, Banking, Home, Loans, Insurance, Personal finance, Investing, Small business, and Taxes
 * US Office of Finanical Research
 	* [Monitoring Tools](https://www.financialresearch.gov/monitoring-tools/){:target="_blank"}
+* App Economy Insights
+    * [How to analyze 10-k reports](https://www.appeconomyinsights.com/p/how-to-analyze-a-10-k){:target="_blank"}
 
+    
 
 
 ### Consumer Protection
@@ -171,7 +174,8 @@ A list of random websites I find interesting or useful. For better [adulting](ht
     * [Polls](https://yougov.com/en-us){:target="_blank"}
 * FiveThirtyEight (discontinued)
     * [Polls](https://projects.fivethirtyeight.com/polls/){:target="_blank"}
-
+* Open Secrets
+    * [Website](https://www.opensecrets.org/){:target="_blank"}
 
 AI Governance
 * Governance.AI    
@@ -181,12 +185,19 @@ AI Governance
 * Distributed AI Research Institute
     * [Website](https://www.dair-institute.org/){:target="_blank"}
 
+Emerging Technology Policy
+* [Horizon Institue for Public Service](https://emergingtechpolicy.org/tips/resources/){:target="_blank"}
+* Blog [The rise and fall of the industrial R&D lab](https://worksinprogress.co/issue/the-rise-and-fall-of-the-american-rd-lab/){:target="_blank"} by Ben Southwood, Works in Progress
 
-## Law
+
+## Law and Research
 
 * Cornell's Legal Information Institute (LII)
     * [Website](https://www.law.cornell.edu/){:target="_blank"}
-
+* UPenn Libraries
+    * [Research Guides](https://guides.library.upenn.edu/hometabs){:target="_blank"}
+* Harvard Business School Online
+    * [Blog](https://online.hbs.edu/blog/){:target="_blank"}
 
 ## Philosophy
 
@@ -209,6 +220,19 @@ AI Governance
 
 * Positive Psychology
 	* [Blog](https://positivepsychology.com/blog/){:target="_blank"}
+* Psychology Today
+    * [Blog](https://www.psychologytoday.com/us){:target="_blank"}
+* Psychology Labs (Dr. Martin Shapiro)
+    * [Book recommendations](https://psychology-labs.com/book-recommendations/){:target="_blank"}
+* Free to Attach
+    * [Website](https://www.freetoattach.com/){:target="_blank"}
 
+## Science
+
+* Vsauce
+    * [Website](https://www.vsauce.com/){:target="_blank"}
+* Veritasium
+    * [Website](https://www.veritasium.com/){:target="_blank"}
+* Also see Kurzgesagt, 3Blue1Brown, The Action lab, and of course the Vlogbrothers (SciShow, Crash Course)
 
     

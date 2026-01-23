@@ -9,9 +9,6 @@ A list of useful blogs and resources from institutions.
 <!--more-->
 
 
-# Architecture Library
-
-* [Feng Shui](https://en.wikipedia.org/wiki/Feng_shui){:target="_blank"}
 
 # Political News
 * Pew Research ([main page](https://www.pewresearch.org/){:target="_blank"})
@@ -21,7 +18,7 @@ A list of useful blogs and resources from institutions.
 * Psychology Today ([blog](https://www.psychologytoday.com/us){:target="_blank"})
 * Positive Psychology ([blog](https://positivepsychology.com/){:target="_blank"})
 
-# Political Thinktanks
+# Political Think tanks
 * Brookings institute ([main page](https://www.brookings.edu/){:target="_blank"})
 
 

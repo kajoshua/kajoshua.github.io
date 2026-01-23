@@ -60,6 +60,9 @@ Do LLMs use probabilistic reasoning and would they fail the Ellsberg paradox?
 
 How do time scales shift in perception? 1hr for an adult is 4 hrs for a kid? 1st exposure to a 1min youtube short is "feels like" 1.5x the speed of the 2nd exposure. Someone who’s heavily invested in a work and things are steadily progressing, versus someone who needs to be caught up to speed. What are the cognitive processing differences between these two states?.
 
+### RQ6: LLMs and Education
+Ask an LLM to take a math benchmark quiz as a function of it's education curriculum. The way it should process new information should be an ordered function of prior information. What is the optimal curriculum for an LLM to "learn" a 15 week course, and how does this compare to current curriculum design? Can curriculum be improved given what we can find from the optimal way that an LLM (as a synthetic human) learns?
+
 
 # Economics and Business Mangement Questions
 
@@ -114,6 +117,11 @@ To what extent can we measure income of companies as a function of expenditures 
 
 ### RQ12: Credit Scores
 What are the most significant causal features for peoples' credit scores? To what extent are people in structural deficit environemts as opposed to making poor choices?
+
+Related to household finances:
+* Household Finance across the Lifecycle, Fall 2025, NBER. [[Link](https://www.nber.org/conferences/household-finance-across-lifecycle-fall-2025){:target="_blank"}]
+* Personal Income Charts, FRED. [[Table 2.6. Personal Income and Its Disposition](https://fred.stlouisfed.org/release/tables?rid=54&eid=155443){:target="_blank"}]
+* NIPA Handbook: Concepts and Methods of the U.S. National Income and Product Accounts, BEA. [[NIPA Handbook](https://www.bea.gov/resources/methodologies/nipa-handbook){:target="_blank"}] [[Chapter 5](https://www.bea.gov/resources/methodologies/nipa-handbook/pdf/chapter-05.pdf){:target="_blank"}]
 
 ### RQ13: Random Walks
 How robust are people, based on their choices throughout a given week, to sensitive shocks? This is similar to the finding of X% people living paycheck-to-paycheck, but more specific.

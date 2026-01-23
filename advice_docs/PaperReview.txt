@@ -1,0 +1,15 @@
+Write 1-2 paragraphs for each of the following points.
+
++ What is the main contribution of the paper?
+
++ Is it important? Why?
+
++ What was the main insight of the paper?
+
++ What assumptions were made?
+
++ What applications might arise from the paper?
+
++ How can the results be extended?
+
++ What was unclear to you?

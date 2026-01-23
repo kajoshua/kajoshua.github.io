@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Cognition Tips, Tricks, and Hot Takes
+title: Unhinged Cognitive Science Doodles
 excerpt_separator: <!--more-->
 ---
 
@@ -14,7 +14,7 @@ A list of hot takes about cognition and learning.
 * Deadlines in school are artificial. In practice, timelines must be met for certain deliverables. For certain problems, it's better to take the perspective that you only get so many hours to solve a problem you care about, rather than you only have to work for so many hours.
 * Judge yourself by your inputs, not the outputs. -- Alex Hormozi
 * Saying to yourself "I'm going to remember it later" is a lie. Write it down, especially when you're about to fall asleep.
-* Fancy apartments are facades, albeit niceties needed for human fostering. Functionally they're all the same.
+* Fancy apartments are facades, albeit niceties needed for human fostering. Functionally they're all just places.
 * The people at your job are who you're going to become in 10 years by staying at that company.
 * "What do you want to be" is a descriptive ask; "What do you want to do" is an active, planning one.
 * Intentionality: recognize your tradeoffs and design your career strategically, just as you'd design your own college degree based on courses you find interesting, if you could.

@@ -24,6 +24,7 @@ This post contains a handful of perspective papers in EconCS, sorted by topic.
 
 * Anshelevich, E., Filos-Ratsikas, A., Shah, N., and Voudouris, A. A. (2021). Distortion in social choice problems: The first 15 years and beyond. IJCAI. [[Link](https://arxiv.org/pdf/2103.00911){:target="_blank"}]
 * Faliszewski, P., and Procaccia, A. D. (2010). AI's war on manipulation: Are we winning?. AI Magazine. [[Link](https://courses.cs.duke.edu/spring14/compsci590.4/waronmanipulation.pdf){:target="_blank"}]
+* Aziz, H. and Shah, N. (2020). Participatory Budgeting: Models and Approaches [[Link](https://arxiv.org/pdf/2003.00606){:target="_blank"}]
 
 
 # Economics and Computation

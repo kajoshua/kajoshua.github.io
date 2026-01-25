@@ -127,6 +127,91 @@ Springer book series -- [Synthesis Lectures on Artificial Intelligence and Machi
 
 
 
+# Key Concepts from EconCS
+
+A collection of models and concepts showing how collective patterns and order emerge from interactions among self-interested, adaptive agents, spanning equilibria, learning, networks, and social choice. It highlights the mechanisms behind emergent stability, coordination, and cascading effects. Inspired in part by Scott Page's class on Model Thinking. [[Coursera Link](https://www.coursera.org/learn/model-thinking){:target="_blank"}]
+
+<!--more-->
+
+## Game Theory
+
+* Equilibrium concepts:
+  * Nash equilibrium
+  * Subgame perfect equilibrium
+  * Correlated equilibrium
+  * Evolutionary stable strategy
+  * Minimax theorem
+* Strategic interactions:
+  * Prisoner's dilemma
+  * Tit-for-tat
+  * Public goods games
+  * Graphical games (Kearns, Littman, and Singh (2001))
+  * Shapley values
+* Mechanisms and Market designs:
+  * Vickrey–Clarke–Groves auction
+  * Price of Anarchy
+  * Bayesian persuasion
+  * Arrow's impossibility theorem
+  * Gibbard-Satterthwaite impossibility theorem
+  * Myerson–Satterthwaite impossibility theorem
+  * Median voter theorem
+  * Revelation principle
+* Dynamic systems and complexity: 
+  * Lotka-Volterra predator-prey system
+  * Poincaré–Bendixson theorem
+  * Conway's game of life  
+  * Lyapunov function; potential games
+  * Finite improvement property
+  * Network formation games (see e.g., Jackson and Wolinsky (1996))
+
+## Economics and Computer Science
+* Learning and online decision-making:
+  * Multiplicative Weights Update (aka Hedge) (Littlestone and Warmuth (1992))
+  * Mirror descent algorithm
+  * Boosting (Sharpe (1997); Freund and Scharpe (1997))
+  * Replicator dynamics (see Krichene, Drighes, and Bayen (2014))
+  * Fictitious Play (Brown (1951); Foster and Young (1998)) 
+  * Regret matching / no-regret learning (Hart and Mas-Colell (2000))
+  * Logit response
+  * Follow the Regularized Leader
+* Ranking and voting:
+  * Bradley-Terry-Luce model of pairwise comparisons (in general, Plackett-Luce)
+  * Kemeny-Young method
+  * Condorcet's jury theorem
+* Matching and networks:
+  * Gale-Shapley algorithm for stable matching
+  * PageRank (Brin and Page (1998)); HITS (Kleinberg (1998))
+  * Influence Maximization (Kempe, Kleinberg, and Tardos (2003))
+    * Independent Cascade Model
+    * Linear Threshold Model (Granovetter (1978))
+* Bandits and exploration:
+  * Upper Confidence Bound (UCB) for the multi-armed bandit problem
+  * Thompson Sampling
+  * Stochastic games
+  * Partially Observable Markov Decision Process
+
+## Complex Systems and Cognitive Science
+* Cognitive and Behavioral:
+  * Prospect theory (Kahneman and Tversky (1979))
+  * Cognitive Hierarchy Models (Camerer, Ho, and Chong (2004))
+  * Cognitive architectures (ACT-R, Soar, CLARION, EPIC)
+  * Standing Ovation Model (Miller and Page (2004))
+  * Schelling's model of segregation (Schelling (1971))
+* Statistical physics and emergent phenomena:
+  * Kuramoto model
+  * Information cascades (Bikhchandani, Hirshleifer, and Welch (1992))
+  * SIR model
+  * Interacting Particle Systems (Liggett (1985))
+  * Ising model
+  * Boltzmann machine
+  * Hopfield networks
+  * Abelian Sandpile Model
+  * Percolation theory
+* Network theory
+  * Watts-Strogatz small-world networks
+  * Erdős–Rényi random graphs
+  * Barabási-Albert model
+  
 
 
 

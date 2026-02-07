@@ -19,6 +19,11 @@ This post contains a handful of perspective papers in EconCS, sorted by topic.
 * Parsons, S., and Wooldridge, M. (2002). Game theory and decision theory in multi-agent systems. In *AAMAS*. [[Link](https://www.researchgate.net/profile/Simon-Parsons-3/publication/220660863_Game_Theory_and_Decision_Theory_in_Multi-Agent_Systems/links/60a39604458515952dd44b7b/Game-Theory-and-Decision-Theory-in-Multi-Agent-Systems.pdf){:target="_blank"}]
 * Shoham, Y., Powers, R., & Grenager, T. (2007). If multi-agent learning is the answer, what is the question?. *Artificial intelligence*. [[Link](https://www.sciencedirect.com/science/article/pii/S0004370207000495){:target="_blank"}]
 
+Pluralistic AI in the LLM-AGI age:
+* Sorensen, T., Moore, J., Fisher, J., Gordon, M., Mireshghallah, N., Rytting, C. M., ... & Choi, Y. (2024). A roadmap to pluralistic alignment. arXiv preprint arXiv:2402.05070.
+* Conitzer, V., Freedman, R., Heitzig, J., Holliday, W. H., Jacobs, B. M., Lambert, N., ... & Zwicker, W. S. (2024). Social choice for ai alignment: Dealing with diverse human feedback. CoRR.
+* Hammond, L., Chan, A., Clifton, J., Hoelscher-Obermaier, J., Khan, A., McLean, E., ... & Rahwan, I. (2025). Multi-agent risks from advanced ai. arXiv preprint arXiv:2502.14143.
+
 
 # Computational Social Choice
 
@@ -83,4 +88,10 @@ This post contains a handful of perspective papers in EconCS, sorted by topic.
 * Horton, J. J. (2023). *Large language models as simulated economic agents: What can we learn from homo silicus?*. National Bureau of Economic Research. [[Link](https://www.nber.org/system/files/working_papers/w31122/w31122.pdf){:target="_blank"}] 
 * Zheng, S., Trott, A., Srinivasa, S., Naik, N., Gruesbeck, M., Parkes, D. C., and Socher, R. (2020). The AI economist: Improving equality and productivity with ai-driven tax policies. [[Link](https://arxiv.org/pdf/2108.02755){:target="_blank"}] 
 
+
+
+## TODO:
+Note to self for adding these types of papers later:
+* Behavioral social choice papers
+* Beh econ experiments on ultimatum games (incl BO00/EC04)
 

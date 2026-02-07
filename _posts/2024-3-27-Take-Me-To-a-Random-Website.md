@@ -176,6 +176,9 @@ A list of random websites I find interesting or useful. For better [adulting](ht
     * [Polls](https://projects.fivethirtyeight.com/polls/){:target="_blank"}
 * Open Secrets
     * [Website](https://www.opensecrets.org/){:target="_blank"}
+* Bipartisan Policy Center
+    * [Deficit Tracker](https://bipartisanpolicy.org/report/deficit-tracker/){:target="_blank"}
+
 
 AI Governance
 * Governance.AI    
@@ -226,6 +229,12 @@ Emerging Technology Policy
     * [Book recommendations](https://psychology-labs.com/book-recommendations/){:target="_blank"}
 * Free to Attach
     * [Website](https://www.freetoattach.com/){:target="_blank"}
+* Self Actualization Test (Scott Kaufman)
+    * [Test Website](https://scottbarrykaufman.com/selfactualizationtests/){:target="_blank"}
+    * See also this blog post from Positive Psychology [[link](https://positivepsychology.com/self-actualization-tests-tools-maslow/){:target="_blank"}]
+* Enneagram insitute
+    * Check this out if you're into MBTI tests [[9 Enneagram Types](https://www.enneagraminstitute.com/type-descriptions/){:target="_blank"}]
+    * [[16 Personalities](https://www.16personalities.com/){:target="_blank"}]
 
 ## Science
 

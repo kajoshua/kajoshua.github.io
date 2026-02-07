@@ -208,6 +208,7 @@ A collection of models and concepts showing how collective patterns and order em
   * Hopfield networks
   * Abelian Sandpile Model
   * Percolation theory
+  * Sensitivity analysis
 * Network theory
   * Watts-Strogatz small-world networks
   * Erdős–Rényi random graphs

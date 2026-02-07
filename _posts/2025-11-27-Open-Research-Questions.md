@@ -25,6 +25,8 @@ What's the query complexity for inferring model weights given the output of a mo
 ### RQ4: Strategic ML in Federated Learning
 How are adversaries handled in federated learning, if an edge compute device wants to influence the parameter vector of a central server? Is VCG needed in order to incentivize edge devices to report their parameter vectors correctly?
 
+How susceptible are proportionality-based classifiers to Sybil attacks?
+
 ### RQ5: Distortion
 What is the distortion of distributed SLAM? As in, if there are communication constraints, what is the process for (1) determining which information is most needed to be communicated, (2) error rates on correctness as a function of the partial information?
 
@@ -49,6 +51,12 @@ How can we use natural language (via LLMs) in order to gain the most information
 
 See:
 * Huang, D., Marmolejo-Cossío, F., Lock, E., & Parkes, D. (2025). Accelerated Preference Elicitation with LLM-Based Proxies. arXiv preprint arXiv:2501.14625.
+
+What about as a better UI for preference-related shopping experiences? (Because everything in the economy is about advertising and marketing, of course.)
+
+Another research area of interest: plurilistic alignment of llms (via social choice). Demonstrate susepctibility to impossibility thms, similar to Principle agent empirics. See:
+* Sorensen, T., Moore, J., Fisher, J., Gordon, M., Mireshghallah, N., Rytting, C. M., ... & Choi, Y. (2024). A roadmap to pluralistic alignment. arXiv preprint arXiv:2402.05070.
+* Conitzer, V., Freedman, R., Heitzig, J., Holliday, W. H., Jacobs, B. M., Lambert, N., ... & Zwicker, W. S. (2024). Social choice for ai alignment: Dealing with diverse human feedback. CoRR.
 
 ### RQ3: Information processing
 Are there ways of processing information besides (i) Bayesian updating, and (ii) attention algorithms for determining what information is important for certain contexts? Different people find different information important, depending on context, yet classical reinforcement learning algorithms assume information is independent of order (and context; see framing cognitive bias). What would a Markovian process for how information, that is step-wise interpreted over time, look like? Perhaps check whether ACT-R has this.
@@ -139,7 +147,7 @@ How do we systematically measure tacit knowledge? Is it related to how efficient
 
 
 ### RQ16: Housing market
-I think pricing houses by "comps" (last price sold of similar other houses in an area) are a bad idea in the housing market because of their illiquidity. how big is this concern?
+I think pricing houses by "comps" (last price sold of similar other houses in an area) are a bad idea in the housing market because of their illiquidity. How big is this concern?
 
 
 # Political Science Questions

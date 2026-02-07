@@ -70,6 +70,7 @@ A list of hot takes about cognition and learning.
 * Goodhart's Law states that "when a measure becomes a target, it ceases to be a good measure."
 * Embrace change. A river looks the same yet its water is always changing. No two experiences or relationships are ever the same.
 * A Tale of Two Seas. "The Sea of Galilee is flowing and lush; the Dead Sea takes but never gives." This demonstrates the need to donate and give back to your community. Example [[source](https://joycemeyer.org/Grow-Your-Faith/Articles/A-Tale-of-Two-Seas){:target="_blank"}].
+* As a retail voter, I'd recommend treating politics like the Median Voter Theorem [[Wiki](https://en.wikipedia.org/wiki/Median_voter_theorem){:target="_blank"}] and vote accordingly, rather than voting through the party line. That is, take some time to go through high-contensions issues and determine your own views on things. Then figure out which tradeoffs you value more, and which politicians are individually representing your beliefs (subject to those tradeoffs). You'll likely find that the politicans are voting through the party line; but you don't have to, to get your ideas heard.
 
 ## A list of questions you should ask people ahead of you
 

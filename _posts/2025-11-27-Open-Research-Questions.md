@@ -71,6 +71,17 @@ How do time scales shift in perception? 1hr for an adult is 4 hrs for a kid? 1st
 ### RQ6: LLMs and Education
 Ask an LLM to take a math benchmark quiz as a function of it's education curriculum. The way it should process new information should be an ordered function of prior information. What is the optimal curriculum for an LLM to "learn" a 15 week course, and how does this compare to current curriculum design? Can curriculum be improved given what we can find from the optimal way that an LLM (as a synthetic human) learns?
 
+### RQ7: Communication Practices
+
+QOTD: I was handed a few Python files that were strung together by someone who had worked on a project for weeks. This was my first day on the project, so of course I had to read through each function to determine its relevance. For example, I see an algorithm re-implemented with certain design modifications, but it might take me a few hours-to-days to determine why that algorithm was chosen, where it is used, and what led the author to make those design choices as opposed to others. In terms of technical communication and software engineering design:
+
+```What is the minimum change the writer of the files can make to maximally reduce a new reader's intake cost?```
+
+My thought is that recommendations like "commenting your code" or "include docstrings" aren't too precise. I'm sure this question is addressed in software engineering textbooks, but for my purposes it's not worth the cognitive cost to go down that rabbit hole based on my prior expectation on how long it would take to retrieve that information.
+
+ChatGPT suggests "A new reader should be able to understand the shape of the system without opening a function body."
+
+
 
 # Economics and Business Mangement Questions
 

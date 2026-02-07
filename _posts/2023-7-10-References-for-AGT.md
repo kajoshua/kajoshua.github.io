@@ -34,7 +34,7 @@ The field intersects computer science, economics, and operations research and fo
 - [Economics and Computation](http://economicsandcomputation.org/) by David Parkes and Sven Seuken.
 - [An Introduction to Multiagent Systems](https://www.wiley.com/en-us/An+Introduction+to+MultiAgent+Systems%2C+2nd+Edition-p-9780470519462) by Michael Wooldridge, 2009. [[PDF](https://github.com/MasterGos/magisterka/blob/master/Materialy%20z%20sieci/AOP/Wiley%20-%20Wooldridge%2C%20An%20Introduction%20to%20Multi%20Agent%20Systems%20(OCR%20guaranteed%20on%20full%20book).pdf)]
 - [Multiagent Systems: A Modern Approach to Distributed Artificial Intelligence](https://ieeexplore.ieee.org/book/6267355) edited by Gerhard Weiss, 1999. [[PDF 1999](https://www.uma.ac.ir/files/site1/a_akbari_994c8e8/gerhard_weiss___multiagent_systems___a_modern_approach_to_distributed_artificial_intelligence.pdf)].
-- [Networks, Crowds, and Markets] by David Easley and Jon Kleinberg. [[Website](https://www.cs.cornell.edu/home/kleinber/networks-book/)]
+- [Networks, Crowds, and Markets](https://www.cs.cornell.edu/home/kleinber/networks-book/) by David Easley and Jon Kleinberg.
 
 Springer book series -- [Synthesis Lectures on Artificial Intelligence and Machine Learning](https://www.springer.com/series/16915):
 

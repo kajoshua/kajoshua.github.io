@@ -39,7 +39,7 @@ A list of Resources for PhD Students.
 * [[Directed Studies (for Undergrads)](../advice_docs/Directed_Studies.html){:target="_blank"}]
 * [[Research Resources](http://www.computersciencestudent.com/RESEARCH/){:target="_blank"}]
 * [[How to do research at an MIT AI lab](https://webpages.charlotte.edu/sakella/advice/AI_WP_316.pdf){:target="_blank"}]
-* [[Reading Group Organizers' Guide](Reading Group Organizers' Guide - robin bowers.pdf){:target="_blank"}]
+* [[Reading Group Organizer Guide](Reading Group Organizers Guide robin bowers.pdf){:target="_blank"}]
 
 
 ## Presentations and Talks

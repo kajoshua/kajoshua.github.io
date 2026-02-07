@@ -68,7 +68,8 @@ A list of hot takes about cognition and learning.
   * See [[Comedy Central](https://www.youtube.com/watch?v=gtausPdQxi8){:target="_blank"}]
 * When you're in a rut, check your systems. Sometimes your mood is a lagging indicator of your sleep, fitness, socialization or relationships, sunlight, eating habbits, smoking/drinking/vices, etc. In the mean time, at least have fun. What can you do that'll make your system feel endearing, fit, appreciative, or grateful?
 * Goodhart's Law states that "when a measure becomes a target, it ceases to be a good measure."
-
+* Embrace change. A river looks the same yet its water is always changing. No two experiences or relationships are ever the same.
+* A Tale of Two Seas. "The Sea of Galilee is flowing and lush; the Dead Sea takes but never gives." This demonstrates the need to donate and give back to your community. Example [[source](https://joycemeyer.org/Grow-Your-Faith/Articles/A-Tale-of-Two-Seas){:target="_blank"}].
 
 ## A list of questions you should ask people ahead of you
 

@@ -114,7 +114,7 @@ A list of Resources for PhD Students.
 * [[Alex Lang NSF](https://www.alexhunterlang.com/nsf-fellowship){:target="_blank"}]
 * [[Writing a Research Proposal](../advice_docs/Writing Research Proposals.html){:target="_blank"}]
 * [[Making a CV (Shomir Wilson)](https://shomir.net/wilhom_rosins.html){:target="_blank"}]
-
+* [[Postcards from the NSF (Matthew Jackson and Laura Rzzolini)](../advice_docs/nsfpost.pdf){:target="_blank"}]
 
 
 ## Reviewing Tips

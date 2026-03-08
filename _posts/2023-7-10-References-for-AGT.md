@@ -71,6 +71,9 @@ Springer book series -- [Synthesis Lectures on Artificial Intelligence and Machi
 * [IBM CPLEX](https://ibmdecisionoptimization.github.io/docplex-doc/){:target="_blank"}
 * Youtube [How to choose an appropriate statistical test
 ](https://www.youtube.com/watch?v=dYJLUvo0Q6g){:target="_blank"}
+* [Statistics How To](https://www.statisticshowto.com/){:target="_blank"}
+* [Stanford CS103: Mathematical Foundations of Computing](https://web.stanford.edu/class/cs103/){:target="_blank"}
+* [The Book of Statistical Proofs](https://statproofbook.github.io/){:target="_blank"}
 
 
 ## Courses

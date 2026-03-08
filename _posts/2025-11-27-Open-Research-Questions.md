@@ -97,6 +97,8 @@ What is the correlation of earning potential with high school GPA, or amount of 
 Are curriculum adaptive enough for changing labor demands? Both in public and private schools. Also, how does the use of school choice vouchers change curriculum and education standards?
 
 Similarly, what is the carrying capacity of the economy to adapt to new technologies? This is the LLM/AGI question of 2025.
+More specifically, how do we measure the absorbative capacity of certain skills in the labor market? As in, if N (or X%) of employees with a certain skill get laid off at the same time, how easy is it for the economy to absorb this capacity? How can this be masured a priori? (I think Anthropic Sr Economists are looking into this type of question.)
+
 
 To what extent does the labor market capture peoples' revealed preference? For instance, a person might prefer electrician over doctor because the collective bundle is better based on their financial situation, amount of effort they want ot put in, and other aspects of opportunity.
 
@@ -156,9 +158,16 @@ Supply vs demand curves as M2 increases from one equilibrium to another. What ha
 ### RQ15: Tacit Knowledge
 How do we systematically measure tacit knowledge? Is it related to how efficient a team or company is at getting someone new to get up to speed? If a consulting company like BCG is recommending cutting labor for cost savings, how should they measure how concentrated certain knowledge is about the company and the price for recouping that knowledge?
 
+(Updated) I think we could actually study this via evaluating onboarding processes for companies / groups / projects, offboarding processes, and the practical implications of high churn. One especially relevant question to this is: how do companies "Ship of Theseus" themselves when they are responsible for a 10-15 year contract, yet most employee stay at the firm for no longer than 2-3 years? Relatedly, if a committee has to negotiate the details of a project, but the people responsible for the day-to-day in-the-weeds details aren't part of the negotiating committee, how effective can that committee be at finishing that project? This might just be a standard business management question, in that, teams deal with translation of knowledge between employees all the time; intimate details that one person has figured out about a project likely gets lost in translation. I'm wondering how this is discussed in MBA programs.
+
 
 ### RQ16: Housing market
 I think pricing houses by "comps" (last price sold of similar other houses in an area) are a bad idea in the housing market because of their illiquidity. How big is this concern?
+
+
+### RQ17: Business Net Margin
+
+What would be the practical implications if policymakers imposed a cap on net margin for companies? Or cap max employee compensation (including equity awardance) as a function of lowest employee compensation? For example, would companies just partition themselves to avoid this? The latter would probably (A) not affect existing shareholders, (B) incentivize subcontractors as holding companies for employees. I'm wondering how this would play out.
 
 
 # Political Science Questions
@@ -195,6 +204,8 @@ There are many situations where something is technically feasible but very incon
 How do myths, as Joseph Campbell discusses, play out in our daily lives?
 
 ### RQ2: The Giver
-What is the role of consultants or other academics in our society, as in the book The Giver? Who actually reads manuals from the 1950s, or earlier, to see if society has "missed" anything in contemporary language 
+What is the role of consultants or other academics in our society, as in the book The Giver? Who actually reads manuals from the 1950s, or earlier, to see if society has "missed" anything in contemporary language ?
+
+For example, Bayes Nash equilibrium is one aspect of Harsanyi's work from the late 1960s, yet it is one of the most memerable. Are his other, less cited works, worth reading? How do we trust that the scientific citation mechanism of long-tail distributions (see e.g., [[Eom and Fortunto, 2011](https://arxiv.org/pdf/1110.2153){:target="_blank"}]) isn't missing something significant? This is a social epistemological attention problem. Now that we have LLMs, I think this can be addressed via a meta-study.
 
 

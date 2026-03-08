@@ -117,6 +117,18 @@ A list of Resources for PhD Students.
 * [[Postcards from the NSF (Matthew Jackson and Laura Rzzolini)](../advice_docs/nsfpost.pdf){:target="_blank"}]
 
 
+AI Governance and Cooperative AI
+* AI Safety Support [[Lots of Links](https://www.aisafetysupport.org/lots-of-links){:target="_blank"}]. See especially their lists on (NOTE: I will update this blog using these resources, at some point):
+  * Research/General Advice
+  * Career Advice
+  * PhD Advice
+* AEACGR: Government Funding for Economic Research [[link](https://www.aeaweb.org/about-aea/committees/government-relations/resources/govt-funding-for-research){:target="_blank"}]
+* NSF 25-543: Computer and Information Science and Engineering : Future Computing Research (Future CoRe) [[link](https://www.nsf.gov/funding/opportunities/future-core-computer-information-science-engineering-future-computing/nsf25-543/solicitation){:target="_blank"}]
+* Grants Awarded by the Cooperative AI Foundation [[link](https://www.cooperativeai.com/post/grant-summaries){:target="_blank"}]
+* AI Fellowships List [[AirTable](https://airtable.com/app53PsYpHxJW61l3/shrEA2M70ZTI3ISa8/tbls2B9CeeFfavLXo){:target="_blank"}]
+* AISafety Funding [[link](https://www.aisafety.com/funding){:target="_blank"}]
+
+
 ## Reviewing Tips
 * [[Mark Allman Thoughts on Reviewing](https://www.icir.org/mallman/pubs/All08a/All08a.pdf){:target="_blank"}]
 

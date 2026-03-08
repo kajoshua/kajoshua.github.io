@@ -35,6 +35,7 @@ Contents:
 * The Economist [Link](https://www.economist.com/topics/economic-and-financial-indicators){:target="_blank"}
 * Economics Inelligence Unit [Link](https://www.eiu.com/n/){:target="_blank"}
 * MacroTrends [Link](https://www.macrotrends.net/stocks/charts/TGT/target/profit-margins){:target="_blank"}
+* Resources.data.gov [Link](https://resources.data.gov/){:target="_blank"}
 
 
 # Links to Relevant Websites for Economics and Finance

@@ -8,6 +8,8 @@ A list of random websites I find interesting or useful. For better [adulting](ht
 
 <!--more-->
 
+Matty McTech has a substantial list of helpful links: [[Personal Website](https://www.mattymctech.com/){:target="_blank"}].
+
 # Take me to a Random Website
 
 * GoStudyHall by John Green. [Website](https://gostudyhall.com/){:target="_blank"}
@@ -21,6 +23,8 @@ A list of random websites I find interesting or useful. For better [adulting](ht
     * [Wiki](https://en.wikipedia.org/wiki/You%27ll_own_nothing_and_be_happy){:target="_blank"}
     * [The Great Taking](https://thegreattaking.com/){:target="_blank"}
     * [Project Cedar](https://www.newyorkfed.org/aboutthefed/nyic/project-cedar){:target="_blank"} (by the NY FED)
+* PDF 417 Decoder
+    * [[Website](https://online-barcode-reader.inliteresearch.com/){:target="_blank"}]
 
 ## Podcasts and Newsletters
 * 99% Invisible

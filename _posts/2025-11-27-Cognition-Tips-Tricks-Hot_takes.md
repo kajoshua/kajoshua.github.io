@@ -33,8 +33,7 @@ A list of hot takes about cognition and learning.
 * Everything compounds. You will always be slower at something at first than when you're months into a project. The goal when starting out isn't to be good. It's to get the ball rolling, especially to gather the resources you think you will need in 4 wks/mos when basic parts are starting to come together.
   * [[Brian Tracy: The Laws of Accumulation](https://www.youtube.com/watch?v=LP8b4VqvUiY){:target="_blank"}]
   * Capacity vs autonomy. You can (autonomously) train your capacity over time even if you've reached capacity today.
-* Goals for project management:
-  * Enable your trainees to tell a quality story about the time they spent working with you.
+* One goal as a team leader is to enable your trainees to tell a quality story about the time they spent working with you.
 * Questions to ask about task allocation, whether this is something simple you need to accomplish (eg synthesize your weekly financies together) or a significant project (eg 12+mo research agenda):
   * How important is the task?
   * What are the costs of doing it (opportunity cost) versus not doing it (hanging over your head), including money, time, and cognitive side effects of learning by doing?
@@ -64,6 +63,18 @@ A list of hot takes about cognition and learning.
 * For big life (or investment) decisions, try to prove yourself wrong, not right. This is to counteract confirmation bias.
 * The work works on you more than you work on the work - Alex Hormozi
 * The fun thing about experimenting is that, for the next 3 hours, you get to try 10 different things and 9 of them will be wrong before you find something that works. Check your ego in these instances -- until you've learned this skill, it's going to be cognitively painful.
+* Actively thinking (ie taking a conscious effort to think) about something over a long period of time will enable your subconscious to synthesize ideas and come up with a succinct solution to whatever problem you're working on. This helps with writers' block.
+* The goal of writing is to communicate effectively for people who are distracted with 15 other things to do, at 6:30am, and in need of a second cup of coffee.
+* If you're working on someting (e.g., a project proposal) and the timing's not right, keep stacking. Try again in 5-10 years. See [[Jocko Willink "Good"](https://www.youtube.com/watch?v=IdTMDpizis8){:target="_blank"}].
+    * First drafts suck and they're hard to write. The process is going to take longer than you think it should. Keep working at it.
+* Grocery stores overload your senses with loud music, bright lights, and saturated colors to induce cognitive overload and enable you to be less selective when you're choosing what to buy. TikTok and scrolling is hyperstimulative but drains your attention capacity. See Bernays's Propoganda, Cialdini's Influence, Kahneman's Thinking Fast and Slow, Chomsky's Manufacturing Consent, and Flobot's (2007) [[There's a War Going on For Your Mind](https://www.youtube.com/watch?v=UDf2r9DnVGU&list=RDUDf2r9DnVGU){:target="_blank"}].
+* If you are procrastinating on X with Y, you're (usually) lying to yourself that you don't have time for X; you just prefer Y > X. 
+* Living in your body takes you out of your mind -- Sol Aziz
+* If you don't define your value proposition in a professional environment, either management will assign you to one or start wondering what you're doing there and why they need you. I realized that one big story of business is to (A) become responsible for solving a problem, (B) continually justify why it's important that this problem gets solved. This explains (1) my above point in that you do hard work in school for the opportunity to continue doing hard work at a job, (2) individuals continually justifying to HR why they're important at the company, (3) planned obsolescence.
+* Going to university is about a skill tree: through classes X, Y, and Z you now have acquired skills A, B, and C. Make sure to ask yourself whether this route, or any other, is worth the cost. (Although this includes personal and professional development; socializing, networking, learning to live in your late-teens-to-early-20s; etc factors that comes along with going to a top tier university.)
+* Get feedback from others by making conjectures that might be wrong. If the other person thinks it's important engouh to correct you, then this'll provide you another data point about your ideas. (You do have to check your ego though and let yourself be wrong in public.) Another advantage to declaring your ideas is that, if you're unpracticed, you don't know how you'll tell a story before you actually start telling it. This give you evidence about your own processing of the subject matter, including gaps in your understanding.
+* Certain prices are extractive. For example, a water bottle costs $0.30 in the grocery store and $5 at an amusement park. They're just seeing which "suckers" will accept their rediculously high margins. Don't let that be you.
+
 
 ## Motivation, Self-Improvement, Personal Responsibility
 
@@ -77,6 +88,7 @@ A list of hot takes about cognition and learning.
   * Write down helpful hints as you go. It's easier than trying to compile down all of your heuristics at the end of an extended project.
   * Writing things down allows you to externalize the background processes in your brain cache. You don't need to store as much information in your head, while you're filtering through them, when you can look at the ideas already written down on the page. This is especially useful for essary drafting, but also complex project work, generally.
   * It also helps with blank-page syndrome: discussing what topic you want to discuss is sometimes cognitively easier than actually discussing it.
+  * Write down _ghost ideas_, on the tip of your tongue, before you forget them.
 * If you're unmotivated or something is hard, recognize that certain things in life just take time. The goal is not necessarily to get everything done, but to work with what you have as best as you can, including your own concentration. Do a little portion now and spread out the task over a few days (as long as it isn't urgent; otherwise, you'll have to sit down, suck it up, and get it done). Doing this now will make the next hard task easier as you get stronger and upskill.
   * Building the habit of a task (eg volunteering, reading, going out of your comfort zone to make friends) is often more important than your day-to-day success. Even if you move in the wrong direction at first, it's easier to pivot than build momentum in the first place. [[Life Changing Advice For When You're At a Low Point In Your Life. Jocko.](https://www.youtube.com/watch?v=k0RBhXyASD4){:target="_blank"}]. The best habit (eg for a diet or fiscal responsibility) is the one you will actually keep.
   * Do you remember how many win vs loss days you had in the last month, year? If not and it's important, build a system, write it down. How much slippage do you have in your wallet, unallocated money it gets lost because you don't have a system? Is it <1% on a small principle or oncome, so it doesn't matter too much in the long run, or 1% of a 1M which needs cutting down? Or is it a habbit like investing $5 a week, or donating $100 every few months, which starts the ball rolling? See [[James Clear, Atomic Habits](https://jamesclear.com/atomic-habits){:target="_blank"}]. 
@@ -86,6 +98,9 @@ A list of hot takes about cognition and learning.
 * Ask LLMs questions like you're asking for mentor feedback:
   * Given what you know about me, who am I? What are my character traits? What are my strengths and weaknesses? What is one piece of advice that someone 10 years ahead of me on this path would want me to know? What should I focus more or less on? What am I likely to encounter in the next 5-10 years that I'll either succeed or struggle with?
   * Ask questions from the third person: What would X think if I said Y? What does X likely think about Y given context Z?
+  * Don't ask "is X good" because it'll provide you evidence aligned with your own confirmation bias. Instead, ask "by what process should I decide whether this is good or not?"
+* Consult your advisors, mentors, and stakeholders during your decision-making process, not just after it's concluded. These people shouldn't be surprised that you're leaning a certain direction. Signal your intent in opportunities before you're ready to jump the gun.
+* When someone's talking and you form preconceptions about what you want to say next, catch yourself -- write down your thoughts perhaps -- but actually pay attention to the ideas offered by the other person. Your friend is more important than the topic itself.
   
 
 ## Concentration and Personal Productivity
@@ -95,8 +110,15 @@ A list of hot takes about cognition and learning.
 
 * Your body is a control system, similar to central planners affecting the economy via measuring the Beveridge Curve. You apply _treatments_ to affect your body's state, including how much sleep you got the past few nights, whether you take a 20 minute walk in the sunlight to refocus your study brain, or if supermarkets blast your senses with light and sound so that you experience decision fatigue and induce you to buy more than you intended.
 * When you're in a rut, check your systems. Sometimes your mood is a lagging indicator of your sleep, fitness, socialization or relationships, sunlight, eating habbits, smoking/drinking/vices, etc. In the mean time, at least have fun. What can you do that'll make your system feel endearing, fit, appreciative, or grateful?
-* *Task Switching* is a significantly more complicated problem for my own concentration, than I realized back in college. I can try to be productive for 8 hours, but, depending on how much depth their is on one project in my cache, it may take 20-40 minutes to re-focus on a completely different task. So if I'm bouncing around between different projects and meetings throughout the day, every 30-90 minutes, there is often very little time to actually dig deep into understanding the implications of the project I'm working on. I have to only budget light cognitive tasks during these periods.
+* *Task Switching* is a significantly more complicated problem for my own concentration, than I realized back in college. I can try to be productive for 8 hours, but, depending on how much depth their is on one project in my cache, it may take 20-40 minutes to re-focus on a completely different task. So if I'm bouncing around between different projects and meetings throughout the day, every 30-90 minutes, there is often very little time to actually dig deep into understanding the implications of the project I'm working on. I have to only budget light cognitive tasks during these periods. 
+  * Likewise, two hours is not enough time to dig deep into a subject. If something is going to take six hours to accomplish, you can spend these two hours on tasks that will enable your future self to be more productive, such as outlining what types of edits to make, across a document, rather than focusing in on editing one particular section of the project.
 * It is recommended to wake up and go to bed the same time every day, and generally keep consistent habits throughout a week. Your concentration and mood depends on external factors and internal factors. For example, if you only get 2 hours of sleep one night, this will override your mood more so than your general day-to-day variance. If you keep consistent sleep habbits, you will only be affected by your intrinsic daily variance.
+* There are four type of "time" in business:
+  * Hours on a billable project
+  * Hours spent working in a day
+  * Wall clock time
+  * Cognitive time (brain power / personal energy focused on a topic)
+  You must measure your efficiency (productive hours / hours spent) against each one.
 
 
 ## A list of questions you should ask people ahead of you

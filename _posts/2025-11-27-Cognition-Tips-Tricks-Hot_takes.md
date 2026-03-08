@@ -43,6 +43,8 @@ A list of hot takes about cognition and learning.
   * Ask questions from the third person: What would X think if I said Y? What does X likely think about Y given context Z?
   * Don't ask "is X good" because it'll provide you evidence aligned with your own confirmation bias. Instead, ask "by what process should I decide whether this is good or not?"
 * Consult your advisors, mentors, and stakeholders during your decision-making process, not just after it's concluded. These people shouldn't be surprised that you're leaning a certain direction. Signal your intent in opportunities before you're ready to jump the gun.
+* Pareto curve for food: time, money, effort to aquire or put together, taste or quality, health (long term) or fit with desired diet (medium term) or effects of refined sugar and other substances on your body (short term), side effects (e.g., cognitive side effects from digesting food, if you do eat, or nutritian deficits, if you don't eat)
+
 
 
 # Career, Work, and Professional Growth
@@ -132,7 +134,6 @@ A list of hot takes about cognition and learning.
 # Life Philosophy and Meta-Observations
 * Embrace change. A river looks the same yet its water is always changing. No two experiences or relationships are ever the same.
 * A Tale of Two Seas. "The Sea of Galilee is flowing and lush; the Dead Sea takes but never gives." This demonstrates the need to donate and give back to your community. Example [[source](https://joycemeyer.org/Grow-Your-Faith/Articles/A-Tale-of-Two-Seas){:target="_blank"}].
-* Pareto curve for food: time, money, effort to aquire or put together, taste or quality, health (long term) or fit with desired diet (medium term) or effects of refined sugar and other substances on your body (short term), side effects (e.g., cognitive side effects from digesting food, if you do eat, or nutritian deficits, if you don't eat)
 * For big life (or investment) decisions, try to prove yourself wrong, not right. This is to counteract confirmation bias.
 
 

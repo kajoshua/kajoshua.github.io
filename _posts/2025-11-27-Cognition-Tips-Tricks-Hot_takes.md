@@ -122,7 +122,8 @@ A list of hot takes about cognition and learning.
   * Hours spent working in a day
   * Wall clock time
   * Cognitive time (brain power / personal energy focused on a topic)
-  You must measure your efficiency (productive hours / hours spent) against each one.
+
+You must measure your efficiency (productive hours / hours spent) against each one.
 
 
 ## A list of questions you should ask people ahead of you

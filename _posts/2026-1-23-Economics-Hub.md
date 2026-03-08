@@ -38,7 +38,7 @@ Contents:
 * Resources.data.gov [Link](https://resources.data.gov/){:target="_blank"}
 
 
-# Links to Relevant Websites for Economics and Finance
+# Relevant Websites for Econ and Finance
 
 ## Economics
 

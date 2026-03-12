@@ -56,7 +56,8 @@ Matty McTech has a substantial list of helpful links: [[Personal Website](https:
     * [Website](https://www.webdesignmuseum.org/){:target="_blank"}
 * Killed By Google
     * [Website](https://killedbygoogle.com/){:target="_blank"}
-
+* Wikipedia Folklore
+    * [Website](https://wikilovesfolklore.org/about/){:target="_blank"}
 
 
 

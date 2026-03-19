@@ -4,8 +4,6 @@ title: Python Tips and Tricks
 excerpt_separator: <!--more-->
 ---
 
-# Python Tips and Tricks
-
 Beginning my repository of Python, Git, and VSC tips and tricks here.
 
 <!--more-->

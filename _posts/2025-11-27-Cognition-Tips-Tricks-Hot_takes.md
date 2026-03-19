@@ -6,6 +6,8 @@ excerpt_separator: <!--more-->
 
 My favorite motto is: <b>Become the person you would otherwise be envious of.</b> That is, use the <i>envy</i> as an emotional for how you emotionally want to direct your life, especially when you don't know yourself very well (for whom none of us really do).
 
+Also: <i>If it ain't broke, don't fix it!</i>
+
 Below is a list of unhinged cognitive science doodles and hot takes about cognition and learning. I plan to organize these with more exposition, but for now am listing them together here.
 
 <!--more-->

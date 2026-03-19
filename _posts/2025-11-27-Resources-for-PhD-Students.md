@@ -132,6 +132,10 @@ AI Governance and Cooperative AI
 ## Reviewing Tips
 * [[Mark Allman Thoughts on Reviewing](https://www.icir.org/mallman/pubs/All08a/All08a.pdf){:target="_blank"}]
 
+## Other Repos
+To include in the lists above...
+* [[Angela Zhou resource](https://angelamzhou.github.io/resources){:target="_blank"}]
+
 
 
 

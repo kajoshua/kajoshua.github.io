@@ -1,0 +1,13 @@
+
+
+Here we're going to start a collection of statistics concepts for future students, so that we have some resources to rely on. 
+* https://www.statsmodels.org/dev/generated/statsmodels.stats.multitest.multipletests.html
+* Holm-Bonferroni:
+  * https://www.ime.usp.br/~abe/lista/pdf4R8xPVzCnX.pdf
+  * https://ajph.aphapublications.org/doi/pdf/10.2105/AJPH.86.5.726
+  * https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.chisquare.html
+
+
+
+Python --> Note how to do cmdline args
+

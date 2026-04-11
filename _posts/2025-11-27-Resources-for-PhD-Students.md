@@ -135,6 +135,7 @@ AI Governance and Cooperative AI
 ## Other Repos
 To include in the lists above...
 * [[Angela Zhou resource](https://angelamzhou.github.io/resources){:target="_blank"}]
+* [[Pieces of advice from Zoe Ruha Bell](https://sites.google.com/berkeley.edu/zoebell/phd-advice?authuser=0){:target="_blank"}]
 
 
 

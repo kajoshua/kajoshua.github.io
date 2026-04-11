@@ -26,6 +26,10 @@ Below is a list of unhinged cognitive science doodles and hot takes about cognit
 * The goal of writing is to communicate effectively for people who are distracted with 15 other things to do, at 6:30am, and in need of a second cup of coffee.
 * If you're working on someting (e.g., a project proposal) and the timing's not right, keep stacking. Try again in 5-10 years. See [[Jocko Willink "Good"](https://www.youtube.com/watch?v=IdTMDpizis8){:target="_blank"}].
     * First drafts suck and they're hard to write. The process is going to take longer than you think it should. Keep working at it.
+* If you're having a conversation with an LLM, take notes by hand. Even if you save the conversation for later, you want to take the time to upload it into your brain. You have to do that with notes by hand, and it's the most time-effective to do this as you're having the LLM conversation, rather than coming back to it later. This is one of the differences between access to information (e.g., your lecturer's notes) and understanding or synthesizing the information (i.e., incorporating it into your understanding of the world).
+    * <i>Related: I'm in favor of hand-written notes in the classroom above computer notes, as evidenced by studies on learning in the classroom, per my understanding.</i>
+
+
 
 # Decision-Making, Heuristics, and Cognitive Strategies
 

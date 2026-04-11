@@ -49,8 +49,8 @@ Springer book series -- [Synthesis Lectures on Artificial Intelligence and Machi
 
 
 
-### More COMSOC
-- [European Digital DemocracY (EDDY)]((https://sites.google.com/rug.nl/eddynetwork/)) network
+
+
 
 
 ## Applications of AGT: Simulations and Online Programs
@@ -88,7 +88,7 @@ Springer book series -- [Synthesis Lectures on Artificial Intelligence and Machi
 
 ## Important Computer Science Conferences
 
-| Conference Name      | [Rating](http://portal.core.edu.au/conf-ranks/)* | Link | Approx. Deadline | Conference Dates |
+| Conference Name      | [Rating](http://portal.core.edu.au/conf-ranks/) | 2023 Links | Approx. Deadline | Conference Dates |
 | ----------- | ----------- | ----------- | ----------- | ----------- |
 | AAAI Conference on Artificial Intelligence | A* | [link](https://aaai-23.aaai.org/) | August | February |
 | International Joint Conference on Artificial Intelligence (IJCAI) | A* | [link](https://ijcai-23.org/) | January | August |
@@ -98,9 +98,14 @@ Springer book series -- [Synthesis Lectures on Artificial Intelligence and Machi
 | European Conference on Artificial Intelligence (ECAI) | A | [link](https://ecai2023.eu/) | April | Sept-Oct |
 | ACM Conference on Economics and Computation (EC)   | A* | [link](https://ec23.sigecom.org/)| January | July |
 | Conference On Web And Internet Economics (WINE) || [link](https://wine2023.shanghaitech.edu.cn/) | July | December |
-| International Conference on Autonomous Agents and Multiagent Systems (AAMAS) | A* | [link](https://aamas2023.soton.ac.uk/) | October | May-June$^{+1}$ |
+| International Conference on Autonomous Agents and Multiagent Systems (AAMAS) | A* | [link](https://aamas2023.soton.ac.uk/) | October | May-June |
 | International Workshop on Computational Social Choice (COMSOC) || [link](https://www.bgu.ac.il/comsoc2023) | March | July |
-| The Web Conference (WWW) | A* | [link](https://www2023.thewebconf.org/) | October | May$^{+1}$ |
+| The Web Conference (WWW) | A* | [link](https://www2023.thewebconf.org/) | October | May |
+| Artificial Intelligence, Ethics, and Society (AIES) | ... | [link](https://www.aies-conference.com/2023/) | May | August |
+| Equity and Access in Algorithms, Mechanisms, and Optimization (EAAMO) | ... | [link](https://conference2023.eaamo.org/cfp/) | May | November |
+| Algorithmic Decision Theory (ADT)
+ | ... | [link](https://preflib.github.io/adt2024/) | May | October |
+
 
 **Ratings per Computing Research and Education Association of Australasia, [CORE Inc.](https://www.core.edu.au/)*
 
@@ -117,12 +122,23 @@ Springer book series -- [Synthesis Lectures on Artificial Intelligence and Machi
 * [Cooperative AI Foundation](https://www.cooperativeai.com/){:target="_blank"}
 * [ACM Transactions on Economics and Computation](https://dl.acm.org/journal/teac){:target="_blank"}
 * Google Cloud Blog [Guide to multi-agent systems (MAS)](https://cloud.google.com/discover/what-is-a-multi-agent-system){:target="_blank"}
-* DIMACS workshops [[modern](http://dimacs.rutgers.edu/events/details?eID=2241)] [[list 1989-2018](http://archive.dimacs.rutgers.edu/Workshops/index-allbydate.html)]
+* [Rutgers EconCS](https://econcs.rutgers.edu/){:target="_blank"}
+  * DIMACS workshops [[modern](http://dimacs.rutgers.edu/events/details?eID=2241)] [[list 1989-2018](http://archive.dimacs.rutgers.edu/Workshops/index-allbydate.html)] [[2019-2025 special program](http://dimacs.rutgers.edu/index.php/programs/sf/mechanisms/){:target="_blank"}]
   * Including: [IBM/DIMACS Workshop on Bridging Game Theory and Machine Learning for Multi-party Decision Making](http://dimacs.rutgers.edu/events/details?eID=2241) (October, 2022)
 * Simons Institute workshop on [Economics and Computation](https://simons.berkeley.edu/programs/economics-computation) (2015)
 * Complexity Explorer
-
-
+* [European Digital DemocracY (EDDY)](https://sites.google.com/rug.nl/eddynetwork/){:target="_blank"} network
+* [BEACH: Boston Economics and Computing Hub](https://www.boston-ec-hub.com/){:target="_blank"}
+* [Computational Social Choice Community](https://comsoc-community.org/){:target="_blank"}
+* [Harvard EconCS](https://econcs.seas.harvard.edu/){:target="_blank"}
+* [Michigan BEE](https://umbee.github.io/){:target="_blank"}
+* [EAAMO Bridges](https://bridges.eaamo.org/){:target="_blank"}
+* [Stanford Deliberative Democracy Lab](https://deliberation.stanford.edu/){:target="_blank"}
+* [ACM Sigecom](https://www.sigecom.org/){:target="_blank"}
+* [CMU EconCS](https://cmueconcs.github.io/){:target="_blank"}
+* [EURO working group on Preference Handling](https://www.euro-online.org/web/ewg/31/euro-working-group-on-preference-handling){:target="_blank"}
+* [https://sites.google.com/site/marcuspivato/forum](https://sites.google.com/site/marcuspivato/forum){:target="_blank"}
+* [Springer Social Choice and Welfare](https://link.springer.com/journal/355){:target="_blank"}
 
 
 ## Other useful links

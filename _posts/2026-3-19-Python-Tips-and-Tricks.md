@@ -46,7 +46,13 @@ Place the following code block into `keybindings.json`, located in CTRL+SHIFT+P 
 
 ### New Branches
 * Create a new branch using `git checkout -b NewBranchName`
-* To push the new branch use `git push origin NewBranchName`
+* To push the new branch use `git push -u origin NewBranchName`
+
+
+### Accidentally deleted a file during a commit to non-main branch
+* Use `git checkout origin/main -- path/to/file1`
+
+
 
 # Python Tips
 
@@ -66,6 +72,20 @@ ipytest.autoconfig()
 import plotly.io as pio
 pio.renderers.default = "colab"
 ```
+
+### Partial functions
+
+```
+from functools import Partial
+
+def funcA(varA, varB):
+    return varA + varB
+    
+def funcB():
+    varB = 42
+    return partial(funcA, varB = varB)
+```
+
 
 
 

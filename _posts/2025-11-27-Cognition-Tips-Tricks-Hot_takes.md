@@ -113,6 +113,7 @@ Below is a list of unhinged cognitive science doodles and hot takes about cognit
   * Cognitive time (brain power / personal energy focused on a topic)
 
 
+
 # Motivation, Habit Formation, and Self-Improvement
 
 * When to write things down:
@@ -129,6 +130,8 @@ Below is a list of unhinged cognitive science doodles and hot takes about cognit
 * If you're unmotivated or something is hard, recognize that certain things in life just take time. The goal is not necessarily to get everything done, but to work with what you have as best as you can, including your own concentration. Do a little portion now and spread out the task over a few days (as long as it isn't urgent; otherwise, you'll have to sit down, suck it up, and get it done). Doing this now will make the next hard task easier as you get stronger and upskill.
   * Building the habit of a task (eg volunteering, reading, going out of your comfort zone to make friends) is often more important than your day-to-day success. Even if you move in the wrong direction at first, it's easier to pivot than build momentum in the first place. [[Life Changing Advice For When You're At a Low Point In Your Life. Jocko.](https://www.youtube.com/watch?v=k0RBhXyASD4){:target="_blank"}]. The best habit (eg for a diet or fiscal responsibility) is the one you will actually keep.
   * Do you remember how many win vs loss days you had in the last month, year? If not and it's important, build a system, write it down. How much slippage do you have in your wallet, unallocated money it gets lost because you don't have a system? Is it <1% on a small principle or oncome, so it doesn't matter too much in the long run, or 1% of a 1M which needs cutting down? Or is it a habbit like investing $5 a week, or donating $100 every few months, which starts the ball rolling? See [[James Clear, Atomic Habits](https://jamesclear.com/atomic-habits){:target="_blank"}]. 
+* You are the general of your own life. And the soldier who has to make your own plans happen. - Jocko Willink
+  * [Standard Directive 002: You're The General. You Give The Orders.](https://www.youtube.com/watch?v=lqMthruPavU){:target="_blank"}
 * When you come across something you don't know, write it down instead of dismissing it. For example, thinking that accredited investor rules don't apply to you since you don't qualify. People don't know what they don't know, until they realize that such a concept is useful and important for their well-being.
   * Many important concepts in life are on a need-to-know basis.
 * Living in your body takes you out of your mind -- Sol Aziz

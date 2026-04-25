@@ -74,6 +74,7 @@ Springer book series -- [Synthesis Lectures on Artificial Intelligence and Machi
 * [Statistics How To](https://www.statisticshowto.com/){:target="_blank"}
 * [Stanford CS103: Mathematical Foundations of Computing](https://web.stanford.edu/class/cs103/){:target="_blank"}
 * [The Book of Statistical Proofs](https://statproofbook.github.io/){:target="_blank"}
+* [Calculator Soup](https://www.calculatorsoup.com/){:target="_blank"}
 
 
 ## Courses

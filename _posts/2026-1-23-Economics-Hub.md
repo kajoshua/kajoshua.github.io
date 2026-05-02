@@ -132,15 +132,15 @@ Contents:
 
 # Recommended Reading:
 * Finance
-    * Schwager. Market Wizards.
-    * Reinhart and Rogoff. This Time is Different.
-    * Ferguson. The Ascent of Money.
-    * Griffin. The Creature from Jekyll Island.
-    * King. The End of Alchemy.
-    * Taleb. The Black Swan; Anifragile; Skin in the Game.
-    * Ahamed. Lords of Finace.
-    * Alden. Broken Money.
-    * Kohler. How They Get You.
+  * Schwager. Market Wizards.
+  * Reinhart and Rogoff. This Time is Different.
+  * Ferguson. The Ascent of Money.
+  * Griffin. The Creature from Jekyll Island.
+  * King. The End of Alchemy.
+  * Taleb. The Black Swan; Anifragile; Skin in the Game.
+  * Ahamed. Lords of Finace.
+  * Alden. Broken Money.
+  * Kohler. How They Get You.
 * Political Science
   * Haass. The World.
   * Dalio. The Changing World Order. How Countries Go Broke.
@@ -184,6 +184,7 @@ Contents:
   * David. Your Next Five Moves.
   * Kaufman. The Personal MBA.
   * Greene. 48 Laws of Power.
+  * Jorgenson. The Almanack of Naval Ravikant.
 
 # Assorted Blog Posts
 * [(P05) Mortgage Repayment](../personal_finance/P05_Mortgage_Repayment.pdf){:target="_blank"}

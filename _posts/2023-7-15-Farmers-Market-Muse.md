@@ -13,13 +13,3 @@ So what actually affects the viability of this business? Every aspect of the mar
 On the front end, the vendors and overall experience of the market must provide value to consumers. This depends both on the supply side -- the quality and marketing ability of the products and services --  and demand side -- the number of potential customers, their income and debt levels, and their [eagerness](https://adropintheoceanshop.com/blogs/blog/what-is-manufactured-demand#:~:text=Manufactured%20demand%20is%20a%20marketing,Like%20tap%20water.) to spend money on (often) discretionary items. Hence, a market's viability depends on the consumer base, as exemplified by [Walmart](https://abc7chicago.com/chicago-walmart-stores-closing-near-me-chatham-store-closings/13118712/) recently closing stores around Chicago. On the back end, viability is dependent on State economic and fiscal policy, tools that directly affect business costs and their bottom lines. This includes property tax, which affects costs of renting or owning a venue, sales tax, which affects the price of goods and services, and interest rates, among other powers that affect the willingness of consumers to spend money at farmers' markets. 
 
 These factors affect many types of businesses, like farmers' markets which organize vendors, and small townships which organize businesses. I'd be interested in a comparative study regarding what economic environments enable markets, such as the Pleasantville Farmers Market, to be viable and how these businesses either adapt with or fail due to changing economic landscapes. Just like farmers markets tend to be seasonal with which produce is offered and consumer demand, small townships, like Northport, MI., rely on seasonal [tourism](https://www.michigan.org/city/northport) for the entire local economy's annual income. How does wealth (i.e., money) flow in and out of these more insular communities and what indicators are there for their sustainability? As a third related concept, some large companies partition their annual budget among their business units which then act independently to achieve their designated goals. In order to delegate work to a different business unit, one must contract with another and exchange real or fake money. A capital economy like this is one mechanism for social organization. How do different intra-business economies compare in their time-efficiency, quality of production, and fair distribution of net proceeds?
-
-<<<<<<< HEAD
-
-=======
->>>>>>> 30d162d403ee59e24ea2b0cb921af3e9a2feb160
-
-
-
-
-

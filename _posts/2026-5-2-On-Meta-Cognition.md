@@ -34,4 +34,49 @@ Some questions I've thought about while working in industry the past two-to-thre
 * Do I understand some topic? If not, who does? How easy will it be for me to figure this out on my own versus asking someone directly for help or as a community post? This is a distributed search problem for relevant information to my problem.
 
 
+## Project Management questions (software engineering)
+
+**Delivery Throughput and Flow**
+
+* How do we configure infrastructure and CI/CD so PRs are fast to validate and merge (build times, parallelization, flaky tests)?
+* What is our cycle time from ticket start to production? Where are the bottlenecks?
+* Does each person have a sufficient, well-scoped backlog so they can keep moving, including picking up other work when blocked? How much work-in-progress does each person carry at once? 
+* Do people feel a sense of progress and accomplishment within a given week (closing tickets, moving forward on blocked work)?
+* Are tickets scoped small enough to be completed in a few days, or do they drag on?
+
+**Code Quality and Maintainability**
+
+* How do we ensure PRs are easy to review and don't require excessive context to understand?
+* Do PRs clearly communicate why the change is being made, not just what changed?
+* What coding standards and shared abstractions exist to maintain consistency?
+* Is ownership of different parts of the codebase clear?
+
+**Testing and Reliability**
+
+* What mix of unit, integration, and regression tests makes sense for this project?
+* Are tests fast, deterministic, and easy to understand?
+* How do we detect and handle flaky tests?
+* When a bug reaches production, do we have a consistent way of responding and learning from it?
+
+**Learning, Growth & Career Development**
+
+* Beyond IC work, how are people developing professionally (leading meetings, presenting, proposing solutions, learning new tools/techniques)?
+* Are senior people actively developing others, or primarily executing faster?
+
+**Communication and Coordination**
+
+* Do people know how to get help or information when they need it?
+* What decisions require synchronous discussion vs async documentation?
+* Are meetings structured to minimize context switching and maximize usefulness?
+* Which meetings are for decision-making vs status updates vs implicitly for socializing and building team cohesion?
+* Do we consistently write things down (design docs, decisions, retrospectives)?
+* When something is unclear, do people ask early or get stuck working it out alone?
+
+**Culture and Incentives**
+
+* What behaviors are actually rewarded (speed, quality, ownership, visibility)?
+* Do incentives align with long-term system health or short-term output?
+* Is failure treated as a learning opportunity or something to avoid?
+* Do people feel psychologically safe raising concerns or dissenting?
+* Are there gaps between what leadership says is important and what is actually incentivized?
 

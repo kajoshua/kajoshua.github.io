@@ -153,6 +153,9 @@ Emerging Technology Policy
 * Enneagram insitute
     * Check this out if you're into MBTI tests [[9 Enneagram Types](https://www.enneagraminstitute.com/type-descriptions/){:target="_blank"}]
     * [[16 Personalities](https://www.16personalities.com/){:target="_blank"}]
+* Authentic Happiness (UPenn)
+    * [Authentic Happiness](https://www.authentichappiness.sas.upenn.edu/){:target="_blank"}
+    * [VIA Survey of Character Strengths](https://www.authentichappiness.sas.upenn.edu/questionnaires/survey-character-strengths){:target="_blank"}
 
 ## Science
 

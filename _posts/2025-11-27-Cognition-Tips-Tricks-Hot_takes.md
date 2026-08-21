@@ -106,11 +106,12 @@ Below is a list of unhinged cognitive science doodles and hot takes about cognit
 * *Task Switching* is a significantly more complicated problem for my own concentration, than I realized back in college. I can try to be productive for 8 hours, but, depending on how much depth their is on one project in my cache, it may take 20-40 minutes to re-focus on a completely different task. So if I'm bouncing around between different projects and meetings throughout the day, every 30-90 minutes, there is often very little time to actually dig deep into understanding the implications of the project I'm working on. I have to only budget light cognitive tasks during these periods. 
   * Likewise, two hours is not enough time to dig deep into a subject. If something is going to take six hours to accomplish, you can spend these two hours on tasks that will enable your future self to be more productive, such as outlining what types of edits to make, across a document, rather than focusing in on editing one particular section of the project.
 * It is recommended to wake up and go to bed the same time every day, and generally keep consistent habits throughout a week. Your concentration and mood depends on external factors and internal factors. For example, if you only get 2 hours of sleep one night, this will override your mood more so than your general day-to-day variance. If you keep consistent sleep habbits, you will only be affected by your intrinsic daily variance.
-* There are four type of "time" in business. You must measure your efficiency (productive hours / hours spent) against each one.:
+* There are five type of "time" in business. You must measure your efficiency (productive hours / hours spent) against each one.:
   * Hours on a billable project
   * Hours spent working in a day
   * Wall clock time
   * Cognitive time (brain power / personal energy focused on a topic)
+  * Opportunity cost, for what you didn't choose to do with your time; you may get judged for what you didn't complete that was unprioritized.
 
 
 

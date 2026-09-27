@@ -33,6 +33,8 @@ A list of Resources for PhD Students.
   * [[The purpose of the PhD: theorising the skills acquired by students (Mowbray and Halse)](https://www.tandfonline.com/doi/abs/10.1080/07294360.2010.487199){:target="_blank"}]
   * [[Issue Forum: Breadth and Depth Of Knowledge In Communication (Hample)](https://www.tandfonline.com/doi/full/10.1080/03637750802088323){:target="_blank"}]
 * An example research program philosophy by Angela Zhou (USC) [[pdf](../advice_docs/advising philosophy - Angela Zhou.pdf){:target="_blank"}]
+* Considering a PhD in the Netherlands [[Rianne de Heide](https://riannedeheide.github.io/phd-netherlands.html){:target="_blank"}]
+
 
 
 ## Doing Research

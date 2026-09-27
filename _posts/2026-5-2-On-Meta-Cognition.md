@@ -14,6 +14,7 @@ Some questions I've thought about while working in industry the past two-to-thre
 * Do I understand it?
 * Do I need to understand it to accomplish some goal (such as improve my understanding on this topic, generally)?
 * Is it worth my time to understand this topic relative to opportunity cost and amount of concentration power I have to give to this topic today?
+* Consider the following research question. How much understanding do I need to have about a problem in order to come up with such a question?
 
 
 ## Intellectual Discrepancies while Debating Someone Else

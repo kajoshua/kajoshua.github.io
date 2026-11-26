@@ -24,6 +24,7 @@ ASSOERTED RESERACH QUESTIONS
 - Being in industry realizes a weird dichotomy between "anyone can do X" and "I can do X." The former is valued in academia as intellectual novelty to the human race; the latter is valued as a professional skill to someone who needs that skill utilized. Although anyone can figure out X if it's known, you are in the priviledged position of being responsible for figuring it out.
 - Understanding a software system thoroughly requires certain general background knowledge on a topic and specific knowledge of the design choices and trade-offs accumulated in the system. Documentation serves the epistemological purpose of explaining why certain choices are beneficial or too costly to optimize, for abitrary future developers.
 - Software engineering is a time allocation optimization problem, where you trade-off importance and urgency with respect to fluctuating personal concentration throughout a day and personnel and resources.
+
 - In large teams, you might have two subsets of groups who attend different meetings but don't communicate the findings to one another. Knowledge must be social, to some degree.
 - Two key pillars are leverage (assets that you can hand off) and momentum (cognitive caching, processes in place that don't need re-creating, people who learn lessons over time)
 - Good management tips:
@@ -31,6 +32,9 @@ ASSOERTED RESERACH QUESTIONS
   - Ask people what they think they should do in this situation
   - if people try experimenting, and risk is bounded, let them and see what happens
 - The job of a software engineer is to structure ambiguity
+
+<< PUBLISHED ABOVE THIS LINE, AS OF NOV 26, 2026 >>
+
 - Automate any regular process taking up >3% of weekly time.
 - Large organizations: culture, processes, repetitiveneess factor, hit by the bus factor, where do people go for information or to make suggestions, how well distributed teams can depend on each other, efficiency of CAPEX on each team, drive and initiative of individuals
 - Companies are supposed to capture institutional memory. We shouldn't be learning how to do basic things on a project mid-way through, especially if others have learned the same lessons. make sure to write down lessons learned and what you hsould have done earlier in the project, had you realiezd it sooner, so that the next project doesn't have such a time delay. At least, if now ahat to do, you learn better the relative weights in priorities for tasks, by practice.

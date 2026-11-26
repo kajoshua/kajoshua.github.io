@@ -81,3 +81,31 @@ Some questions I've thought about while working in industry the past two-to-thre
 * Do people feel psychologically safe raising concerns or dissenting?
 * Are there gaps between what leadership says is important and what is actually incentivized?
 
+
+
+# Lessons Learned from Software Engineering
+- A lot of software engineering involves creating development processes to protect complex engineered systems against stupid mistakes by human developers.
+
+- Working in industry realizes a weird dichotomy between "anyone can do X" and "I can do X." The former is valued in academia as an intellectual novelty to the human race; the latter is valued in industry as a professional skill that someone needs and is willing to pay for. Although anyone can figure out X (once it's publicly known), you are in the privileged position of being responsible for figuring it out at your firm.
+
+- Understanding a software system thoroughly requires certain general background knowledge on a topic and specific knowledge of the design choices and trade-offs accumulated through the system's development. Documentation serves the epistemological purpose of explaining why certain choices were made, why they are beneficial, and why certain decisions might be too costly to optimize, for abitrary future developers.
+
+- A key goal of engineering is "handoff ability:" the point at which you can hand off a project without incurring significant cost for new engineers to maintain or grow your system.
+
+- Software engineering is a time allocation optimization problem, where you trade-off importance and urgency with respect to fluctuating personal concentration throughout the day, as well as personnel and available resources.
+
+- In large teams, information can become fragmented across different groups that attend different meetings. Knowledge has to be social to some degree; otherwise, important information becomes siloed.
+
+- Two key pillars of organizational effectiveness are leverage and momentum. Leverage comes from creating assets and processes that you can hand off to other people. Momentum comes from cognitive caching, established processes that don't need to be recreated, and people who accumulate knowledge and learn lessons over time.
+
+- Some good management practices include:
+
+  - Incentivizing behaviors rather than necessarily incentivizing outcomes.
+
+  - Asking people what they think they should do in a given situation instead of immediately telling them what to do.
+
+  - If people want to experiment and the risk is bounded, letting them try it and seeing what happens.
+
+- My job is to structure ambiguity, taking unclear requirements, incomplete information, and loosely defined problems and turning them into concrete, manageable systems.
+
+

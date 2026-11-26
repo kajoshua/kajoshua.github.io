@@ -4,7 +4,7 @@ title: Open Research Questions
 excerpt_separator: <!--more-->
 ---
 
-A list of open research questions. These are of varying depth of thought; some might be personal interest questions, while others might be open for research.
+A list of open research questions. These are of varying depth of thought: some might be personal interest questions, while others might be open for research. Many of these questions are due to my own ignorance on the respective subject matter.
 
 <!--more-->
 
@@ -124,7 +124,11 @@ Can the concepts of Geoffrey West's book "Scale" be used for corporate strategy 
 
 
 ### RQ7: Trust in Instiutions in the 2020s
-What institutions and authorities do consumers have trust in, and where _should_ they based on certain objective measures? E.g., FDA vs EWG.
+What institutions and authorities do consumers have trust in, and where _should_ they based on certain objective measures? E.g., FDA vs EWG. By what mechanisms should a well-meaning consumer trust authorities, even those with substantial credentials?
+
+Similarly, how can the public ensure that insurance companies have incentive compatible reporting of their prices with respect to actual risk? If this isn't the case, we would expect under long enough time horizons for competitor insurance companies to under-bid an over-priced insurer. However, this process might not be quick enough for the general public, whose time horizon is months rather than centuries.
+  - This might be due to the reinsurance market.
+
 
 ### RQ8: Successes and Failures of 'The Market'
 Where does 'the market' succeed or fail at building resilient social infrastructure (as a function of e.g., community spaces, architecture, religious institutions, etc)?
@@ -141,7 +145,7 @@ To what extent can we measure income of companies as a function of expenditures 
 
 
 ### RQ12: Credit Scores
-What are the most significant causal features for peoples' credit scores? To what extent are people in structural deficit environemts as opposed to making poor choices?
+What are the most significant causal features for peoples' credit scores? To what extent are people in structural deficit environments as opposed to making poor choices?
 
 Related to household finances:
 * Household Finance across the Lifecycle, Fall 2025, NBER. [[Link](https://www.nber.org/conferences/household-finance-across-lifecycle-fall-2025){:target="_blank"}]
@@ -175,13 +179,10 @@ What would be the practical implications if policymakers imposed a cap on net ma
 
 ### RQ18: Assorted
 
-- What are self-fulfilling return rates on bonds, if $r$ measures risk (relative to the risk-free rate) and causes it?
+- Bond rates are proportional to default rates, as one indicative measure of risk to the lender. In turn, default rate is proportional to the interest rate. What is the equilibrium relationship between bond rates and default rates?
 - What is the current (breakeven) debt someone should take on in order to get a degree X with expected entry-level salary f(X)?
 - Are 401k loans good funding mechanisms for your retirement account?
 - Does there exist regulation which both provides subsidized payment to working class (e.g., SNAP) but doesn't enable Walmart-like institutions from benefiting from lower labor costs?
-- How can the public ensure that insurance companies have incentive compatible reporting of their prices with respect to actual risk? If this isn't the case, we would expect under long enough time horizons for competitor insurance companies to under-bid an over-priced insurer. However, this process might not be quick enough for the general public, whose time horizon is months rather than centuries.
-- - This might be due to the re-insurance market.
-
 
 
 

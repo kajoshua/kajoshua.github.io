@@ -227,7 +227,7 @@ For example, Bayes Nash equilibrium is one aspect of Harsanyi's work from the la
 
 ### RQ3: The Price of Justice
 
-What's the point of fine-based legal recoure? Is it retributive, punative (you did X so we will hurt you with Y), restorative (correction of moral debt), exploitative (you did X so we can withdraw Y from you), or economic (as a disincentive)? When do fines go to the state as opposed to some other specific damaged party? If those fines don't compensate for losses, then this incentivizes harm as "the cost of doing business." When are fines in place as opposed to other forms of capital punishment, especially when a non-human entity takes the action? How are grand jury settlements priced? 
+What's the point of fine-based legal recoure? Is it retributive, punative (you did X so we will hurt you with Y), restorative (correction of moral debt), exploitative (you did X so we can withdraw Y from you), or economic (as a disincentive)? When do fines go to the state as opposed to some other specific damaged party? If those fines don't compensate for losses, then this incentivizes harm as "the cost of doing business." When are fines in place as opposed to other forms of punishment, especially when a non-human entity takes the action? How are grand jury settlements priced? 
 
 
 

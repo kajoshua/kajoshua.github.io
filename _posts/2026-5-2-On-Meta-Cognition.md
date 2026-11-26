@@ -4,7 +4,7 @@ title: On Meta-Cognition
 excerpt_separator: <!--more-->
 ---
 
-Some questions I've thought about while working in industry the past two-to-three years, after earning my PhD. (NOTE: Work in progress.)
+Some questions I've thought about while working in industry the past two-to-three years, after earning my PhD.
 
 <!--more-->
 
@@ -97,9 +97,9 @@ Some questions I've thought about while working in industry the past two-to-thre
   - If people want to experiment and the risk is bounded, letting them try it and seeing what happens.
 - My job is to structure ambiguity, taking unclear requirements, incomplete information, and loosely defined problems and turning them into concrete, manageable systems.
 - On automation:
-  - Automate any recurring process that consumes more than 3% of your weekly working time.
-  - In evaluating the efficiency of complex teams (see e.g., [The Diversity Bonus](https://press.princeton.edu/books/paperback/9780691191539/the-diversity-bonus){:target="_blank"} by Dr. Scott Page), consider the following: culture, processes, repetitiveness factor (i.e., how often a team is repeating tasks without automating the process), [hit by the bus factor](https://en.wikipedia.org/wiki/Bus_factor){:target="_blank"}, where do people go for information or to make suggestions (i.e., social epistemological efficiency), how well distributed teams can depend on each other, efficiency of CAPEX on each team, and drive and initiative of individuals on the team.
-  - Part of the responsibility of companies is to enable to productive capacity of their employees. In this sense, companies are supposed to capture institutional memory (as in the book The Giver). As individuals, make sure to write down lessons learned as you learn them, including relative priorities of tasks through certain phases of projects).
-- Recall the diffusion of responsibility: people need specific points of contact (POCs) for particular tasks and scopes of responsibility. Otherwise, predictable gaps in ownership and execution can occur.
+  - Automate any recurring process that takes up more than 5% of your weekly time.
+  - In evaluating the efficiency of complex teams (see e.g., [The Diversity Bonus](https://press.princeton.edu/books/paperback/9780691191539/the-diversity-bonus){:target="_blank"} by Scott Page), consider the following: culture, processes, repetitiveness factor (i.e., how often a team is repeating tasks without automating the process), [hit by the bus factor](https://en.wikipedia.org/wiki/Bus_factor){:target="_blank"}, where do people go for information or to make suggestions (i.e., social epistemological efficiency), how well distributed teams can depend on each other, efficiency of CAPEX on each team, and drive and initiative of individuals on the team.
+  - Part of the responsibility of companies is to enable to productive capacity of their employees. In this sense, companies are supposed to capture institutional memory (as in the book The Giver). As individuals, make sure to write down lessons learned as you learn them, including relative priorities of tasks through certain phases of projects. This helps create a culture of information retention over time.
+- Recall the diffusion of responsibility: people need specific points of contact for particular tasks and scopes of responsibility. Otherwise, predictable gaps in ownership and execution can occur.
 - Culture and norms create "cow trails," which are established behavioral patterns and social expectations, which can incentivize desired behavior more effectively than formal rules or laws alone.
 

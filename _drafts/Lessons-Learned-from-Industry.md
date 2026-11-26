@@ -25,17 +25,14 @@ A handful of lessons learned from working in industry over the past two years.
 
 
 
-- The job of a software engineer is fundamentally to structure ambiguity. Much of the work involves taking unclear requirements, incomplete information, and loosely defined problems and turning them into concrete, manageable systems.
 
-- Automate any recurring process that consumes more than 3% of your weekly working time.
-
+[TODO] 
 - When evaluating large organizations, there are several things worth considering: organizational culture, established processes, how repetitive the work is, "hit by the bus" factor, where people go to find information or make suggestions, how well distributed teams can depend on one another, how efficiently each team uses its CAPEX, how much individual employees demonstrate drive and initiative, etc.
 
+[TODO] 
 - Organizations benefit from capturing institutional knowledge and carrying lessons learned from one project into the next. Documenting what worked, what could have been done differently, and what you wish you had known earlier helps future projects get up to speed faster. Even when you already know what needs to be done, experience helps you develop a better intuition for the relative importance and priority of different tasks.
 
-- Recall the diffusion of responsibility: people need specific points of contact (POCs) for particular tasks and scopes of responsibility. Otherwise, predictable gaps in ownership and execution can occur.
 
-- Culture and norms create "cow trails," which are established behavioral patterns and social expectations, which can incentivize desired behavior more effectively than formal rules or laws alone.
 
 
 # Lessons Learned over Long Periods of Time

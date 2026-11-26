@@ -1,0 +1,122 @@
+
+----------------------------
+ASSOERTED RESERACH QUESTIONS
+
+- What's the point of fine-based legal recoure? Retributive / punative (you did X so we will hurt you with Y), restorative (correction of moral debt), exploitative (you did X so we can withdraw Y from you), or economic (as a disincentive)? When do fines go to the state as opposed to some other specific damaged party? Especially if thoes fines don't compensate for losses, then this incentivizes harm as "the cost of doing business." When are fines in place as opposed to other forms of capital punishment, especially when a non-human entity takes the action? How are grand jury settlements priced? 
+- (RQ) What are self-fulfilling return rates on bonds, if $r$ measures risk (relative to the risk-free rate) and causes it?
+- (RQ) What is the current (breakeven) debt someone should take on in order to get a degree X with expected entry-level salary f(X)?
+- Are 401k loans good funding mechanisms?
+- (RQ) Does there exist regulation which both provides subsidized payment to working class (e.g., STAMP) but doesn't enable Walmart-like institutions from benefiting from lower labor costs?
+- (RQ) How can the public ensure that insurance companies have incentive compatible reporting of their prices with respect to actual risk? If this isn't the case, we would expect under long enough time horizons for competitor insurance companies to under-bid an over-priced insurer. However, this process might not be quick enough for the general public, whose time horizon is months rather than centuries.
+- Chain of thought reasoning: what's the difference between (A) asking an LLM to solve a problem, (B) priming it by asking it to analyze the incentives before it solves the problem?
+- What's the online regret to a market equilibrium? E.g., in the bond market, where the 30 year bond encapsulates / describes all risk in that period / you can determine risk by spreads.
+- De facto denial, via discouragement (framing / social pressure) or lengthy beurocratical processes
+
+
+----------------------------
+
+
+
+----------------------------
+# LESSONS LEARNED FROM SOFTWARE ENGINEERING
+
+- A lot of software engineering involves creating development lifecycle process to protect complex systems against stupid mistakes by human developers.
+- Being in industry realizes a weird dichotomy between "anyone can do X" and "I can do X." The former is valued in academia as intellectual novelty to the human race; the latter is valued as a professional skill to someone who needs that skill utilized. Although anyone can figure out X if it's known, you are in the priviledged position of being responsible for figuring it out.
+- Understanding a software system thoroughly requires certain general background knowledge on a topic and specific knowledge of the design choices and trade-offs accumulated in the system. Documentation serves the epistemological purpose of explaining why certain choices are beneficial or too costly to optimize, for abitrary future developers.
+- Software engineering is a time allocation optimization problem, where you trade-off importance and urgency with respect to fluctuating personal concentration throughout a day and personnel and resources.
+- In large teams, you might have two subsets of groups who attend different meetings but don't communicate the findings to one another. Knowledge must be social, to some degree.
+- Two key pillars are leverage (assets that you can hand off) and momentum (cognitive caching, processes in place that don't need re-creating, people who learn lessons over time)
+- Good management tips:
+  - incentivize behavior, not necessarily the outcome
+  - Ask people what they think they should do in this situation
+  - if people try experimenting, and risk is bounded, let them and see what happens
+- The job of a software engineer is to structure ambiguity
+- Automate any regular process taking up >3% of weekly time.
+- Large organizations: culture, processes, repetitiveneess factor, hit by the bus factor, where do people go for information or to make suggestions, how well distributed teams can depend on each other, efficiency of CAPEX on each team, drive and initiative of individuals
+- Companies are supposed to capture institutional memory. We shouldn't be learning how to do basic things on a project mid-way through, especially if others have learned the same lessons. make sure to write down lessons learned and what you hsould have done earlier in the project, had you realiezd it sooner, so that the next project doesn't have such a time delay. At least, if now ahat to do, you learn better the relative weights in priorities for tasks, by practice.
+- Recall Diffusion of Responsibility: people need specific POC for certain tasks / scopes of responsibility, otherwise there lapses will forseeably occur
+- Culture and norms affect cow trails, which incentivizes desired behavior, more so than laws outright.
+
+----------------------------
+
+----------------------------
+# LESSONS LEARNED OVER LONG PERIODS OF TIME
+
+
+Lessons you don't realize until you've worked at a firm for extended periods of time:
+- If there's significant turn over, then not everyone knows everything. "I think it works like X" is commonplace. A well-functioning organization at least enables people to know who to contact for better information.
+- Code debt you left yourself / are affected by decisions you made previously. It's different when you do it than when you adopt poor engineering from someone else.
+- Learning to prioritize and execute (Jocko) in different time horizons.
+- Working with peers with different experiences than you -- and how to resolve conflicts. If there was tension last week, and you're working together for 15+ weeks, you got to get over your hurt ego.
+- If someone asks a question but it's different than you would have come up with a similar type of question, step into their shoes to see if it addresses the situation sufficiently or if you really need to override their perspective.
+- Locked-in decisions: past a certain point, you can't structurally change your product anymore without incurring substantial opportunity cost.
+- Stakeholders come in after the feature design and development phases, requesting changes
+- Not defining scope of project or measures of success ahead of time.
+- No company-wide norms to follow for how to run a successful data consulting project based on lessons learned from prior iterations
+- Every production system should have enough documentation that a competent, well-meaning engineer who wasn't involved in it's creation can safely modify and operate it.
+- Every user-specific choice built locks-in the supplier, since recreating all the features determined over a long period of time is costly.
+- Trust is built over time. If I say I need surplus resources to do X, you trust my judgement to get it done without waste.
+- Hundreds / thousands of decisions made over 6+ months that haven't been systematically logged and attributed. 
+- You get to notice your own strength, weaknesses, and error rate over time, and which processes to put in place to manage your own personalized workflow
+- Sometimes it just takes time to grow. The things you find important now / think about intuitively differ with experiences
+
+
+
+----------------------------
+
+
+
+
+
+
+----------------------------
+COGNITIVE SCIENCE AND HOT TAKES
+
+- Watch yourself in different environments. When do you light up? How well can you concentrate / for how long before you get distracted? What distracts you -- food, caffeine drop, heat, noise? Your body fluctuates relative to a fixed environment: a school bell feels different to high school students depending on the time of day. How in-depth into a problem do you need to be in order to solve it correctly? What types of errors do you appear to make and can you build protective systems around them? Know your strengths and weaknesses, both professionally and personally.
+- Hot take: government contracts is money laundering with extra steps
+- Hot take: government employees is UBI with extra steps
+- You don't need to be a strickler on rules, as a blanket rule, since rules should be questioned and adapted over time. However, you do need processes in place since you can't be re-evaluating minor decisions at every pass through of a process.
+- I'm going to forget the context of this discussion; we need to ensure information is discoverable.
+- If you should have asked it sooner, ask it today
+- Value: No stupid questions. (Yes there are stupid questions, but among well-intentioned people with growth mentalities, the likelihood of people exploiting this social norm is lower than the benefit for having it in your culture.)
+- [Not well written.] Thoughts are context dpeendent -- e.g., in the shower. So yes "I will remember it later" is a lie, but also realize that (ain't) thought you have now you might forget / have to try to rememberit later (1 min (eg the time) or 1 year (eg someone's name)). SO (a) write it down, (b) have a plan that in a specific situation in the future, you know yourself well enough that with high probability yo uwill be sparked to remember the idea again (e.g., taking medicine you left out on the counter). Call this the Light Yagami effect.
+- [1] Ask people you know the answer to, to see how they'll respond (Mom)
+- (ADD-ON) Certain questions are intended to communicate knowledge from one person to another.
+           Certain questions are intended to get someone (qualified) to investigate a potential issue, even if there is no action needed.
+           Certain questions are intended to get a person to investigate a question for themselves that they haven't taken the effort to think about a certain perspective yet. (See my point on mentorship.)
+- [2] Throw out (random-ish) ideas to see where others challenge them - that's how you learn new ideas, and to practice defending your own ideas. Since you're not attached to any idea, you get to learn what's defensible.
+- [3] For some questions, the correct answer isn't anything specific; it's whether you can defend the idea coherently, confidently, and convincingely.
+- [4] One goal of mentors is to provide uestions for people that will stump them - but are doable - in order to point out the weaknesses in someone's original approach
+
+- [Not well written.] Is it worth me taking this action? Eg figuring out this question? There's an apparent cost associated with the ability to do X. Things you always need "what is the marginal cost of X?" Eg incentivzed in publishing research; first draft to final draft. Plus major externalities for doing the work yourself.
+
+- Lose the ego. It's not about X's idea -- it's whether the idea can help solve the porblem in front of us (State A -> State B). It's us against the problem, not each other. You need to practice problem solving idea generation; implementation and ownership of a problem end-to-end are different skills. (Although, ego keeps you attached to problems over decades, which is often necessary for creative breakthroughs.)
+- Values: always looking to learn. I'm not "perfect" so I will admit my mistakes. I am always trying my best. It's us against the problem, not us against each other.
+- Values: I say crazy things sometimes. Please take what I say with the best of intention. I am not trying to be insensitive; please tell me if I'm in the wrong. Communication and consent is key.
+- Vision and understanding is 80/20: you observe 80% of someone in quick time but the last 20% is where you get a competitive advantage. Page's diversity bonus: if each person and time interacting with the work sees $S \subseteq \Omega$, then independent and repeated samples will likely build depth. One implication is that you can spend a quick amount of time problem solving and trust yourself (assuming you have enough skill or experience) to get most of the low-hanging fruit. That doesn't mean that there aren't more ideas to be discovered at a different time.
+
+
+
+- Ordinal economic valuation is primarily emotional
+- If your competitive advantage is information, you need to track how quickly relevant information diffuses throughout the general public.
+- Grant writing: suppose it goes well; what would the end result be?
+- (Jay) "The only way to motivate people is with public shaming and physical violence."
+- "Boredom is unappreciated serenity"
+- Which parts of your brain work better for different tasks (at differnt times of day, relative to different kinds of concentration that you can activate within your own brain)
+
+- Design principle: ask people how to do 5 tasks (maybe with some instruction), observe, and design around their usage.
+- Teaching others is more about them realizing knowledge on their own and building their own intuition, then it is about being able to verbalize a topic yourself.
+- (ADD-ON) Nobody "has time;" you make time for what's important to you. (Mr. Y)
+- (ADD-ON) When someone expresses a strong preference for a perspective, ask "What would make you think differently?" This enables peoples' focus to be evidence-based.
+
+
+
+----------------------------
+
+
+
+
+
+
+
+

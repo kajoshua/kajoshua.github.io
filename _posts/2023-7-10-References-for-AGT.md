@@ -54,14 +54,20 @@ Springer book series -- [Synthesis Lectures on Artificial Intelligence and Machi
 
 
 ## Applications of AGT: Simulations and Online Programs
-* [Course Match](https://mba-inside.wharton.upenn.edu/course-match/) [[Budish et al. 2017](https://pubsonline.informs.org/doi/pdf/10.1287/opre.2016.1544)]
-* [Spliddit](https://spliddit.org/) [[Goldman and Procaccia 2014](https://dl.acm.org/doi/pdf/10.1145/2728732.2728738?casa_token=InPvMv6yBY4AAAAA:aB-zU7tsBCiVBQkEQ75IcxIiu4i0RqNjH5sEohfQsYsgUMynUSfrI7be_m7sSEYZtJ8q5GSMsZ2J)] (*Note: link down as of June 28, 2023*)
-* [Automated Justification](https://demo.illc.uva.nl/justify/) by Ulle Endriss, ILLC
-* [Panelot](https://panelot.org/) [[Flanigan et al. 2021](https://www.nature.com/articles/s41586-021-03788-6)]
-* [OPRA](https://opra.cs.rpi.edu/) [[Chen et. al. 2021](https://arxiv.org/pdf/2005.13714.pdf)] by Lirong Xia, RPI (*Note: link down as of June 28, 2023*)
-* [Gambit: Software Tools for Game Theory](https://tturocy.github.io/) by Theodore L. Turocy, University of East Anglia
-* [Itero: Online Iterative Voting Application](https://itero.irit.fr/) [[Boudou, Colley, and Grandi 2022](https://www.ijcai.org/proceedings/2022/0848.pdf)] by Umberto Grandi, University of Toulouse
-* [Iterative Voting Simulator](https://www.preflib.org/tools/ivs) on Preflib, by Omer Lev, Tel Aviv University
+* [Course Match](https://mba-inside.wharton.upenn.edu/course-match/){:target="_blank"} [[Budish et al. 2017](https://pubsonline.informs.org/doi/pdf/10.1287/opre.2016.1544){:target="_blank"}]
+* [Spliddit](https://spliddit.org/){:target="_blank"} [[Goldman and Procaccia 2014](https://dl.acm.org/doi/pdf/10.1145/2728732.2728738?casa_token=InPvMv6yBY4AAAAA:aB-zU7tsBCiVBQkEQ75IcxIiu4i0RqNjH5sEohfQsYsgUMynUSfrI7be_m7sSEYZtJ8q5GSMsZ2J){:target="_blank"}] (*Note: link down as of June 28, 2023*)
+* [Automated Justification](https://demo.illc.uva.nl/justify/){:target="_blank"} by Ulle Endriss, ILLC
+* [Panelot](https://panelot.org/){:target="_blank"} [[Flanigan et al. 2021](https://www.nature.com/articles/s41586-021-03788-6){:target="_blank"}]
+* [OPRA](https://opra.cs.rpi.edu/){:target="_blank"} [[Chen et. al. 2021](https://arxiv.org/pdf/2005.13714.pdf){:target="_blank"}] by Lirong Xia, RPI (*Note: link down as of June 28, 2023*)
+* [Gambit: Software Tools for Game Theory](https://tturocy.github.io/){:target="_blank"} by Theodore L. Turocy, University of East Anglia
+* [Itero: Online Iterative Voting Application](https://itero.irit.fr/){:target="_blank"} [[Boudou, Colley, and Grandi 2022](https://www.ijcai.org/proceedings/2022/0848.pdf){:target="_blank"}] by Umberto Grandi, University of Toulouse
+* [Iterative Voting Simulator](https://www.preflib.org/tools/ivs){:target="_blank"} on Preflib, by Omer Lev, Tel Aviv University
+* [Multiagent Path Finding](https://mapf.info/index.php/Main/HomePage){:target="_blank"} by Sven Koenig (USC), Nathan Sturtevant (UAlberta), and Ariel Felner (Ben-Gurion).
+* pol.is
+
+
+### LLM Apps
+* [Habermas Machine AI](https://habermasmachine.ai/){:target="_blank"}
 
 ### Data and Github Repositories
 * [Preflib](https://www.preflib.org/){:target="_blank"} [[Mattei and Walsh 2013](http://www.cse.unsw.edu/~tw/mwadt2013.pdf){:target="_blank"}]
@@ -75,6 +81,8 @@ Springer book series -- [Synthesis Lectures on Artificial Intelligence and Machi
 * [Stanford CS103: Mathematical Foundations of Computing](https://web.stanford.edu/class/cs103/){:target="_blank"}
 * [The Book of Statistical Proofs](https://statproofbook.github.io/){:target="_blank"}
 * [Calculator Soup](https://www.calculatorsoup.com/){:target="_blank"}
+* [MathLib](https://github.com/leanprover-community/mathlib4){:target="_blank"}
+* [MathEconLib](https://mathecon.dev/){:target="_blank"}
 
 
 ## Courses
@@ -171,7 +179,6 @@ A collection of models and concepts showing how collective patterns and order em
 * Mechanisms and Market designs:
   * Vickrey–Clarke–Groves auction
   * Price of Anarchy
-  * Bayesian persuasion
   * Arrow's impossibility theorem
   * Gibbard-Satterthwaite impossibility theorem
   * Myerson–Satterthwaite impossibility theorem
@@ -210,6 +217,10 @@ A collection of models and concepts showing how collective patterns and order em
   * Thompson Sampling
   * Stochastic games
   * Partially Observable Markov Decision Process
+* Information Elicitation
+  * Bayesian persuasion, information design
+  * Proper scoring rules
+  * Calibration
 
 ## Complex Systems and Cognitive Science
 * Cognitive and Behavioral:
@@ -229,10 +240,12 @@ A collection of models and concepts showing how collective patterns and order em
   * Abelian Sandpile Model
   * Percolation theory
   * Sensitivity analysis
+  * DeGroot model (DeGroot (1974))
 * Network theory
   * Watts-Strogatz small-world networks
   * Erdős–Rényi random graphs
   * Barabási-Albert model
+  
   
 
 

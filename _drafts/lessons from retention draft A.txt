@@ -1,0 +1,140 @@
+---
+layout: post
+title: Lessons from Retention
+excerpt_separator: <!--more-->
+---
+
+# How do organizations preserve knowledge when the people who create that knowledge are inherently temporary?
+
+
+This blog post captures several lessons that have become apparent to me only after working on projects and at firms for extended periods of time. One of the most important is the importance of explicit documentation as a form of knowledge transfer, rather than relying primarily on socially transmitted, tacit knowledge to retain information about a project. When the people who possess that knowledge leave or change roles, much of the context surrounding a project can disappear with them.
+
+
+This problem is particularly apparent in software and technology companies, where significant employee turnover among engineers has become increasingly normalized. Companies have generally become accustomed to this turnover without necessarily establishing equally robust mechanisms for transferring knowledge between employees. The result is a mismatch between how quickly organizational knowledge can be lost and the mechanisms available to preserve it.
+
+
+
+<!--more-->
+
+I suspect this reflects a broader tendency toward short-term organizational planning. Companies understandably prioritize expediency, project delivery, and immediate customer satisfaction, but this can come at the expense of building durable information assets. Documentation is therefore not simply administrative overhead. It is an investment in the organization's ability to retain knowledge and reduce future costs.
+
+
+
+There is also a potential incentive problem. When critical knowledge exists primarily in an individual's head, that knowledge can increase their value to the organization. Being the person who understands why a system works the way it does, where its historical problems came from, or how to modify it safely can create a form of job security. This can create an incentive to retain specialized knowledge rather than fully externalizing it through documentation, even when doing so would better serve the organization's long-term interests.
+
+
+
+The consequences accumulate over time. Employees are repeatedly forced to rediscover decisions, reproduce past analysis, and relearn lessons that the organization has already paid to learn. This increases overhead while weakening organizational continuity. Without mechanisms for preserving institutional context, each new group of employees has to reconstruct knowledge that could otherwise have been carried forward.
+
+
+
+
+
+
+# Lessons from Long-Term Work on Software Projects
+
+The following are several lessons that have become apparent to me only after working on projects and within organizations for extended periods of time. A common thread connects them: time creates context, but organizations do not automatically retain that context. Many things that become obvious after six months or two years are difficult to see when joining a project for the first time. If that knowledge is not transferred to other people or captured in the organization's information systems, it can disappear when people leave or change roles.
+
+
+
+## 1. No One Knows Everything: Build an Information System
+
+When there is significant turnover, or when a project is complex enough, no individual can reasonably know everything about the system. "I think it works like X" therefore becomes a commonplace answer to questions about a project.
+
+
+This is not necessarily a failure of an individual employee. It is the team's responsibility to create an information system that allows people to find and reconstruct knowledge as needed. That system can include formal technical documentation, informal notes such as Confluence pages, and softer social connections such as peer-to-peer networks. Each serves a different purpose.
+
+The system should be designed around discoverability. Ideally, where someone expects an answer to exist—based on the structure and framing of the product or project—is where that answer can actually be found. Information that technically exists but cannot be located is not particularly useful.
+
+This is one reason documentation is more than record-keeping. It is part of the infrastructure through which an organization retains and transfers knowledge.
+
+
+
+## 2. Experience Means Thinking Across Time Horizons
+
+One difference between junior and senior engineering is the time horizon over which a decision is evaluated. A junior engineer may primarily ask, “How do I solve the immediate problem?” With experience, the question becomes, “What does this solution make harder six months from now?”
+
+
+
+This broader perspective applies to both technical decisions and project priorities. Projects have short-, medium-, and long-term objectives, and good engineering requires balancing them. A short-term solution is not necessarily a bad one; sometimes the constraints make taking on technical debt the right choice. The important distinction is recognizing the future consequences and making that tradeoff deliberately.
+
+
+
+Technical debt often accumulates through seemingly reasonable decisions that optimize for the immediate task. For example, duplicating a piece of code with a slight modification may be an efficient way to satisfy an immediate request, but it can create longer-term costs in maintainability, reproducibility, locatability, knowledge transfer, testability, and modularity. These costs may not be visible today, but they can make the system harder to understand, modify, adapt, and scale later.
+
+
+
+This is why experienced engineers evaluate decisions not only by whether they solve today's problem, but by what they make possible or difficult for future engineers. Practices such as modularity, testability, reproducibility, maintainability, and locatability help preserve those choices. In this sense, seniority is partly the ability to balance competing time horizons while preserving future optionality.
+
+
+
+
+
+## 3. Long-Term Collaboration Requires Recovering from Difficulties
+
+The way you interact with your colleagues is different if you have only been working with them for two weeks, two months, or two years.
+
+
+
+Working with the same people over a long period of time creates opportunities for tensions to arise from differences in approaches, personal or professional friction, or more serious disagreements. Some social problems might not arise until you have already been working together for six months or more. Other problems may exist for a long time without being resolved and only become a significant problem much later. This is one reason this type of knowledge requires long-term participation: you cannot necessarily understand the working relationship from observing it during a short period of time.
+
+
+
+The important lesson is how to recover from these difficulties. Any tension that arises has to get sufficiently resolved in order to continue a professional and productive working environment. You therefore have to learn how to recover from difficulties rather than simply avoid them. The goal is not necessarily to eliminate disagreement or make everyone interact in the same way. It is to maintain a positive working relationship even after something has gone wrong.
+
+This also applies to differences in how people reason about a problem. If someone asks a question differently from how I would have come up with a similar type of question, I do not necessarily need to challenge their question by explaining how I would have asked it. I need to step into their shoes and determine whether the ideas they are discussing are actually the ones needed in the situation. As a manager-in-training, I think this is particularly important. The job is not to enforce perfect reasoning or punish non-100% accuracy at every moment. It is to promote behaviors in the ecosystem that are moving in the right direction and can adjust over time.
+
+
+
+
+
+## 4. Projects Become Increasingly Constrained as They Mature
+
+After working on a project for more than six months, you begin to understand how much of its current structure is the result of accumulated decisions. Past a certain point, each change should generally only modify a relatively small percentage of the existing project. The longer a project has been developed, the more decisions have already been made about its architecture, requirements, implementation, and objectives. Changing one of those decisions therefore requires revisiting many of the decisions that depended on it.
+
+
+
+This creates a form of lock-in. Changing direction later is certainly possible, but the organization has already spent engineering effort, budget, time, and opportunity cost establishing the existing direction. If a substantial portion of the project is changed late in the process, those previous decisions are not simply being replaced with a better idea. The organization is overriding work that was already paid for, evaluated, and incorporated into the existing system.
+
+
+
+This is why early decisions matter so substantially, and why maintaining project objectives in the middle of a project is important. The cost of a decision is not only the cost of making the decision. It is also the accumulated cost of everything that was built on top of it.
+
+
+
+There is an interesting relationship here to the 80/20 rule. It may be relatively easy to build the first 80 percent of a project, while determining the correct changes for the final 20 percent becomes substantially more difficult. That final 20 percent can provide a disproportionate amount of the project's value, even though the incremental returns from the work become smaller. The project therefore becomes increasingly constrained at roughly the point where the remaining decisions may matter the most.
+
+
+
+The lesson is not that a mature project should never change direction. It is that the organization needs to recognize the lock-in created by previous decisions. Changing direction may still be the correct decision, but the sunk and opportunity costs do not disappear simply because the decision has changed.
+
+
+
+
+## 5. Long-Term Projects Reveal Problems That Were Invisible at the Beginning
+
+The longer you work on a project, the more you learn about problems that were not apparent during its initial design. This is not necessarily a failure of the original plan. Some things simply cannot be known until the project has progressed far enough for them to become visible.
+
+
+One example is that different stakeholders may have different understandings of what phase the project is actually in. A stakeholder who becomes involved after feature design and development may request changes that are individually reasonable, but arrive at a point where incorporating them is substantially more difficult. What looks like a small change may require revisiting decisions that have already been made elsewhere in the project.
+
+
+The same thing can happen with the technical design. An initial design may work well for the conditions anticipated at the beginning but prove insufficiently robust once the system encounters a wider range of inputs and parameters. Projects therefore iterate not only on technical design, but also on robustness criteria, risk assessments, metrics, and engineering processes. A system can satisfy its top-level objective while failing to measure the specific outcomes that determine whether it is actually successful. Engineering processes for prioritization, planning, development, testing, deployment, and iteration also adapt as the project matures.
+
+These practices can seem obvious after working on enough projects, but they are themselves things that have to be learned. An engineer who has never worked on a sufficiently complex project may not know which processes will eventually become necessary, just as the organization may not know until the project reaches that stage. The longer a project exists, the more it teaches you about what it actually needs. Some needs can be anticipated; others only become visible through experience.
+
+
+
+
+
+## Conclusion: The Organizational Problem
+
+The common thread across these observations is that long-term work creates context. Over time, you learn why decisions were made, which tradeoffs have already been considered, how the system behaves in unusual circumstances, how stakeholders think, how colleagues communicate, and which problems tend to emerge later in the project lifecycle.
+
+
+
+That context is valuable because it takes time to acquire, but it does not have to disappear when the person who acquired it leaves. Some of it can be documented, some can be encoded in the system itself, and some can be transferred through mentoring and working relationships. The goal is not to document everything. It is to make as much of that accumulated knowledge recoverable as possible.
+
+
+
+Ultimately, an organization is not just the systems it builds or the people currently working on them. It is also the context accumulated through the decisions, successes, mistakes, and relationships that came before. Long-term employees become repositories of that context naturally. The people who create organizational knowledge are temporary; the organization has to decide whether the knowledge they create will be temporary too.

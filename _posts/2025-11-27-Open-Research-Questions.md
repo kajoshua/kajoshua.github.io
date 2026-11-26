@@ -39,6 +39,9 @@ Boosting with other social choice rules besides majority rule, in the same way a
 ### RQ7: Reputation and MARL
 Reputation system management in MARL, and eg communicating an estimate of a reputation to other agents. Perhaps treat this as a network info cascade model. Reputation as reliable in the cooperative set, vs antagonistic/selfish. Or eg in population games/ Axelrod PD experiment.
 
+### RQ8: Online Learning
+What's the online regret to a market equilibrium? E.g., in the bond market, where the 30 year bond encapsulates / describes all risk in that period / you can determine risk by spreads.
+
 
 
 # Cognitive Science Questions
@@ -62,7 +65,8 @@ Another research area of interest: plurilistic alignment of llms (via social cho
 Are there ways of processing information besides (i) Bayesian updating, and (ii) attention algorithms for determining what information is important for certain contexts? Different people find different information important, depending on context, yet classical reinforcement learning algorithms assume information is independent of order (and context; see framing cognitive bias). What would a Markovian process for how information, that is step-wise interpreted over time, look like? Perhaps check whether ACT-R has this.
 
 ### RQ4: LLMs
-Do LLMs use probabilistic reasoning and would they fail the Ellsberg paradox?
+- Do LLMs use probabilistic reasoning and would they fail the Ellsberg paradox?
+- Chain of thought reasoning: what's the difference between (A) asking an LLM to solve a problem, (B) priming it by asking it to analyze the incentives before it solves the problem?
 
 ### RQ5: Perception
 
@@ -169,6 +173,17 @@ I think pricing houses by "comps" (last price sold of similar other houses in an
 
 What would be the practical implications if policymakers imposed a cap on net margin for companies? Or cap max employee compensation (including equity awardance) as a function of lowest employee compensation? For example, would companies just partition themselves to avoid this? The latter would probably (A) not affect existing shareholders, (B) incentivize subcontractors as holding companies for employees. I'm wondering how this would play out.
 
+### RQ18: Assorted
+
+- What are self-fulfilling return rates on bonds, if $r$ measures risk (relative to the risk-free rate) and causes it?
+- What is the current (breakeven) debt someone should take on in order to get a degree X with expected entry-level salary f(X)?
+- Are 401k loans good funding mechanisms for your retirement account?
+- Does there exist regulation which both provides subsidized payment to working class (e.g., SNAP) but doesn't enable Walmart-like institutions from benefiting from lower labor costs?
+- How can the public ensure that insurance companies have incentive compatible reporting of their prices with respect to actual risk? If this isn't the case, we would expect under long enough time horizons for competitor insurance companies to under-bid an over-priced insurer. However, this process might not be quick enough for the general public, whose time horizon is months rather than centuries.
+- - This might be due to the re-insurance market.
+
+
+
 
 # Political Science Questions
 
@@ -196,6 +211,8 @@ Which regulations help support the biggest companies on the S&P 500 today? For i
 
 There are many situations where something is technically feasible but very inconvenient, which affects distributional outcomes. For instance, voter ID registration (no- or low-cost) adds inconvenience, thus changes political outcomes, while Terms and Service are available for everyone to read, but favor certain parties. On the other hand, there are Accredited Investor regulations so that only certain individuals or entities can invest in some financial products. Under the ethic of Freedom of Choice, making something "inconvenient" is immaterial. However, US law does encode certain restrictions in favor of disallowing contracts that require "unreasonable" effort. How consistent is US jurisprudence in its coverage, across industries, and how empirically consistent is it in application?
 
+**Follow up:** What are the situations and mechanisms by which every-day people experience de facto denial in a given year? What competitive and regulatory environments enable them to appear and how extractive are they?
+
 
 
 # Other
@@ -207,5 +224,12 @@ How do myths, as Joseph Campbell discusses, play out in our daily lives?
 What is the role of consultants or other academics in our society, as in the book The Giver? Who actually reads manuals from the 1950s, or earlier, to see if society has "missed" anything in contemporary language ?
 
 For example, Bayes Nash equilibrium is one aspect of Harsanyi's work from the late 1960s, yet it is one of the most memerable. Are his other, less cited works, worth reading? How do we trust that the scientific citation mechanism of long-tail distributions (see e.g., [[Eom and Fortunto, 2011](https://arxiv.org/pdf/1110.2153){:target="_blank"}]) isn't missing something significant? This is a social epistemological attention problem. Now that we have LLMs, I think this can be addressed via a meta-study.
+
+### RQ3: The Price of Justice
+
+What's the point of fine-based legal recoure? Is it retributive, punative (you did X so we will hurt you with Y), restorative (correction of moral debt), exploitative (you did X so we can withdraw Y from you), or economic (as a disincentive)? When do fines go to the state as opposed to some other specific damaged party? If those fines don't compensate for losses, then this incentivizes harm as "the cost of doing business." When are fines in place as opposed to other forms of capital punishment, especially when a non-human entity takes the action? How are grand jury settlements priced? 
+
+
+
 
 

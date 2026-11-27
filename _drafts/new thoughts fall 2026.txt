@@ -33,9 +33,6 @@ ASSOERTED RESERACH QUESTIONS
   - if people try experimenting, and risk is bounded, let them and see what happens
 - The job of a software engineer is to structure ambiguity
 - Automate any regular process taking up >3% of weekly time.
-
-<< PUBLISHED ABOVE THIS LINE, AS OF NOV 26, 2026 >>
-
 - Large organizations: culture, processes, repetitiveneess factor, hit by the bus factor, where do people go for information or to make suggestions, how well distributed teams can depend on each other, efficiency of CAPEX on each team, drive and initiative of individuals
 - Companies are supposed to capture institutional memory. We shouldn't be learning how to do basic things on a project mid-way through, especially if others have learned the same lessons. make sure to write down lessons learned and what you hsould have done earlier in the project, had you realiezd it sooner, so that the next project doesn't have such a time delay. At least, if now ahat to do, you learn better the relative weights in priorities for tasks, by practice.
 - Recall Diffusion of Responsibility: people need specific POC for certain tasks / scopes of responsibility, otherwise there lapses will forseeably occur
@@ -56,6 +53,9 @@ Lessons you don't realize until you've worked at a firm for extended periods of 
 - Locked-in decisions: past a certain point, you can't structurally change your product anymore without incurring substantial opportunity cost.
 - Stakeholders come in after the feature design and development phases, requesting changes
 - Not defining scope of project or measures of success ahead of time.
+.
+<< PUBLISHED ABOVE THIS LINE, AS OF NOV 26, 2026 >>
+.
 - No company-wide norms to follow for how to run a successful data consulting project based on lessons learned from prior iterations
 - Every production system should have enough documentation that a competent, well-meaning engineer who wasn't involved in it's creation can safely modify and operate it.
 - Every user-specific choice built locks-in the supplier, since recreating all the features determined over a long period of time is costly.

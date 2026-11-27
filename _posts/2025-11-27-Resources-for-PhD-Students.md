@@ -118,6 +118,10 @@ A list of Resources for PhD Students.
 * [[Making a CV (Shomir Wilson)](https://shomir.net/wilhom_rosins.html){:target="_blank"}]
 * [[Postcards from the NSF (Matthew Jackson and Laura Rzzolini)](../advice_docs/nsfpost.pdf){:target="_blank"}]
 
+Good question to ask when writing:
+* Suppose it goes well; what would the end result be?
+
+
 
 AI Governance and Cooperative AI
 * AI Safety Support [[Lots of Links](https://www.aisafetysupport.org/lots-of-links){:target="_blank"}]. See especially their lists on (NOTE: I will update this blog using these resources, at some point):

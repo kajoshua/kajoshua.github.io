@@ -28,6 +28,15 @@ Below is a list of unhinged cognitive science doodles and hot takes about cognit
     * First drafts suck and they're hard to write. The process is going to take longer than you think it should. Keep working at it.
 * If you're having a conversation with an LLM, take notes by hand. Even if you save the conversation for later, you want to take the time to upload it into your brain. You have to do that with notes by hand, and it's the most time-effective to do this as you're having the LLM conversation, rather than coming back to it later. This is one of the differences between access to information (e.g., your lecturer's notes) and understanding or synthesizing the information (i.e., incorporating it into your understanding of the world).
     * <i>Related: I'm in favor of hand-written notes in the classroom above computer notes, as evidenced by studies on learning in the classroom, per my understanding.</i>
+* Watch yourself in different environments. 
+  * When do you light up? 
+  * How well can you concentrate / for how long before you get distracted? 
+  * What distracts you -- food, caffeine drop, heat, noise? Your body fluctuates relative to a fixed environment: a school bell feels different to high school students depending on the time of day. 
+  * How in-depth into a problem do you need to be in order to solve it correctly? 
+  * What types of errors do you appear to make and can you build protective systems around them? Know your strengths and weaknesses, both professionally and personally.
+  * Which parts of your brain work better for different tasks (at different times of day, relative to different kinds of concentration that you can activate within your own brain)
+* Hot take: Ordinal economic valuation is primarily emotional.
+* If your competitive advantage is information, you need to track how quickly relevant information diffuses throughout the general public.
 
 
 
@@ -52,7 +61,19 @@ Below is a list of unhinged cognitive science doodles and hot takes about cognit
   * Don't ask "is X good" because it'll provide you evidence aligned with your own confirmation bias. Instead, ask "by what process should I decide whether this is good or not?"
 * Consult your advisors, mentors, and stakeholders during your decision-making process, not just after it's concluded. These people shouldn't be surprised that you're leaning a certain direction. Signal your intent in opportunities before you're ready to jump the gun.
 * Pareto curve for food: time, money, effort to aquire or put together, taste or quality, health (long term) or fit with desired diet (medium term) or effects of refined sugar and other substances on your body (short term), side effects (e.g., cognitive side effects from digesting food, if you do eat, or nutritian deficits, if you don't eat)
-
+* You don't need to be a strickler on rules, as a blanket rule, since rules should be questioned and adapted over time. However, you do need processes in place since you can't be re-evaluating minor decisions at every pass through of a process.
+* If you should have asked it sooner, ask it today
+* **Value of questions**
+  * Ask people questions you know the answer to, to see how they'll respond.
+  * Throw out random-ish ideas to see where others challenge them. That's how you learn new ideas, and to practice defending your own ideas. Since you're not attached to any idea (according to a Buddhist perspective), you get to learn what ideas are defensible.
+  * For some questions, the correct answer isn't anything specific; it's whether you can defend the idea coherently, confidently, and convincingely.
+  * One goal of mentors is to provide questions for people that will stump them - but are doable - in order to point out the weaknesses in someone's original approach.
+  * Some questions are designed to get someone (qualified) to investigate a potential issue, even if there is no action needed. Having them think about the issue, at least slightly, means that with higher probability any potential issue with the subject matter will get realized.
+* When someone expresses a strong preference for a perspective, ask "What would make you think differently?" This enables peoples' focus to be evidence-based.
+* Design principle: ask people how to do 5 tasks (maybe with some instruction), observe, and design around their usage.
+* Teaching others is more about them realizing knowledge on their own and building their own intuition, then it is about being able to verbalize a topic yourself.
+* "Boredom is unappreciated serenity" -- Jimmy Carr
+* "Nobody 'has time;' you make time for what's important to you." -- My high school band director.
 
 
 # Career, Work, and Professional Growth
@@ -95,6 +116,10 @@ Below is a list of unhinged cognitive science doodles and hot takes about cognit
 * Going to university is about a skill tree: through classes X, Y, and Z you now have acquired skills A, B, and C. Make sure to ask yourself whether this route, or any other, is worth the cost. (Although this includes personal and professional development; socializing, networking, learning to live in your late-teens-to-early-20s; etc factors that comes along with going to a top tier university.)
 * Get feedback from others by making conjectures that might be wrong. If the other person thinks it's important engouh to correct you, then this'll provide you another data point about your ideas. (You do have to check your ego though and let yourself be wrong in public.) Another advantage to declaring your ideas is that, if you're unpracticed, you don't know how you'll tell a story before you actually start telling it. This give you evidence about your own processing of the subject matter, including gaps in your understanding.
 * One key pillar of entrepreneurship and business is that time is valuable. If you want to do 100 things in a year = 8 things per month = 2 things per week and you can only allocate 10hrs / week to do them, how do you build leverage for doing this? You build assets to do scale the success of your projects. See [[Hamilton (2014). The Millionaire Master Plan](https://www.amazon.com/Millionaire-Master-Plan-Personalized-Financial/dp/1455583995/){:target="_blank"}].
+* A major goal for your projects is "handoffability": the ability to hand off the project to someone else, who is smart and skilled but doesn't have any context, so that they can quickly and easily understand and implement your protocol without you.
+* A company culture and physical environment affects your day-to-day productivity, unless your "will" is strong enough to assert what you bring to the table. You can be very successful on one project and not successful on another, at the same time, depending on their scope, skill, culture, and project management. Part of playing the professional Game of Life is putting yourself into situations where success will come easily, and avoiding situations that are structurally misaligned for you (individually). Intuitively this stands in contrast to the notion of "how you do anything is how you do everything." However, even though environments are often out of your control, you often have choice over which environments to participate in.
+* Lose the ego. It's not about Person X's idea, it's whether the idea can help solve the porblem in front of us (e.g., transforming State A -> State B). It's us against the problem, not each other. You need to practice problem solving idea generation; implementation and ownership of a problem end-to-end are different skills. 
+  * Although, to be fair, ego keeps you attached to problems over decades, which is often necessary for creative breakthroughs.
 
 
 # Personal Productivity and Concentration
@@ -128,6 +153,7 @@ Below is a list of unhinged cognitive science doodles and hot takes about cognit
   * Writing things down allows you to externalize the background processes in your brain cache. You don't need to store as much information in your head, while you're filtering through them, when you can look at the ideas already scaffolded and written down on the page. This is especially useful for essary drafting, but also complex project work, generally.
   * It also helps with blank-page syndrome: discussing what topic you want to discuss is sometimes cognitively easier than actually discussing it.
   * Write down _ghost ideas_, on the tip of your tongue, before you forget them.
+  * In general, thoughts are context-dependent. You either need to write things down or trigger yourself, in the future, to remember certain ideas. (E.g., Light Yagami in Death Note.)
 * If you're unmotivated or something is hard, recognize that certain things in life just take time. The goal is not necessarily to get everything done, but to work with what you have as best as you can, including your own concentration. Do a little portion now and spread out the task over a few days (as long as it isn't urgent; otherwise, you'll have to sit down, suck it up, and get it done). Doing this now will make the next hard task easier as you get stronger and upskill.
   * Building the habit of a task (eg volunteering, reading, going out of your comfort zone to make friends) is often more important than your day-to-day success. Even if you move in the wrong direction at first, it's easier to pivot than build momentum in the first place. [[Life Changing Advice For When You're At a Low Point In Your Life. Jocko.](https://www.youtube.com/watch?v=k0RBhXyASD4){:target="_blank"}]. The best habit (eg for a diet or fiscal responsibility) is the one you will actually keep.
   * Do you remember how many win vs loss days you had in the last month, year? If not and it's important, build a system, write it down. How much slippage do you have in your wallet, unallocated money it gets lost because you don't have a system? Is it <1% on a small principle or oncome, so it doesn't matter too much in the long run, or 1% of a 1M which needs cutting down? Or is it a habbit like investing $5 a week, or donating $100 every few months, which starts the ball rolling? See [[James Clear, Atomic Habits](https://jamesclear.com/atomic-habits){:target="_blank"}]. 
@@ -137,8 +163,6 @@ Below is a list of unhinged cognitive science doodles and hot takes about cognit
   * Many important concepts in life are on a need-to-know basis.
 * Living in your body takes you out of your mind -- Sol Aziz
 * When someone's talking and you form preconceptions about what you want to say next, catch yourself -- write down your thoughts perhaps -- but actually pay attention to the ideas offered by the other person. Your friend is more important than the topic itself.
-* A major goal for your projects is "handoffability": the ability to hand off the project to someone else, who is smart and skilled but doesn't have any context, so that they can quickly and easily understand and implement your protocol without you.
-* A company culture and physical environment affects your day-to-day productivity, unless your "will" is strong enough to assert what you bring to the table. You can be very successful on one project and not successful on another, at the same time, depending on their scope, skill, culture, and project management. Part of playing the professional Game of Life is putting yourself into situations where success will come easily, and avoiding situations that are structurally misaligned for you (individually). Intuitively this stands in contrast to the notion of "how you do anything is how you do everything." However, even though environments are often out of your control, you often have choice over which environments to participate in.
 * Certain prices are extractive. For example, a water bottle costs $0.30 in the grocery store and $5 at an amusement park. They're just seeing which "suckers" will accept their rediculously high margins. Don't let that be you.
 * Grocery stores overload your senses with loud music, bright lights, and saturated colors to induce cognitive overload and enable you to be less selective when you're choosing what to buy. TikTok and scrolling is hyperstimulative but drains your attention capacity. See Bernays's Propoganda, Cialdini's Influence, Kahneman's Thinking Fast and Slow, Chomsky's Manufacturing Consent, and Flobot's (2007) [[There's a War Going on For Your Mind](https://www.youtube.com/watch?v=UDf2r9DnVGU&list=RDUDf2r9DnVGU){:target="_blank"}].
 
@@ -147,6 +171,10 @@ Below is a list of unhinged cognitive science doodles and hot takes about cognit
 * Embrace change. A river looks the same yet its water is always changing. No two experiences or relationships are ever the same.
 * A Tale of Two Seas. "The Sea of Galilee is flowing and lush; the Dead Sea takes but never gives." This demonstrates the need to donate and give back to your community. Example [[source](https://joycemeyer.org/Grow-Your-Faith/Articles/A-Tale-of-Two-Seas){:target="_blank"}].
 * For big life (or investment) decisions, try to prove yourself wrong, not right. This is to counteract confirmation bias.
+* No stupid questions. 
+  * Caveat: Yes there are stupid questions, but among well-intentioned people with growth mentalities, the likelihood of people exploiting this social norm is lower than the benefit for maintaining this value in your culture.
+
+
 
 
 
